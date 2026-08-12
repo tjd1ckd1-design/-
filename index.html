@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>법안·국정과제 트래커 | 대한민국, 지금과 다음</title>
+<title>국가는 지금 어디로 가고 있나 | 법안·국정과제 트래커</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <style>
   :root{
     --primary:#1B4B8F;
@@ -21,8 +21,8 @@
     --success:#1D7A45;
     --success-tint:#E8F5EC;
     --muted-tint:#EEF0F2;
-    --notice-bg:#EAF2FB;
-    --notice-border:#BBD6F5;
+    --dropped:#8B4A3D;
+    --dropped-tint:#F1E6E2;
     --radius:8px;
     --radius-sm:6px;
   }
@@ -36,100 +36,77 @@
     min-height:100vh;
     font-size:15px;
   }
-  .wrap{max-width:1160px;margin:0 auto;padding:0 24px 72px;}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px 80px;}
 
   /* ---------- header ---------- */
-  header.top{padding:36px 0 24px;}
-  .label{font-size:12.5px; color:var(--primary); font-weight:700; letter-spacing:.02em; margin:0 0 10px;}
+  header.top{padding:40px 0 26px;}
+  .eyebrow{
+    font-size:12.5px; color:var(--primary); font-weight:700; letter-spacing:.02em; margin:0 0 12px;
+  }
   h1.title{
-    font-weight:900; font-size:clamp(24px,3.2vw,32px); margin:0 0 10px; letter-spacing:-.01em;
-    color:var(--text);
+    font-weight:900; font-size:clamp(26px,3.6vw,36px); margin:0 0 12px; letter-spacing:-.01em;
+    color:var(--text); line-height:1.3;
   }
-  .lede{color:var(--text-soft); font-size:14.5px; max-width:680px; margin:0 0 18px;}
-  .notice{
-    display:flex; gap:10px; align-items:flex-start;
-    font-size:13px; color:var(--text-soft);
-    background:var(--notice-bg); border:1px solid var(--notice-border);
-    border-radius:var(--radius-sm); padding:12px 14px; max-width:680px;
-  }
-  .notice b{color:var(--primary-dark);}
-  .notice .ico{color:var(--primary); font-weight:700; flex-shrink:0;}
+  .lede{color:var(--text-soft); font-size:14.5px; max-width:640px; margin:0 0 20px;}
 
   /* ---------- stat row ---------- */
-  .stats{
-    margin-top:24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px;
+  .stat-ledger{
+    margin-top:22px; background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm);
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); overflow:hidden;
   }
-  .stat-card{
-    background:var(--card); border:1px solid var(--border); border-left:3px solid var(--primary);
-    border-radius:var(--radius-sm); padding:16px 18px;
+  .stat-cell{padding:16px 20px; border-right:1px solid var(--border); border-left:3px solid var(--primary);}
+  .stat-cell:first-child{border-left:none;}
+  .stat-cell:last-child{border-right:none;}
+  .stat-num{font-weight:700; font-size:24px; color:var(--text); font-variant-numeric:tabular-nums;}
+  .stat-num small{font-size:12.5px; color:var(--text-mute); margin-left:3px; font-weight:500;}
+  .stat-label{font-size:12px; color:var(--text-soft); margin-top:5px;}
+
+  /* ---------- 결재선 (approval-line) stepper ---------- */
+  .approval-line{display:flex; gap:3px; overflow-x:auto; padding-bottom:2px;}
+  .approval-cell{display:flex; flex-direction:column; align-items:center; min-width:82px; flex-shrink:0;}
+  .approval-box{
+    width:100%; height:30px; border:1.5px solid var(--border-strong); background:#fff; border-radius:4px;
+    display:flex; align-items:center; justify-content:center;
+    font-weight:700; font-size:12px; color:var(--text-mute); font-variant-numeric:tabular-nums;
   }
-  .stat-card .num{
-    font-weight:700; font-size:24px; color:var(--text); font-variant-numeric:tabular-nums;
-  }
-  .stat-card .num small{font-size:13px; color:var(--text-mute); margin-left:3px; font-weight:500;}
-  .stat-card .label2{font-size:12.5px; color:var(--text-soft); margin-top:4px;}
+  .approval-cell.done .approval-box{background:var(--primary); border-color:var(--primary); color:#fff;}
+  .approval-label{font-size:11px; color:var(--text-soft); text-align:center; margin-top:6px; padding:0 2px;}
+  .approval-cell.done .approval-label{color:var(--text); font-weight:700;}
+  .approval-date{font-size:10px; color:var(--text-mute); margin-top:2px; font-variant-numeric:tabular-nums;}
 
   /* ---------- hero: 다가오는 변화 ---------- */
-  .hero{margin-top:36px;}
-  .section-head{display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:12px;}
-  .section-head h2{font-size:16.5px; margin:0; font-weight:700;}
+  .hero{margin-top:38px;}
+  .section-head{display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:6px;}
+  .section-head h2{font-size:17px; margin:0; font-weight:700;}
   .section-head .tag{
     font-size:12px; color:var(--success); background:var(--success-tint);
     border-radius:20px; padding:3px 10px; font-weight:700;
   }
-  .hero-card{
-    background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
-    padding:8px 8px;
+  .ledger-list{border-top:1px solid var(--border); margin-top:14px; background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); overflow:hidden;}
+  .ledger-row{
+    display:flex; align-items:flex-start; gap:16px; padding:16px 18px; border-bottom:1px solid var(--border);
+    cursor:pointer;
   }
-  .upcoming-row{
-    display:flex; align-items:center; gap:14px; padding:16px 16px; cursor:pointer;
-    border-bottom:1px solid var(--border);
+  .ledger-row:last-child{border-bottom:none;}
+  .ledger-row:hover{background:var(--bg);}
+  .ledger-code{
+    font-size:13px; color:var(--primary); font-weight:700;
+    flex-shrink:0; width:30px; padding-top:1px; font-variant-numeric:tabular-nums;
   }
-  .upcoming-row:last-child{border-bottom:none;}
-  .upcoming-row:hover{background:var(--bg);}
-  .upcoming-rank{
-    flex-shrink:0; width:28px; height:28px; border-radius:50%; background:var(--primary-tint);
-    color:var(--primary-dark); font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;
-  }
-  .upcoming-body{flex:1; min-width:0;}
-  .upcoming-title{font-size:14.5px; font-weight:700; margin-bottom:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
-  .upcoming-next{font-size:12.5px; color:var(--text-soft);}
-  .upcoming-next b{color:var(--primary-dark);}
-  .upcoming-empty{padding:30px 16px; text-align:center; color:var(--text-mute); font-size:13.5px;}
-
-  .stepper{display:flex; align-items:flex-start; overflow-x:auto; padding-bottom:4px;}
-  .step{display:flex; flex-direction:column; align-items:center; min-width:96px; position:relative;}
-  .step .circle{
-    width:24px;height:24px;border-radius:50%; background:var(--card);
-    border:2px solid var(--border-strong); z-index:2; margin-bottom:8px;
-    display:flex; align-items:center; justify-content:center;
-    font-size:11px; font-weight:700; color:var(--text-mute);
-  }
-  .step.done .circle{background:var(--primary); border-color:var(--primary); color:#fff;}
-  .step .bar{
-    position:absolute; top:11px; left:-50%; width:100%; height:2px; background:var(--border);
-    z-index:1;
-  }
-  .step.done .bar{background:var(--primary);}
-  .step:first-child .bar{display:none;}
-  .step .slabel{font-size:11.5px; text-align:center; color:var(--text-soft); font-weight:500; padding:0 4px;}
-  .step.done .slabel{color:var(--text); font-weight:700;}
-  .step .sdate{font-size:10.5px; color:var(--text-mute); margin-top:2px; font-variant-numeric:tabular-nums;}
+  .ledger-body{flex:1; min-width:0;}
+  .ledger-title{font-weight:700; font-size:15px; color:var(--text); margin-bottom:4px; line-height:1.4;}
+  .ledger-next{font-size:12.5px; color:var(--text-soft);}
+  .ledger-next b{color:var(--primary-dark); font-weight:700;}
+  .ledger-empty{padding:30px 16px; text-align:center; color:var(--text-mute); font-size:13.5px;}
 
   /* ---------- controls ---------- */
-  .controls{
-    margin-top:40px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;
-    justify-content:space-between;
-  }
+  .controls{margin-top:44px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between;}
   .search-box{
     flex:1; min-width:220px; display:flex; align-items:center; gap:8px;
     background:var(--card); border:1px solid var(--border-strong); border-radius:var(--radius-sm);
     padding:9px 13px;
   }
-  .search-box input{
-    border:none; outline:none; background:transparent; width:100%;
-    font-family:inherit; font-size:14px; color:var(--text);
-  }
+  .search-box input{border:none; outline:none; background:transparent; width:100%; font-family:inherit; font-size:14px; color:var(--text);}
   .search-box svg{flex-shrink:0; color:var(--text-mute);}
   .filters{display:flex; gap:8px; flex-wrap:wrap;}
   select{
@@ -145,12 +122,10 @@
 
   /* ---------- grid & cards ---------- */
   .grid{margin-top:18px; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px;}
-  .card{
-    background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm);
-    padding:18px; cursor:pointer; transition:.12s ease;
-  }
+  .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); cursor:pointer; transition:.12s ease; overflow:hidden;}
   .card:hover{border-color:var(--primary); box-shadow:0 0 0 1px var(--primary);}
-  .card.is-real{border-left:3px solid var(--primary);}
+  .card-strip{height:3px; background:var(--primary);}
+  .card-body{padding:17px 18px;}
   .card-top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:9px;}
   .meta-line{font-size:12px; color:var(--text-mute); font-weight:500;}
 
@@ -179,22 +154,22 @@
   .empty b{display:block; font-size:15px; color:var(--text); margin-bottom:5px;}
 
   /* ---------- detail page ---------- */
-  .detail-page{margin-top:32px; max-width:760px;}
+  .detail-page{margin-top:32px; max-width:740px;}
   .back-btn{
-    font-family:inherit; font-size:13px; font-weight:600; color:var(--text-soft);
+    font-size:13px; font-weight:600; color:var(--text-soft);
     background:none; border:none; cursor:pointer; padding:6px 0 18px; display:inline-flex; align-items:center;
   }
   .back-btn:hover{color:var(--primary);}
-  .detail-top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:10px;}
+  .detail-top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:12px;}
   .detail-title{font-size:22px; font-weight:900; margin:0 0 20px; line-height:1.4;}
   .detail-meta-grid{
-    display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px;
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px;
     background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm);
     padding:16px 18px; margin-bottom:26px;
   }
   .detail-meta-grid .dl{display:block; font-size:11.5px; color:var(--text-mute); margin-bottom:3px;}
   .detail-meta-grid .dv{display:block; font-size:13.5px; color:var(--text); font-weight:600;}
-  .detail-page .stepper{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px 16px 8px; margin-bottom:26px;}
+  .detail-page .approval-line{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px 16px; margin-bottom:26px;}
   .detail-section{margin-bottom:26px;}
   .detail-section h3{font-size:14px; font-weight:700; margin:0 0 10px; color:var(--text);}
   .detail-section p{font-size:13.5px; color:var(--text-soft); line-height:1.7; margin:0;}
@@ -207,28 +182,7 @@
   .history-list .hlabel{font-weight:700; color:var(--text); margin-right:8px;}
   .history-list .hnote{color:var(--text-soft);}
 
-  /* ---------- integration ---------- */
-  .integration{margin-top:56px; border-top:1px solid var(--border); padding-top:30px;}
-  .integration h2{font-size:16.5px; margin:0 0 6px; font-weight:700;}
-  .integration p{color:var(--text-soft); font-size:13.5px; max-width:680px; margin:0 0 16px;}
-  .integration-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px;}
-  .int-card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:16px 18px;}
-  .int-card .step2{color:var(--primary); font-size:11.5px; font-weight:700; margin-bottom:6px;}
-  .int-card h4{font-size:13.5px; margin:0 0 6px;}
-  .int-card p{font-size:12.5px; margin:0; color:var(--text-mute);}
-  .int-card a{color:var(--primary); font-weight:600; text-decoration:none;}
-  .import-row{margin-top:18px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
-  .btn{
-    font-family:inherit; font-weight:700; font-size:13.5px; cursor:pointer;
-    padding:10px 16px; border-radius:var(--radius-sm); border:1px solid var(--primary); background:var(--primary); color:#fff;
-  }
-  .btn:hover{background:var(--primary-dark); border-color:var(--primary-dark);}
-  .btn.ghost{background:#fff; color:var(--text); border:1px solid var(--border-strong);}
-  .btn.ghost:hover{background:var(--muted-tint);}
-  #fileInput{display:none;}
-  #importStatus{font-size:12.5px; color:var(--text-mute);}
-
-  footer.pagefoot{margin-top:44px; padding-top:18px; border-top:1px solid var(--border); font-size:12px; color:var(--text-mute); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
+  footer.pagefoot{margin-top:56px; padding-top:20px; border-top:1px solid var(--border); font-size:12px; color:var(--text-mute); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
   footer.pagefoot a{color:var(--text-soft);}
 
   @media(max-width:760px){
@@ -241,15 +195,11 @@
 <div class="wrap">
 
   <header class="top">
-    <p class="label">법안 진행 현황 · 국정과제 추적 — 매일 자동 갱신</p>
+    <p class="eyebrow">법안 진행 현황 · 국정과제 추적 — 매일 자동 갱신</p>
     <h1 class="title">국가는 지금 어디로 가고 있나</h1>
     <p class="lede">국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부가 5년간 추진하겠다고 밝힌 국정과제가 어떻게 진행되는지를 한 곳에서 자동으로 추적합니다.</p>
-    <div class="notice" id="dataNotice">
-      <span class="ico">ⓘ</span>
-      <span><b>안내.</b> 법안 항목은 구조 확인용 예시 데이터입니다. 국정과제 항목은 정부 공식 발표에 기반한 실제 정보입니다. 실제 데이터 연동 방법은 하단 "실제 데이터로 연결하기"를 참고하세요.</span>
-    </div>
 
-    <div class="stats" id="statBoard"></div>
+    <div class="stat-ledger" id="statBoard"></div>
   </header>
 
   <section class="hero">
@@ -257,7 +207,7 @@
       <h2>다가오는 변화</h2>
       <span class="tag">곧 다음 단계로 넘어갈 것으로 보이는 항목</span>
     </div>
-    <div class="hero-card" id="heroCard"></div>
+    <div id="heroCard"></div>
   </section>
 
   <div id="listView">
@@ -284,52 +234,13 @@
     <div class="tab" data-tab="policy">국정과제·정책</div>
   </div>
 
-  <div class="notice" id="policyNotice" style="display:none; margin-top:14px;">
-    <span class="ico">●</span>
-    <span><b>실제 정부 발표 자료 기반.</b> 이 섹션은 국정기획위원회가 2025년 9월 16일 국무회의에서 확정한 '123대 국정과제' 등 정부 공식 발표를 요약한 것으로, 위 법안 항목과 달리 예시가 아닙니다. 각 항목에서 출처 원문을 확인할 수 있어요.</span>
-  </div>
-
   <div class="grid" id="grid"></div>
   </div>
 
   <div id="detailView" class="detail-page" style="display:none"></div>
 
-  <section class="integration">
-    <h2>실제 데이터로 연결하기</h2>
-    <p>이 화면은 UI/데이터 구조를 보여주는 프로토타입입니다. 법안·국정과제 모두 실제 공개 API로 매일 자동 갱신되도록 설계돼 있습니다.</p>
-    <div class="integration-grid">
-      <div class="int-card">
-        <div class="step2">STEP 1</div>
-        <h4>API 인증키 발급</h4>
-        <p><a href="https://open.assembly.go.kr" target="_blank">open.assembly.go.kr</a>(법안)과 <a href="https://www.data.go.kr" target="_blank">data.go.kr</a>(국정과제 뉴스)에서 각각 무료 인증키를 발급받습니다.</p>
-      </div>
-      <div class="int-card">
-        <div class="step2">STEP 2</div>
-        <h4>수집 스크립트 실행</h4>
-        <p><code>assembly_fetch.py</code>(법안)와 <code>policy_fetch.py</code>(국정과제 관련 뉴스)를 GitHub Actions가 매일 자동으로 실행합니다. 브라우저 직접 호출은 CORS로 막혀 있어 이 단계가 필요해요.</p>
-      </div>
-      <div class="int-card">
-        <div class="step2">STEP 3</div>
-        <h4>data.json 자동 커밋</h4>
-        <p>스크립트가 이 화면과 동일한 구조의 <code>data.json</code>을 만들어 저장소에 자동으로 커밋합니다.</p>
-      </div>
-      <div class="int-card">
-        <div class="step2">STEP 4</div>
-        <h4>사이트가 자동으로 반영</h4>
-        <p>페이지를 열 때마다 최신 <code>data.json</code>을 자동으로 불러옵니다. 아래 버튼으로 수동 테스트도 가능해요.</p>
-      </div>
-    </div>
-    <div class="import-row">
-      <button class="btn" onclick="document.getElementById('fileInput').click()">데이터 불러오기 (data.json)</button>
-      <button class="btn ghost" onclick="resetToSample()">예시 데이터로 되돌리기</button>
-      <input type="file" id="fileInput" accept="application/json" />
-      <span id="importStatus"></span>
-    </div>
-  </section>
-
   <footer class="pagefoot">
     <span>의안정보: <a href="https://open.assembly.go.kr" target="_blank">open.assembly.go.kr</a> · 국정과제: <a href="https://www.korea.kr/govVision/" target="_blank">korea.kr</a></span>
-    <span>법안 항목은 예시이며, 국정과제·정책 항목은 정부 공식 발표 기반 실제 정보입니다.</span>
   </footer>
 
 </div>
@@ -339,7 +250,7 @@
 const BILL_STAGES = ['접수','소관위 회부','소관위 심사','법사위 체계자구심사','본회의 부의','본회의 의결','공포'];
 const POLICY_STAGES = ['국정과제 발표','국정과제 확정','세부 시행계획 발표','입법·예산 반영','시행'];
 
-/* ============ 예시/실제 데이터 ============ */
+/* ============ 예시/실제 데이터 (배포 후에는 data.json이 자동으로 이 자리를 대체합니다) ============ */
 const SAMPLE = {
   bills: [
     {id:'b1', kind:'bill', title:'온라인플랫폼 중개수수료 상한에 관한 법률안', category:'경제', status:'progress',
@@ -385,10 +296,6 @@ const SAMPLE = {
       keyPoints:['1회용 포장재 미세플라스틱 함유기준 신설','기준 초과 제품 유통 제한'],
       history:[{stage:0,date:'2025-11-04',label:'접수'},{stage:1,date:'2025-11-10',label:'환경노동위원회 회부'},{stage:2,date:'2026-06-30',label:'임기만료 폐기'}]},
   ],
-  // 아래 policies 배열은 위 법안과 달리 "예시"가 아닌 실제 정부 공식 발표를 요약한 것입니다.
-  // 국정기획위원회가 2025년 8월 13일 제안하고 2025년 9월 16일 국무회의에서 확정한
-  // '이재명정부 국정운영 5개년 계획(123대 국정과제)' 및 관련 부처 발표를 근거로 작성했으며,
-  // 각 항목의 sourceUrl에서 정부 공식 원문을 확인할 수 있습니다.
   policies: [
     {id:'gp1', kind:'policy', title:'부동산 보유세·양도세 개편(2026년 세제개편안)', category:'부동산', ministry:'기획재정부',
       status:'detailed', announceDate:'2026-08-03', policyStage:2,
@@ -478,26 +385,26 @@ function renderBoard(){
   }).length;
 
   $('#statBoard').innerHTML = `
-    <div class="stat-card"><div class="num">${pending}<small>건</small></div><div class="label2">계류중인 법안</div></div>
-    <div class="stat-card"><div class="num">${doneBills}<small>건</small></div><div class="label2">처리 완료 법안</div></div>
-    <div class="stat-card"><div class="num">${policies.length}<small>건</small></div><div class="label2">추진중인 국정과제</div></div>
-    <div class="stat-card"><div class="num">${nearFinal}<small>건</small></div><div class="label2">다음 단계 임박</div></div>
+    <div class="stat-cell"><div class="stat-num">${pending}<small>건</small></div><div class="stat-label">계류중인 법안</div></div>
+    <div class="stat-cell"><div class="stat-num">${doneBills}<small>건</small></div><div class="stat-label">처리 완료 법안</div></div>
+    <div class="stat-cell"><div class="stat-num">${policies.length}<small>건</small></div><div class="stat-label">추진중인 국정과제</div></div>
+    <div class="stat-cell"><div class="stat-num">${nearFinal}<small>건</small></div><div class="stat-label">다음 단계 임박</div></div>
   `;
 }
 
-/* ============ 단계별 날짜 조회 & 단일 트랙 스텝퍼 ============ */
+/* ============ 단계별 날짜 조회 & 결재선 스텝퍼 ============ */
 function stageDate(history, idx){
   if(!history) return '';
   const h = history.find(x=>x.stage===idx);
   return h ? h.date : '';
 }
 function singleStepperHTML(stages, currentIdx, history){
-  let html = `<div class="stepper">`;
+  let html = `<div class="approval-line">`;
   stages.forEach((label,i)=>{
     const d = stageDate(history, i);
-    html += `<div class="step ${i<=currentIdx?'done':''}">
-      <div class="bar"></div><div class="circle">${i<=currentIdx?'✓':(i+1)}</div>
-      <div class="slabel">${label}</div>${d?`<div class="sdate">${d}</div>`:''}
+    html += `<div class="approval-cell ${i<=currentIdx?'done':''}">
+      <div class="approval-box">${i<=currentIdx?'✓':(i+1)}</div>
+      <div class="approval-label">${label}</div>${d?`<div class="approval-date">${d}</div>`:''}
     </div>`;
   });
   html += `</div>`;
@@ -517,21 +424,21 @@ function renderHero(){
 
   const heroCard = $('#heroCard');
   if(top.length===0){
-    heroCard.innerHTML = `<div class="upcoming-empty">지금은 임박한 항목이 없어요.</div>`;
+    heroCard.innerHTML = `<div class="ledger-list"><div class="ledger-empty">지금은 임박한 항목이 없어요.</div></div>`;
     return;
   }
-  heroCard.innerHTML = top.map((x,i)=>{
+  heroCard.innerHTML = `<div class="ledger-list">` + top.map((x,i)=>{
     const it = x.item;
     const kindLabel = it.kind==='bill' ? '법안' : '국정과제';
     const nextLabel = x.stages[x.current+1] || x.stages[x.current];
-    return `<div class="upcoming-row" onclick="location.hash='detail-${it.kind}-${it.id}'">
-      <span class="upcoming-rank">${i+1}</span>
-      <div class="upcoming-body">
-        <div class="upcoming-title">${it.title}</div>
-        <div class="upcoming-next">${kindLabel} · ${it.category} — 다음 단계: <b>${nextLabel}</b></div>
+    return `<div class="ledger-row" onclick="location.hash='detail-${it.kind}-${it.id}'">
+      <span class="ledger-code">${i+1}</span>
+      <div class="ledger-body">
+        <div class="ledger-title">${it.title}</div>
+        <div class="ledger-next">${kindLabel} · ${it.category} — 다음 단계: <b>${nextLabel}</b></div>
       </div>
     </div>`;
-  }).join('');
+  }).join('') + `</div>`;
 }
 
 /* ============ 카드 렌더 ============ */
@@ -559,18 +466,21 @@ function cardHTML(item){
   const kindLabel = item.kind==='bill' ? '법안' : '정책';
   const footLoc = item.kind==='policy' ? item.ministry : item.committee;
 
-  return `<div class="card ${item.kind==='policy'?'is-real':''}" data-id="${item.id}" data-kind="${item.kind}">
-    <div class="card-top">
-      <span class="meta-line">${kindLabel} · ${item.category}</span>
-      <span class="badge ${sm.cls}">${sm.label}</span>
-    </div>
-    <h3>${item.title}</h3>
-    <p class="summary">${item.summary}</p>
-    ${bodyMeta}
-    <div class="mini-stages">${segs}</div>
-    <div class="card-foot">
-      <span>${footLoc}</span>
-      <span></span>
+  return `<div class="card" data-id="${item.id}" data-kind="${item.kind}">
+    <div class="card-strip"></div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="meta-line">${kindLabel} · ${item.category}</span>
+        <span class="badge ${sm.cls}">${sm.label}</span>
+      </div>
+      <h3>${item.title}</h3>
+      <p class="summary">${item.summary}</p>
+      ${bodyMeta}
+      <div class="mini-stages">${segs}</div>
+      <div class="card-foot">
+        <span>${footLoc}</span>
+        <span></span>
+      </div>
     </div>
   </div>`;
 }
@@ -661,9 +571,8 @@ function renderDetailView(kind, id){
   const keyPointsHTML = (item.keyPoints && item.keyPoints.length) ? `<div class="detail-section"><h3>주요 내용</h3><ul class="keypoints">${item.keyPoints.map(k=>`<li>${k}</li>`).join('')}</ul></div>` : '';
   const relatedNewsHTML = (item.relatedNews && item.relatedNews.length) ? `<div class="detail-section"><h3>관련 최신 뉴스</h3><ul class="history-list">${item.relatedNews.map(n=>`<li><span class="hdate">${n.date||''}</span><a href="${n.url}" target="_blank" rel="noopener" class="hlabel" style="text-decoration:underline;">${n.title}</a></li>`).join('')}</ul></div>` : '';
   const sourceLabel = kind==='bill' ? '국회 원문에서 보기 ↗' : '정부 발표 원문 보기 ↗';
-  const sourceHTML = item.sourceUrl ? `<a class="btn ghost" href="${item.sourceUrl}" target="_blank" rel="noopener">${sourceLabel}</a>` : '';
+  const sourceHTML = item.sourceUrl ? `<a class="btn ghost" href="${item.sourceUrl}" target="_blank" rel="noopener" style="display:inline-block;padding:10px 16px;border:1px solid var(--border-strong);border-radius:6px;color:var(--text);text-decoration:none;font-size:13.5px;font-weight:600;">${sourceLabel}</a>` : '';
   const kindLabel = kind==='bill' ? '법안' : '정책';
-  const realNoteHTML = kind==='policy' ? `<p style="font-size:12px;color:var(--text-mute);margin:-10px 0 20px;">정부 공식 발표를 바탕으로 요약한 실제 정보입니다. 위 법안과 달리 예시가 아닙니다.</p>` : '';
 
   $('#detailView').innerHTML = `
     <button class="back-btn" onclick="location.hash=''">← 목록으로</button>
@@ -672,7 +581,6 @@ function renderDetailView(kind, id){
       <span class="badge ${sm.cls}">${sm.label}${item.result?` · ${item.result}`:''}</span>
     </div>
     <h2 class="detail-title">${item.title}</h2>
-    ${realNoteHTML}
     ${metaGrid}
     ${stepperBlock}
     ${reasonHTML}
@@ -698,25 +606,6 @@ function route(){
 }
 window.addEventListener('hashchange', route);
 
-/* ============ 알림 배너 갱신 ============ */
-function fmtTime(iso){
-  if(!iso) return '';
-  try{
-    const d = new Date(iso);
-    return d.toLocaleString('ko-KR', {year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit'});
-  }catch(e){ return iso; }
-}
-function updateNotice(){
-  const el = $('#dataNotice');
-  if(DATA.isSampleData === false){
-    el.innerHTML = `<span class="ico">●</span>
-      <span><b>실시간 데이터.</b> 국회 열린국회정보 Open API에서 자동 수집된 법안 데이터입니다.${DATA.generatedAt ? ` (최종 갱신: ${fmtTime(DATA.generatedAt)})` : ''} 국정과제 항목은 정부 공식 발표 기반입니다.</span>`;
-  } else {
-    el.innerHTML = `<span class="ico">ⓘ</span>
-      <span><b>안내.</b> 법안 항목은 구조 확인용 예시 데이터입니다. 국정과제 항목은 정부 공식 발표에 기반한 실제 정보입니다. 실제 데이터 연동 방법은 하단 "실제 데이터로 연결하기"를 참고하세요.</span>`;
-  }
-}
-
 /* ============ 페이지 로드시 data.json 자동 불러오기 ============ */
 async function autoLoadData(){
   try{
@@ -728,35 +617,8 @@ async function autoLoadData(){
     DATA = parsed;
   }catch(e){
     DATA = JSON.parse(JSON.stringify(SAMPLE));
-    DATA.isSampleData = true;
   }
-  populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
-}
-
-/* ============ 데이터 불러오기 (실제 API 연동 결과 JSON) ============ */
-$('#fileInput').addEventListener('change', function(e){
-  const file = e.target.files[0];
-  if(!file) return;
-  const reader = new FileReader();
-  reader.onload = function(evt){
-    try{
-      const parsed = JSON.parse(evt.target.result);
-      if(!parsed.bills) throw new Error('형식이 올바르지 않습니다 (bills 필요)');
-      parsed.isSampleData = false;
-      DATA = parsed;
-      $('#importStatus').textContent = `✓ ${file.name} 불러옴 (법안 ${parsed.bills.length}건, 국정과제 ${(parsed.policies||[]).length}건)`;
-      populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
-    }catch(err){
-      $('#importStatus').textContent = `✕ 불러오기 실패: ${err.message}`;
-    }
-  };
-  reader.readAsText(file);
-});
-function resetToSample(){
-  DATA = JSON.parse(JSON.stringify(SAMPLE));
-  DATA.isSampleData = true;
-  $('#importStatus').textContent = '예시 데이터로 되돌렸습니다.';
-  populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
+  populateCategories(); renderBoard(); renderHero(); renderGrid(); route();
 }
 
 /* ============ 이벤트 바인딩 ============ */
@@ -766,7 +628,6 @@ $('#statusFilter').addEventListener('change', renderGrid);
 $$('#tabs .tab').forEach(t=>t.addEventListener('click', ()=>{
   $$('#tabs .tab').forEach(x=>x.classList.remove('active'));
   t.classList.add('active');
-  $('#policyNotice').style.display = (t.dataset.tab==='policy') ? 'flex' : 'none';
   renderGrid();
 }));
 
