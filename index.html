@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>법안·국정과제 트래커 | 대한민국, 지금과 다음</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --primary:#1B4B8F;
+    --primary-dark:#123564;
+    --primary-tint:#E8F0FC;
+    --bg:#F4F5F7;
+    --card:#FFFFFF;
+    --border:#DFE2E6;
+    --border-strong:#C7CBD1;
+    --text:#20242B;
+    --text-soft:#5A6270;
+    --text-mute:#8A919C;
+    --success:#1D7A45;
+    --success-tint:#E8F5EC;
+    --muted-tint:#EEF0F2;
+    --notice-bg:#EAF2FB;
+    --notice-border:#BBD6F5;
+    --radius:8px;
+    --radius-sm:6px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Noto Sans KR', -apple-system, sans-serif;
+    line-height:1.55;
+    min-height:100vh;
+    font-size:15px;
+  }
+  .wrap{max-width:1160px;margin:0 auto;padding:0 24px 72px;}
+
+  /* ---------- header ---------- */
+  header.top{padding:36px 0 24px;}
+  .label{font-size:12.5px; color:var(--primary); font-weight:700; letter-spacing:.02em; margin:0 0 10px;}
+  h1.title{
+    font-weight:900; font-size:clamp(24px,3.2vw,32px); margin:0 0 10px; letter-spacing:-.01em;
+    color:var(--text);
+  }
+  .lede{color:var(--text-soft); font-size:14.5px; max-width:680px; margin:0 0 18px;}
+  .notice{
+    display:flex; gap:10px; align-items:flex-start;
+    font-size:13px; color:var(--text-soft);
+    background:var(--notice-bg); border:1px solid var(--notice-border);
+    border-radius:var(--radius-sm); padding:12px 14px; max-width:680px;
+  }
+  .notice b{color:var(--primary-dark);}
+  .notice .ico{color:var(--primary); font-weight:700; flex-shrink:0;}
+
+  /* ---------- stat row ---------- */
+  .stats{
+    margin-top:24px; display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px;
+  }
+  .stat-card{
+    background:var(--card); border:1px solid var(--border); border-left:3px solid var(--primary);
+    border-radius:var(--radius-sm); padding:16px 18px;
+  }
+  .stat-card .num{
+    font-weight:700; font-size:24px; color:var(--text); font-variant-numeric:tabular-nums;
+  }
+  .stat-card .num small{font-size:13px; color:var(--text-mute); margin-left:3px; font-weight:500;}
+  .stat-card .label2{font-size:12.5px; color:var(--text-soft); margin-top:4px;}
+
+  /* ---------- hero: 다가오는 변화 ---------- */
+  .hero{margin-top:36px;}
+  .section-head{display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:12px;}
+  .section-head h2{font-size:16.5px; margin:0; font-weight:700;}
+  .section-head .tag{
+    font-size:12px; color:var(--success); background:var(--success-tint);
+    border-radius:20px; padding:3px 10px; font-weight:700;
+  }
+  .hero-card{
+    background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
+    padding:8px 8px;
+  }
+  .upcoming-row{
+    display:flex; align-items:center; gap:14px; padding:16px 16px; cursor:pointer;
+    border-bottom:1px solid var(--border);
+  }
+  .upcoming-row:last-child{border-bottom:none;}
+  .upcoming-row:hover{background:var(--bg);}
+  .upcoming-rank{
+    flex-shrink:0; width:28px; height:28px; border-radius:50%; background:var(--primary-tint);
+    color:var(--primary-dark); font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center;
+  }
+  .upcoming-body{flex:1; min-width:0;}
+  .upcoming-title{font-size:14.5px; font-weight:700; margin-bottom:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .upcoming-next{font-size:12.5px; color:var(--text-soft);}
+  .upcoming-next b{color:var(--primary-dark);}
+  .upcoming-empty{padding:30px 16px; text-align:center; color:var(--text-mute); font-size:13.5px;}
+
+  .stepper{display:flex; align-items:flex-start; overflow-x:auto; padding-bottom:4px;}
+  .step{display:flex; flex-direction:column; align-items:center; min-width:96px; position:relative;}
+  .step .circle{
+    width:24px;height:24px;border-radius:50%; background:var(--card);
+    border:2px solid var(--border-strong); z-index:2; margin-bottom:8px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:11px; font-weight:700; color:var(--text-mute);
+  }
+  .step.done .circle{background:var(--primary); border-color:var(--primary); color:#fff;}
+  .step .bar{
+    position:absolute; top:11px; left:-50%; width:100%; height:2px; background:var(--border);
+    z-index:1;
+  }
+  .step.done .bar{background:var(--primary);}
+  .step:first-child .bar{display:none;}
+  .step .slabel{font-size:11.5px; text-align:center; color:var(--text-soft); font-weight:500; padding:0 4px;}
+  .step.done .slabel{color:var(--text); font-weight:700;}
+  .step .sdate{font-size:10.5px; color:var(--text-mute); margin-top:2px; font-variant-numeric:tabular-nums;}
+
+  /* ---------- controls ---------- */
+  .controls{
+    margin-top:40px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+    justify-content:space-between;
+  }
+  .search-box{
+    flex:1; min-width:220px; display:flex; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--border-strong); border-radius:var(--radius-sm);
+    padding:9px 13px;
+  }
+  .search-box input{
+    border:none; outline:none; background:transparent; width:100%;
+    font-family:inherit; font-size:14px; color:var(--text);
+  }
+  .search-box svg{flex-shrink:0; color:var(--text-mute);}
+  .filters{display:flex; gap:8px; flex-wrap:wrap;}
+  select{
+    font-family:inherit; font-size:13.5px; color:var(--text); background:var(--card);
+    border:1px solid var(--border-strong); border-radius:var(--radius-sm); padding:8px 11px; cursor:pointer;
+  }
+  .tabs{display:flex; gap:4px; border-bottom:2px solid var(--border); margin-top:18px;}
+  .tab{
+    font-size:13.5px; font-weight:600; padding:10px 16px; cursor:pointer;
+    color:var(--text-soft); user-select:none; border-bottom:2px solid transparent; margin-bottom:-2px;
+  }
+  .tab.active{color:var(--primary); border-bottom-color:var(--primary);}
+
+  /* ---------- grid & cards ---------- */
+  .grid{margin-top:18px; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px;}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm);
+    padding:18px; cursor:pointer; transition:.12s ease;
+  }
+  .card:hover{border-color:var(--primary); box-shadow:0 0 0 1px var(--primary);}
+  .card.is-real{border-left:3px solid var(--primary);}
+  .card-top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:9px;}
+  .meta-line{font-size:12px; color:var(--text-mute); font-weight:500;}
+
+  .badge{
+    display:inline-flex; align-items:center; font-size:11.5px; font-weight:700;
+    padding:3px 10px; border-radius:20px; white-space:nowrap;
+  }
+  .badge-progress{background:var(--primary-tint); color:var(--primary-dark);}
+  .badge-floor{background:var(--primary); color:#fff;}
+  .badge-done{background:var(--success-tint); color:var(--success);}
+  .badge-dropped{background:var(--muted-tint); color:var(--text-mute);}
+
+  .card h3{font-size:15px; font-weight:700; margin:0 0 7px; line-height:1.4;}
+  .card p.summary{font-size:13px; color:var(--text-soft); margin:0 0 13px; line-height:1.55;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+
+  .progress-meta{display:flex; justify-content:space-between; font-size:11.5px; color:var(--text-mute); margin-bottom:11px; font-variant-numeric:tabular-nums;}
+
+  .mini-stages{display:flex; gap:3px; margin-bottom:13px;}
+  .mini-stages .seg{flex:1; height:4px; border-radius:2px; background:var(--muted-tint);}
+  .mini-stages .seg.on{background:var(--primary);}
+
+  .card-foot{display:flex; justify-content:space-between; align-items:center; font-size:12px; color:var(--text-mute); border-top:1px solid var(--border); padding-top:11px;}
+
+  .empty{grid-column:1/-1; text-align:center; padding:56px 20px; color:var(--text-mute);}
+  .empty b{display:block; font-size:15px; color:var(--text); margin-bottom:5px;}
+
+  /* ---------- detail page ---------- */
+  .detail-page{margin-top:32px; max-width:760px;}
+  .back-btn{
+    font-family:inherit; font-size:13px; font-weight:600; color:var(--text-soft);
+    background:none; border:none; cursor:pointer; padding:6px 0 18px; display:inline-flex; align-items:center;
+  }
+  .back-btn:hover{color:var(--primary);}
+  .detail-top{display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:10px;}
+  .detail-title{font-size:22px; font-weight:900; margin:0 0 20px; line-height:1.4;}
+  .detail-meta-grid{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px;
+    background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm);
+    padding:16px 18px; margin-bottom:26px;
+  }
+  .detail-meta-grid .dl{display:block; font-size:11.5px; color:var(--text-mute); margin-bottom:3px;}
+  .detail-meta-grid .dv{display:block; font-size:13.5px; color:var(--text); font-weight:600;}
+  .detail-page .stepper{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px 16px 8px; margin-bottom:26px;}
+  .detail-section{margin-bottom:26px;}
+  .detail-section h3{font-size:14px; font-weight:700; margin:0 0 10px; color:var(--text);}
+  .detail-section p{font-size:13.5px; color:var(--text-soft); line-height:1.7; margin:0;}
+  .keypoints{margin:0; padding-left:18px; font-size:13.5px; color:var(--text-soft); line-height:1.9;}
+  .keypoints li{margin-bottom:2px;}
+  .history-list{list-style:none; margin:0; padding:0; border-left:2px solid var(--border); padding-left:16px;}
+  .history-list li{position:relative; padding-bottom:16px; font-size:13px;}
+  .history-list li::before{content:""; position:absolute; left:-20.5px; top:4px; width:9px; height:9px; border-radius:50%; background:var(--primary); border:2px solid var(--card);}
+  .history-list .hdate{font-variant-numeric:tabular-nums; color:var(--text-mute); margin-right:10px;}
+  .history-list .hlabel{font-weight:700; color:var(--text); margin-right:8px;}
+  .history-list .hnote{color:var(--text-soft);}
+
+  /* ---------- integration ---------- */
+  .integration{margin-top:56px; border-top:1px solid var(--border); padding-top:30px;}
+  .integration h2{font-size:16.5px; margin:0 0 6px; font-weight:700;}
+  .integration p{color:var(--text-soft); font-size:13.5px; max-width:680px; margin:0 0 16px;}
+  .integration-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px;}
+  .int-card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:16px 18px;}
+  .int-card .step2{color:var(--primary); font-size:11.5px; font-weight:700; margin-bottom:6px;}
+  .int-card h4{font-size:13.5px; margin:0 0 6px;}
+  .int-card p{font-size:12.5px; margin:0; color:var(--text-mute);}
+  .int-card a{color:var(--primary); font-weight:600; text-decoration:none;}
+  .import-row{margin-top:18px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
+  .btn{
+    font-family:inherit; font-weight:700; font-size:13.5px; cursor:pointer;
+    padding:10px 16px; border-radius:var(--radius-sm); border:1px solid var(--primary); background:var(--primary); color:#fff;
+  }
+  .btn:hover{background:var(--primary-dark); border-color:var(--primary-dark);}
+  .btn.ghost{background:#fff; color:var(--text); border:1px solid var(--border-strong);}
+  .btn.ghost:hover{background:var(--muted-tint);}
+  #fileInput{display:none;}
+  #importStatus{font-size:12.5px; color:var(--text-mute);}
+
+  footer.pagefoot{margin-top:44px; padding-top:18px; border-top:1px solid var(--border); font-size:12px; color:var(--text-mute); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
+  footer.pagefoot a{color:var(--text-soft);}
+
+  @media(max-width:760px){
+    .controls{flex-direction:column; align-items:stretch;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="label">법안 진행 현황 · 국정과제 추적 — 매일 자동 갱신</p>
+    <h1 class="title">국가는 지금 어디로 가고 있나</h1>
+    <p class="lede">국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부가 5년간 추진하겠다고 밝힌 국정과제가 어떻게 진행되는지를 한 곳에서 자동으로 추적합니다.</p>
+    <div class="notice" id="dataNotice">
+      <span class="ico">ⓘ</span>
+      <span><b>안내.</b> 법안 항목은 구조 확인용 예시 데이터입니다. 국정과제 항목은 정부 공식 발표에 기반한 실제 정보입니다. 실제 데이터 연동 방법은 하단 "실제 데이터로 연결하기"를 참고하세요.</span>
+    </div>
+
+    <div class="stats" id="statBoard"></div>
+  </header>
+
+  <section class="hero">
+    <div class="section-head">
+      <h2>다가오는 변화</h2>
+      <span class="tag">곧 다음 단계로 넘어갈 것으로 보이는 항목</span>
+    </div>
+    <div class="hero-card" id="heroCard"></div>
+  </section>
+
+  <div id="listView">
+  <div class="controls">
+    <div class="search-box">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="searchInput" type="text" placeholder="키워드로 검색 (예: 플랫폼, 에너지, 인구)" />
+    </div>
+    <div class="filters">
+      <select id="categoryFilter"><option value="all">전체 분야</option></select>
+      <select id="statusFilter">
+        <option value="all">전체 상태</option>
+        <option value="progress">심사·추진중</option>
+        <option value="floor">막바지 단계</option>
+        <option value="done">완료</option>
+        <option value="dropped">종결/폐기</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-tab="all">전체</div>
+    <div class="tab" data-tab="bill">법안만</div>
+    <div class="tab" data-tab="policy">국정과제·정책</div>
+  </div>
+
+  <div class="notice" id="policyNotice" style="display:none; margin-top:14px;">
+    <span class="ico">●</span>
+    <span><b>실제 정부 발표 자료 기반.</b> 이 섹션은 국정기획위원회가 2025년 9월 16일 국무회의에서 확정한 '123대 국정과제' 등 정부 공식 발표를 요약한 것으로, 위 법안 항목과 달리 예시가 아닙니다. 각 항목에서 출처 원문을 확인할 수 있어요.</span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  </div>
+
+  <div id="detailView" class="detail-page" style="display:none"></div>
+
+  <section class="integration">
+    <h2>실제 데이터로 연결하기</h2>
+    <p>이 화면은 UI/데이터 구조를 보여주는 프로토타입입니다. 법안·국정과제 모두 실제 공개 API로 매일 자동 갱신되도록 설계돼 있습니다.</p>
+    <div class="integration-grid">
+      <div class="int-card">
+        <div class="step2">STEP 1</div>
+        <h4>API 인증키 발급</h4>
+        <p><a href="https://open.assembly.go.kr" target="_blank">open.assembly.go.kr</a>(법안)과 <a href="https://www.data.go.kr" target="_blank">data.go.kr</a>(국정과제 뉴스)에서 각각 무료 인증키를 발급받습니다.</p>
+      </div>
+      <div class="int-card">
+        <div class="step2">STEP 2</div>
+        <h4>수집 스크립트 실행</h4>
+        <p><code>assembly_fetch.py</code>(법안)와 <code>policy_fetch.py</code>(국정과제 관련 뉴스)를 GitHub Actions가 매일 자동으로 실행합니다. 브라우저 직접 호출은 CORS로 막혀 있어 이 단계가 필요해요.</p>
+      </div>
+      <div class="int-card">
+        <div class="step2">STEP 3</div>
+        <h4>data.json 자동 커밋</h4>
+        <p>스크립트가 이 화면과 동일한 구조의 <code>data.json</code>을 만들어 저장소에 자동으로 커밋합니다.</p>
+      </div>
+      <div class="int-card">
+        <div class="step2">STEP 4</div>
+        <h4>사이트가 자동으로 반영</h4>
+        <p>페이지를 열 때마다 최신 <code>data.json</code>을 자동으로 불러옵니다. 아래 버튼으로 수동 테스트도 가능해요.</p>
+      </div>
+    </div>
+    <div class="import-row">
+      <button class="btn" onclick="document.getElementById('fileInput').click()">데이터 불러오기 (data.json)</button>
+      <button class="btn ghost" onclick="resetToSample()">예시 데이터로 되돌리기</button>
+      <input type="file" id="fileInput" accept="application/json" />
+      <span id="importStatus"></span>
+    </div>
+  </section>
+
+  <footer class="pagefoot">
+    <span>의안정보: <a href="https://open.assembly.go.kr" target="_blank">open.assembly.go.kr</a> · 국정과제: <a href="https://www.korea.kr/govVision/" target="_blank">korea.kr</a></span>
+    <span>법안 항목은 예시이며, 국정과제·정책 항목은 정부 공식 발표 기반 실제 정보입니다.</span>
+  </footer>
+
+</div>
+
+<script>
+/* ============ 단계 정의 ============ */
+const BILL_STAGES = ['접수','소관위 회부','소관위 심사','법사위 체계자구심사','본회의 부의','본회의 의결','공포'];
+const POLICY_STAGES = ['국정과제 발표','국정과제 확정','세부 시행계획 발표','입법·예산 반영','시행'];
+
+/* ============ 예시/실제 데이터 ============ */
+const SAMPLE = {
+  bills: [
+    {id:'b1', kind:'bill', title:'온라인플랫폼 중개수수료 상한에 관한 법률안', category:'경제', status:'progress',
+      billNo:'2210482', proposer:'정무위원장(위원회안)', proposeDate:'2026-07-22', committee:'정무위원회',
+      summary:'배달·이커머스 플랫폼의 중개수수료율 상한을 정하고 위반 시 제재 근거를 두는 법안입니다.', billStage:2,
+      reason:'배달 플랫폼의 과도한 중개수수료로 소상공인 부담이 커지고 있다는 문제의식에서, 위원회 차원에서 마련한 법안입니다.',
+      keyPoints:['온라인플랫폼 중개수수료율 상한을 매출의 5% 이내로 제한','수수료 산정기준 및 변경내역 사전 공시 의무','위반 시 매출액의 일정 비율에 해당하는 과징금 부과'],
+      history:[{stage:0,date:'2026-07-22',label:'접수'},{stage:1,date:'2026-07-24',label:'정무위원회 회부'},{stage:2,date:'2026-08-05',label:'정무위원회 상정'}]},
+    {id:'b2', kind:'bill', title:'성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안', category:'안전', status:'done',
+      billNo:'2208891', proposer:'법제사법위원장(위원회안)', proposeDate:'2026-04-10', committee:'법제사법위원회',
+      summary:'딥페이크 성적 허위영상물 제작·유포죄의 법정형을 상향하는 개정안입니다.', billStage:6, result:'가결·공포',
+      reason:'딥페이크 성적 허위영상물로 인한 피해가 확산됨에 따라, 관련 범죄의 처벌 수위를 높이고 신속한 삭제 지원 근거를 마련하기 위해 발의된 개정안입니다.',
+      keyPoints:['딥페이크 성적 허위영상물 제작·유포죄 법정형 상향','영리 목적 유포 시 가중처벌 조항 신설','피해 영상물 삭제 지원 근거 명문화'],
+      history:[{stage:0,date:'2026-04-10',label:'접수'},{stage:1,date:'2026-04-12',label:'법제사법위원회 회부'},{stage:2,date:'2026-04-20',label:'법사위 심사'},{stage:3,date:'2026-04-25',label:'체계자구 심사'},{stage:4,date:'2026-05-02',label:'본회의 부의'},{stage:5,date:'2026-05-08',label:'본회의 가결'},{stage:6,date:'2026-05-20',label:'공포'}]},
+    {id:'b3', kind:'bill', title:'전동킥보드 등 개인형 이동장치 안전기준 강화법안', category:'안전', status:'progress',
+      billNo:'2211077', proposer:'국토교통부(정부제출)', proposeDate:'2026-06-02', committee:'국토교통위원회',
+      summary:'개인형 이동장치의 최고속도·보험가입 등 안전기준을 강화하는 법안입니다.', billStage:2,
+      reason:'개인형 이동장치 관련 사고가 매년 증가하고 있으나, 최고속도·정비기준 등 안전기준이 명확하지 않아 정부가 직접 제출한 법안입니다.',
+      keyPoints:['최고속도 25km/h 이하로 제한 및 속도제한장치 의무화','운행 전 보험가입 의무화','정기 안전점검 대상에 포함'],
+      history:[{stage:0,date:'2026-06-02',label:'접수'},{stage:1,date:'2026-06-05',label:'국토교통위원회 회부'},{stage:2,date:'2026-06-20',label:'위원회 상정'}]},
+    {id:'b4', kind:'bill', title:'산업재해보상보험법 일부개정법률안(플랫폼노동자 전속성 완화)', category:'노동', status:'floor',
+      billNo:'2209654', proposer:'환경노동위원장(위원회안)', proposeDate:'2026-05-20', committee:'환경노동위원회',
+      summary:'특수형태근로종사자·플랫폼종사자의 산재보험 적용 요건인 전속성 기준을 완화합니다.', billStage:4,
+      reason:'배달·대리운전 등 특수형태근로종사자는 전속성 요건 때문에 산재보험 적용에서 실질적으로 배제되는 경우가 많다는 문제를 반영해 위원회가 마련한 개정안입니다.',
+      keyPoints:["전속성 요건을 '주된 사업장 소득비중 기준'으로 완화",'복수 플랫폼 근무 시 소득 합산 인정','산재 승인 처리기한 단축'],
+      history:[{stage:0,date:'2026-05-20',label:'접수'},{stage:1,date:'2026-05-22',label:'환경노동위원회 회부'},{stage:2,date:'2026-06-10',label:'위원회 심사'},{stage:3,date:'2026-07-01',label:'체계자구 심사'},{stage:4,date:'2026-07-15',label:'본회의 부의'}]},
+    {id:'b5', kind:'bill', title:'노인복지법 일부개정법률안(대중교통 무임승차 국비 지원)', category:'복지', status:'progress',
+      billNo:'2210213', proposer:'의원 12인 발의', proposeDate:'2026-06-28', committee:'보건복지위원회',
+      summary:'만 65세 이상 대중교통 무임승차 손실 일부를 국비로 지원하는 근거를 신설합니다.', billStage:1,
+      reason:'지하철 운영기관의 무임승차 손실이 누적되며 서비스 축소 우려가 커지자, 국비 일부 지원 근거를 신설하려는 법안입니다.',
+      keyPoints:['만 65세 이상 무임승차 손실액의 30% 국비 지원','지원 대상 기관 및 정산 절차 규정','3년 일몰조항으로 재정 영향 점검'],
+      history:[{stage:0,date:'2026-06-28',label:'접수'},{stage:1,date:'2026-07-02',label:'보건복지위원회 회부'}]},
+    {id:'b6', kind:'bill', title:'고용보험법 일부개정법률안(육아휴직 급여 상한 인상)', category:'복지', status:'done',
+      billNo:'2205310', proposer:'환경노동위원장(위원회안)', proposeDate:'2025-12-15', committee:'환경노동위원회',
+      summary:'육아휴직 급여 상한액을 월 150만원에서 210만원으로 단계 인상하는 개정안입니다.', billStage:6, result:'가결·공포',
+      reason:'육아휴직 급여 상한액이 현실에 비해 낮아 소득 감소 부담으로 육아휴직 사용을 꺼리게 된다는 문제의식에서 마련된 개정안입니다.',
+      keyPoints:['육아휴직 급여 상한액을 월 150만원에서 210만원으로 인상','2026~2028년 3년에 걸쳐 단계적 인상','배우자 출산휴가 급여도 동일 기준 연동'],
+      history:[{stage:0,date:'2025-12-15',label:'접수'},{stage:1,date:'2025-12-18',label:'환경노동위원회 회부'},{stage:2,date:'2026-01-05',label:'위원회 심사'},{stage:3,date:'2026-01-15',label:'체계자구 심사'},{stage:4,date:'2026-01-28',label:'본회의 부의'},{stage:5,date:'2026-02-03',label:'본회의 가결'},{stage:6,date:'2026-02-14',label:'공포'}]},
+    {id:'b7', kind:'bill', title:'자원의 절약과 재활용촉진에 관한 법률 일부개정법률안', category:'환경', status:'dropped',
+      billNo:'2203112', proposer:'의원 9인 발의', proposeDate:'2025-11-04', committee:'환경노동위원회',
+      summary:'미세플라스틱 저감을 위한 포장재 재질 기준을 신설하려 했으나 임기만료로 폐기된 법안입니다.', billStage:2, result:'임기만료 폐기',
+      reason:'미세플라스틱 저감을 위한 포장재 재질 기준을 신설하려 했으나, 심사가 지연되며 임기만료로 자동 폐기된 법안입니다.',
+      keyPoints:['1회용 포장재 미세플라스틱 함유기준 신설','기준 초과 제품 유통 제한'],
+      history:[{stage:0,date:'2025-11-04',label:'접수'},{stage:1,date:'2025-11-10',label:'환경노동위원회 회부'},{stage:2,date:'2026-06-30',label:'임기만료 폐기'}]},
+  ],
+  // 아래 policies 배열은 위 법안과 달리 "예시"가 아닌 실제 정부 공식 발표를 요약한 것입니다.
+  // 국정기획위원회가 2025년 8월 13일 제안하고 2025년 9월 16일 국무회의에서 확정한
+  // '이재명정부 국정운영 5개년 계획(123대 국정과제)' 및 관련 부처 발표를 근거로 작성했으며,
+  // 각 항목의 sourceUrl에서 정부 공식 원문을 확인할 수 있습니다.
+  policies: [
+    {id:'gp1', kind:'policy', title:'부동산 보유세·양도세 개편(2026년 세제개편안)', category:'부동산', ministry:'기획재정부',
+      status:'detailed', announceDate:'2026-08-03', policyStage:2,
+      summary:'실거주 1주택자의 세 부담은 낮추고, 비거주·다주택자에 대한 종합부동산세와 양도소득세는 대폭 강화하는 방향의 세제개편안입니다.',
+      reason:'2025년 이후 서울 등 주요 지역 집값이 다시 상승세로 돌아서면서, 투기 수요를 억제하고 실거주자를 보호하는 방향의 부동산 세제 개편이 국정과제로 추진되었습니다. 이재명 대통령은 2026년 6월 취임 1주년 기자회견에서 세제 개편 방향을 공식화했고, 기획재정부가 8월 3일 구체적인 개편안을 발표했습니다.',
+      keyPoints:['실거주 1주택자: 시가 30억원부터 종부세 부담 증가, 40억원 이상은 중과','비거주 1주택자: 종부세 기본공제 12억→9억원으로 축소, 시가 20억 비거주 1주택은 내년 종부세가 약 4배 수준으로 전망','3주택 이상: 종부세 산정 시 공정시장가액비율 60%→80%로 상향','양도세: 1주택자 장기보유특별공제(최대 80%)를 실거주 중심의 "장기거주소득공제"로 개편, 비거주자 공제 혜택 사실상 폐지','아직 세제개편안 발표 단계로, 종합부동산세법·소득세법 개정안이 정식으로 국회에 제출되어야 법으로 확정됩니다.'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'},{stage:2,date:'2026-08-03',label:'2026년 세제개편안 발표'}],
+      sourceUrl:'https://www.hankookilbo.com/news/article/A2026080314190003047',
+      keywords:['종합부동산세','양도소득세','보유세']},
+    {id:'gp2', kind:'policy', title:'AI 3대 강국 도약', category:'경제', ministry:'과학기술정보통신부',
+      status:'planning', announceDate:'2025-09-16', policyStage:1,
+      summary:'세계 3대 인공지능 강국으로 도약하기 위해 AI 인프라, 인재, 산업 전반에 대한 국가 역량을 집중하는 국정과제입니다. "세계를 이끄는 혁신경제" 국정목표의 첫 번째 추진전략입니다.',
+      reason:'AI가 경제·안보의 핵심 자산으로 떠오르면서, 누구나 접근하고 활용할 수 있는 "모두를 위한 AI" 생태계를 구축하고 국가 차원의 AI 경쟁력을 확보하기 위해 채택된 국정과제입니다.',
+      keyPoints:['국가인공지능전략위원회를 통한 범정부 AI 전략 수립·점검','AI 데이터센터 등 인프라 확충 및 지방 분산 투자','AI 인재 양성 및 AI 반도체 등 연관 산업 육성','세부 시행계획은 관련 부처별로 순차 발표될 예정입니다.'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'}],
+      sourceUrl:'https://www.korea.kr/govVision/',
+      keywords:['AI 3대 강국','인공지능 전략']},
+    {id:'gp3', kind:'policy', title:'기후위기 대응과 지속가능한 에너지 전환(에너지고속도로 건설)', category:'환경', ministry:'산업통상자원부',
+      status:'planning', announceDate:'2025-09-16', policyStage:1,
+      summary:'재생에너지 확대와 송배전망(에너지고속도로) 구축을 통해 경제성장과 탄소중립을 함께 달성하겠다는 국정과제로, 12대 중점 전략과제 중 하나입니다.',
+      reason:'재생에너지 발전 지역과 전력 수요 지역 간의 송전망 병목이 에너지 전환의 핵심 걸림돌로 지목되어 왔습니다. 이를 해소하기 위한 전국 단위 송배전 인프라 확충이 국정과제로 채택되었습니다.',
+      keyPoints:['전국 단위 송배전망("에너지고속도로") 확충','재생에너지·기후기술 분야 투자 확대','고탄소 제조업의 탄소감축 활동에 대한 자금 지원 확대','구체적 노선·예산 계획은 산업통상자원부에서 순차 발표 예정입니다.'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'}],
+      sourceUrl:'https://www.korea.kr/govVision/',
+      keywords:['에너지고속도로','송배전망']},
+    {id:'gp4', kind:'policy', title:'성장을 북돋는 금융혁신(코스피 5천 시대)', category:'경제', ministry:'금융위원회',
+      status:'planning', announceDate:'2025-09-16', policyStage:1,
+      summary:'ESG 공시·전환금융 등 자본시장 인프라를 고도화해 "코리아 프리미엄"을 실현하고 코스피 5천 시대로 도약하겠다는 국정과제입니다.',
+      reason:'국내 증시가 기업가치 대비 저평가되어 있다는 "코리아 디스카운트" 문제의식에서, 자본시장 신뢰도를 높이고 생산적 자금이 성장 산업으로 흐르도록 하는 금융 인프라 개편이 국정과제로 채택되었습니다.',
+      keyPoints:['ESG 공시 인프라 고도화 및 관련 정책금융 지원 확대','고탄소 산업의 전환을 지원하는 "전환금융" 도입','생산적 금융을 위한 개인종합자산관리계좌(ISA) 신설 추진'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'}],
+      sourceUrl:'https://www.korea.kr/govVision/',
+      keywords:['코스피 5천','생산적 금융']},
+    {id:'gp5', kind:'policy', title:'국민의 삶을 돌보는 기본사회 실현', category:'복지', ministry:'보건복지부',
+      status:'planning', announceDate:'2025-09-16', policyStage:1,
+      summary:'소득·돌봄·주거 등 삶의 기본 영역에서 국민 모두가 최소한의 안전망을 보장받는 "기본사회"를 구현하겠다는 12대 중점 전략과제 중 하나입니다.',
+      reason:'경제성장에도 불구하고 소득·자산 양극화와 돌봄 공백이 커지고 있다는 문제의식에서, 아동·청년·어르신·장애인 등 생애주기별 기본 보장을 강화하는 방향으로 국정과제에 포함되었습니다.',
+      keyPoints:['생애주기별(아동·청년·어르신·장애인 등) 기본 소득·돌봄 보장 확대','사회복지 전달체계 개편','구체적 대상·급여 수준 등 세부 실행계획은 아직 확정되지 않았으며, 보건복지부에서 순차적으로 구체화할 예정입니다.'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'}],
+      sourceUrl:'https://www.korea.kr/govVision/',
+      keywords:['기본사회']},
+    {id:'gp6', kind:'policy', title:'인구 위기 적극 대응', category:'복지', ministry:'저출산고령사회위원회',
+      status:'planning', announceDate:'2025-09-16', policyStage:1,
+      summary:'저출생·고령화 추세에 범정부 차원에서 대응하기 위한 12대 중점 전략과제 중 하나로, 여러 부처에 걸친 정책을 통합 추진합니다.',
+      reason:'세계 최저 수준의 출생률과 빠른 고령화 속도가 국가적 위기로 인식되면서, 기존 부처별 대응을 넘어선 범정부 통합 대응 체계가 국정과제로 채택되었습니다.',
+      keyPoints:['다부처 연계 인구정책 추진체계 구축','일·육아 양립 및 돌봄 지원 강화','구체적 재정투자 규모와 세부 과제는 관계부처 합동으로 순차 발표될 예정입니다.'],
+      history:[{stage:0,date:'2025-08-13',label:'국정과제(안) 발표'},{stage:1,date:'2025-09-16',label:'국정과제 확정(국무회의)'}],
+      sourceUrl:'https://www.korea.kr/govVision/',
+      keywords:['인구 위기','저출생 대응']},
+  ]
+};
+
+let DATA = JSON.parse(JSON.stringify(SAMPLE));
+
+/* ============ 유틸 ============ */
+const $ = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+
+function statusMeta(status){
+  switch(status){
+    case 'progress': return {cls:'badge-progress', label:'심사중'};
+    case 'floor': return {cls:'badge-floor', label:'본회의'};
+    case 'done': return {cls:'badge-done', label:'완료'};
+    case 'dropped': return {cls:'badge-dropped', label:'종결'};
+    case 'planning': return {cls:'badge-progress', label:'국정과제 추진중'};
+    case 'detailed': return {cls:'badge-floor', label:'세부계획 발표'};
+    case 'implemented': return {cls:'badge-done', label:'시행'};
+    default: return {cls:'badge-progress', label:status};
+  }
+}
+function bucketOf(status){
+  if(status==='progress'||status==='planning') return 'progress';
+  if(status==='floor'||status==='detailed') return 'floor';
+  if(status==='done'||status==='implemented') return 'done';
+  if(status==='dropped') return 'dropped';
+  return 'progress';
+}
+
+/* ============ 통계 보드 ============ */
+function renderBoard(){
+  const bills = DATA.bills||[], policies = DATA.policies||[];
+  const pending = bills.filter(b=>!['done','dropped'].includes(b.status)).length;
+  const doneBills = bills.filter(b=>b.status==='done').length;
+  const nearFinal = [...bills, ...policies].filter(i=>{
+    const sp = stageProgress(i);
+    return sp.total - 1 - sp.current <= 1 && !['done','dropped','implemented'].includes(i.status);
+  }).length;
+
+  $('#statBoard').innerHTML = `
+    <div class="stat-card"><div class="num">${pending}<small>건</small></div><div class="label2">계류중인 법안</div></div>
+    <div class="stat-card"><div class="num">${doneBills}<small>건</small></div><div class="label2">처리 완료 법안</div></div>
+    <div class="stat-card"><div class="num">${policies.length}<small>건</small></div><div class="label2">추진중인 국정과제</div></div>
+    <div class="stat-card"><div class="num">${nearFinal}<small>건</small></div><div class="label2">다음 단계 임박</div></div>
+  `;
+}
+
+/* ============ 단계별 날짜 조회 & 단일 트랙 스텝퍼 ============ */
+function stageDate(history, idx){
+  if(!history) return '';
+  const h = history.find(x=>x.stage===idx);
+  return h ? h.date : '';
+}
+function singleStepperHTML(stages, currentIdx, history){
+  let html = `<div class="stepper">`;
+  stages.forEach((label,i)=>{
+    const d = stageDate(history, i);
+    html += `<div class="step ${i<=currentIdx?'done':''}">
+      <div class="bar"></div><div class="circle">${i<=currentIdx?'✓':(i+1)}</div>
+      <div class="slabel">${label}</div>${d?`<div class="sdate">${d}</div>`:''}
+    </div>`;
+  });
+  html += `</div>`;
+  return html;
+}
+
+/* ============ 히어로: 다가오는 변화 ============ */
+function renderHero(){
+  const all = [...(DATA.bills||[]), ...(DATA.policies||[])].filter(i=>!['done','dropped','implemented'].includes(i.status));
+  const withProgress = all.map(item=>{
+    const sp = stageProgress(item);
+    const stages = item.kind==='bill' ? BILL_STAGES : POLICY_STAGES;
+    return {item, remaining: sp.total-1-sp.current, current: sp.current, stages};
+  }).filter(x=>x.remaining>=0);
+  withProgress.sort((a,b)=>a.remaining-b.remaining);
+  const top = withProgress.slice(0,3);
+
+  const heroCard = $('#heroCard');
+  if(top.length===0){
+    heroCard.innerHTML = `<div class="upcoming-empty">지금은 임박한 항목이 없어요.</div>`;
+    return;
+  }
+  heroCard.innerHTML = top.map((x,i)=>{
+    const it = x.item;
+    const kindLabel = it.kind==='bill' ? '법안' : '국정과제';
+    const nextLabel = x.stages[x.current+1] || x.stages[x.current];
+    return `<div class="upcoming-row" onclick="location.hash='detail-${it.kind}-${it.id}'">
+      <span class="upcoming-rank">${i+1}</span>
+      <div class="upcoming-body">
+        <div class="upcoming-title">${it.title}</div>
+        <div class="upcoming-next">${kindLabel} · ${it.category} — 다음 단계: <b>${nextLabel}</b></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+/* ============ 카드 렌더 ============ */
+function stageProgress(item){
+  if(item.kind==='bill'){
+    return {total:BILL_STAGES.length, current:item.billStage};
+  } else {
+    return {total:POLICY_STAGES.length, current:item.policyStage};
+  }
+}
+
+function cardHTML(item){
+  const sm = statusMeta(item.status);
+  const sp = stageProgress(item);
+  let segs = '';
+  for(let i=0;i<sp.total;i++) segs += `<div class="seg ${i<=sp.current?'on':''}"></div>`;
+
+  let bodyMeta = '';
+  if(item.kind==='bill'){
+    bodyMeta = `<div class="progress-meta"><span>의안번호 ${item.billNo}</span><span>${item.proposeDate}</span></div>`;
+  } else {
+    bodyMeta = `<div class="progress-meta"><span>${item.ministry}</span><span>${item.announceDate} 발표</span></div>`;
+  }
+
+  const kindLabel = item.kind==='bill' ? '법안' : '정책';
+  const footLoc = item.kind==='policy' ? item.ministry : item.committee;
+
+  return `<div class="card ${item.kind==='policy'?'is-real':''}" data-id="${item.id}" data-kind="${item.kind}">
+    <div class="card-top">
+      <span class="meta-line">${kindLabel} · ${item.category}</span>
+      <span class="badge ${sm.cls}">${sm.label}</span>
+    </div>
+    <h3>${item.title}</h3>
+    <p class="summary">${item.summary}</p>
+    ${bodyMeta}
+    <div class="mini-stages">${segs}</div>
+    <div class="card-foot">
+      <span>${footLoc}</span>
+      <span></span>
+    </div>
+  </div>`;
+}
+
+function currentFilters(){
+  return {
+    q: $('#searchInput').value.trim().toLowerCase(),
+    cat: $('#categoryFilter').value,
+    status: $('#statusFilter').value,
+    tab: $('#tabs .tab.active').dataset.tab
+  };
+}
+
+function renderGrid(){
+  const f = currentFilters();
+  let items = [...(DATA.bills||[]), ...(DATA.policies||[])];
+
+  if(f.tab==='bill') items = items.filter(i=>i.kind==='bill');
+  if(f.tab==='policy') items = items.filter(i=>i.kind==='policy');
+
+  if(f.cat!=='all') items = items.filter(i=>i.category===f.cat);
+  if(f.status!=='all') items = items.filter(i=>bucketOf(i.status)===f.status);
+  if(f.q) items = items.filter(i=> (i.title+i.summary).toLowerCase().includes(f.q));
+
+  const grid = $('#grid');
+  if(items.length===0){
+    grid.innerHTML = `<div class="empty"><b>조건에 맞는 결과가 없어요</b>다른 검색어나 필터를 시도해보세요.</div>`;
+    return;
+  }
+  grid.innerHTML = items.map(cardHTML).join('');
+  $$('.card').forEach(c=>c.addEventListener('click', ()=>{ location.hash = `detail-${c.dataset.kind}-${c.dataset.id}`; }));
+}
+
+/* ============ 카테고리 셀렉트 채우기 ============ */
+function populateCategories(){
+  const cats = Array.from(new Set([...(DATA.bills||[]), ...(DATA.policies||[])].map(i=>i.category)));
+  const sel = $('#categoryFilter');
+  sel.innerHTML = `<option value="all">전체 분야</option>` + cats.map(c=>`<option value="${c}">${c}</option>`).join('');
+}
+
+/* ============ 상세 페이지 (해시 라우팅: #detail-{kind}-{id}) ============ */
+function findItem(kind, id){
+  const arr = kind==='bill' ? DATA.bills : (DATA.policies||[]);
+  return (arr||[]).find(i=>i.id===id);
+}
+
+function historyListHTML(item){
+  if(!item.history || item.history.length===0) return '';
+  const stages = item.kind==='bill' ? BILL_STAGES : POLICY_STAGES;
+  const rows = item.history.map(h=>`
+    <li><span class="hdate">${h.date}</span><span class="hlabel">${stages[h.stage]||''}</span><span class="hnote">${h.label}</span></li>
+  `).join('');
+  return `<div class="detail-section"><h3>${item.kind==='policy'?'추진 경과':'심사 경과'}</h3><ul class="history-list">${rows}</ul></div>`;
+}
+
+function renderDetailView(kind, id){
+  const item = findItem(kind, id);
+  if(!item){
+    $('#detailView').innerHTML = `<button class="back-btn" onclick="location.hash=''">← 목록으로</button>
+      <div class="empty"><b>항목을 찾을 수 없어요</b>목록으로 돌아가 다시 시도해주세요.</div>`;
+    return;
+  }
+  const sm = statusMeta(item.status);
+
+  let metaGrid = '';
+  let stepperBlock = '';
+  if(kind==='bill'){
+    metaGrid = `
+      <div class="detail-meta-grid">
+        <div><span class="dl">의안번호</span><span class="dv">${item.billNo}</span></div>
+        <div><span class="dl">제안일</span><span class="dv">${item.proposeDate}</span></div>
+        <div><span class="dl">소관위원회</span><span class="dv">${item.committee}</span></div>
+        <div><span class="dl">제안자</span><span class="dv">${item.proposer}</span></div>
+      </div>`;
+    stepperBlock = singleStepperHTML(BILL_STAGES, item.billStage, item.history);
+  } else {
+    metaGrid = `
+      <div class="detail-meta-grid">
+        <div><span class="dl">소관부처</span><span class="dv">${item.ministry}</span></div>
+        <div><span class="dl">발표일</span><span class="dv">${item.announceDate}</span></div>
+        <div><span class="dl">분야</span><span class="dv">${item.category}</span></div>
+      </div>`;
+    stepperBlock = singleStepperHTML(POLICY_STAGES, item.policyStage, item.history);
+  }
+
+  const reasonLabel = kind==='bill' ? '제안 이유' : '정책 배경';
+  const reasonHTML = item.reason ? `<div class="detail-section"><h3>${reasonLabel}</h3><p>${item.reason}</p></div>` : '';
+  const keyPointsHTML = (item.keyPoints && item.keyPoints.length) ? `<div class="detail-section"><h3>주요 내용</h3><ul class="keypoints">${item.keyPoints.map(k=>`<li>${k}</li>`).join('')}</ul></div>` : '';
+  const relatedNewsHTML = (item.relatedNews && item.relatedNews.length) ? `<div class="detail-section"><h3>관련 최신 뉴스</h3><ul class="history-list">${item.relatedNews.map(n=>`<li><span class="hdate">${n.date||''}</span><a href="${n.url}" target="_blank" rel="noopener" class="hlabel" style="text-decoration:underline;">${n.title}</a></li>`).join('')}</ul></div>` : '';
+  const sourceLabel = kind==='bill' ? '국회 원문에서 보기 ↗' : '정부 발표 원문 보기 ↗';
+  const sourceHTML = item.sourceUrl ? `<a class="btn ghost" href="${item.sourceUrl}" target="_blank" rel="noopener">${sourceLabel}</a>` : '';
+  const kindLabel = kind==='bill' ? '법안' : '정책';
+  const realNoteHTML = kind==='policy' ? `<p style="font-size:12px;color:var(--text-mute);margin:-10px 0 20px;">정부 공식 발표를 바탕으로 요약한 실제 정보입니다. 위 법안과 달리 예시가 아닙니다.</p>` : '';
+
+  $('#detailView').innerHTML = `
+    <button class="back-btn" onclick="location.hash=''">← 목록으로</button>
+    <div class="detail-top">
+      <span class="meta-line">${kindLabel} · ${item.category}</span>
+      <span class="badge ${sm.cls}">${sm.label}${item.result?` · ${item.result}`:''}</span>
+    </div>
+    <h2 class="detail-title">${item.title}</h2>
+    ${realNoteHTML}
+    ${metaGrid}
+    ${stepperBlock}
+    ${reasonHTML}
+    ${keyPointsHTML}
+    ${historyListHTML(item)}
+    ${relatedNewsHTML}
+    ${sourceHTML}
+  `;
+  window.scrollTo({top:0, behavior:'instant'});
+}
+
+/* ============ 해시 라우팅: 목록 ↔ 상세 전환 ============ */
+function route(){
+  const m = location.hash.match(/^#detail-(bill|policy)-(.+)$/);
+  if(m){
+    renderDetailView(m[1], m[2]);
+    $('#listView').style.display = 'none';
+    $('#detailView').style.display = 'block';
+  } else {
+    $('#detailView').style.display = 'none';
+    $('#listView').style.display = 'block';
+  }
+}
+window.addEventListener('hashchange', route);
+
+/* ============ 알림 배너 갱신 ============ */
+function fmtTime(iso){
+  if(!iso) return '';
+  try{
+    const d = new Date(iso);
+    return d.toLocaleString('ko-KR', {year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit'});
+  }catch(e){ return iso; }
+}
+function updateNotice(){
+  const el = $('#dataNotice');
+  if(DATA.isSampleData === false){
+    el.innerHTML = `<span class="ico">●</span>
+      <span><b>실시간 데이터.</b> 국회 열린국회정보 Open API에서 자동 수집된 법안 데이터입니다.${DATA.generatedAt ? ` (최종 갱신: ${fmtTime(DATA.generatedAt)})` : ''} 국정과제 항목은 정부 공식 발표 기반입니다.</span>`;
+  } else {
+    el.innerHTML = `<span class="ico">ⓘ</span>
+      <span><b>안내.</b> 법안 항목은 구조 확인용 예시 데이터입니다. 국정과제 항목은 정부 공식 발표에 기반한 실제 정보입니다. 실제 데이터 연동 방법은 하단 "실제 데이터로 연결하기"를 참고하세요.</span>`;
+  }
+}
+
+/* ============ 페이지 로드시 data.json 자동 불러오기 ============ */
+async function autoLoadData(){
+  try{
+    const res = await fetch('data.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('data.json 없음');
+    const parsed = await res.json();
+    if(!parsed.bills) throw new Error('형식 불일치');
+    if(parsed.bills.length===0 && (!parsed.policies || parsed.policies.length===0)) throw new Error('빈 데이터');
+    DATA = parsed;
+  }catch(e){
+    DATA = JSON.parse(JSON.stringify(SAMPLE));
+    DATA.isSampleData = true;
+  }
+  populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
+}
+
+/* ============ 데이터 불러오기 (실제 API 연동 결과 JSON) ============ */
+$('#fileInput').addEventListener('change', function(e){
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(evt){
+    try{
+      const parsed = JSON.parse(evt.target.result);
+      if(!parsed.bills) throw new Error('형식이 올바르지 않습니다 (bills 필요)');
+      parsed.isSampleData = false;
+      DATA = parsed;
+      $('#importStatus').textContent = `✓ ${file.name} 불러옴 (법안 ${parsed.bills.length}건, 국정과제 ${(parsed.policies||[]).length}건)`;
+      populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
+    }catch(err){
+      $('#importStatus').textContent = `✕ 불러오기 실패: ${err.message}`;
+    }
+  };
+  reader.readAsText(file);
+});
+function resetToSample(){
+  DATA = JSON.parse(JSON.stringify(SAMPLE));
+  DATA.isSampleData = true;
+  $('#importStatus').textContent = '예시 데이터로 되돌렸습니다.';
+  populateCategories(); renderBoard(); renderHero(); renderGrid(); updateNotice(); route();
+}
+
+/* ============ 이벤트 바인딩 ============ */
+$('#searchInput').addEventListener('input', renderGrid);
+$('#categoryFilter').addEventListener('change', renderGrid);
+$('#statusFilter').addEventListener('change', renderGrid);
+$$('#tabs .tab').forEach(t=>t.addEventListener('click', ()=>{
+  $$('#tabs .tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  $('#policyNotice').style.display = (t.dataset.tab==='policy') ? 'flex' : 'none';
+  renderGrid();
+}));
+
+/* ============ 초기 실행 ============ */
+autoLoadData();
+</script>
+</body>
+</html>
