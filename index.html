@@ -208,6 +208,13 @@
   gtag('js', new Date());
   gtag('config', 'G-G0HQ4NCG72');
 </script>
+<!-- 카카오톡 공유 SDK -->
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script>
+  if (window.Kakao && !Kakao.isInitialized()) {
+    Kakao.init('f8773d475a74af6b7b389e60886557ea');
+  }
+</script>
 </head>
 <body>
 
@@ -217,8 +224,14 @@
     <p class="eyebrow">법안 진행 현황 · 국정과제 추적 — 매일 자동 갱신</p>
     <h1 class="title">국가는 지금 어디로 가고 있나</h1>
     <p class="lede">국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부가 5년간 추진하겠다고 밝힌 국정과제가 어떻게 진행되는지를 한 곳에서 자동으로 추적합니다.</p>
+    <button id="siteShareBtn" type="button" style="display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border:1px solid var(--border-strong);border-radius:6px;background:#fff;color:var(--text);font-size:13.5px;font-weight:600;font-family:inherit;cursor:pointer;margin-bottom:20px;">카카오톡으로 공유하기</button>
 
     <div class="stat-ledger" id="statBoard"></div>
+    <script>
+      document.getElementById('siteShareBtn').addEventListener('click', function(){
+        shareKakao('국가는 지금 어디로 가고 있나', '국회 법안과 정부 국정과제 진행 상황을 매일 자동으로 추적합니다.', location.origin + location.pathname);
+      });
+    </script>
   </header>
 
   <section class="hero">
@@ -592,6 +605,7 @@ function renderDetailView(kind, id){
   const relatedNewsHTML = (item.relatedNews && item.relatedNews.length) ? `<div class="detail-section"><h3>관련 최신 뉴스</h3><ul class="history-list">${item.relatedNews.map(n=>`<li><span class="hdate">${n.date||''}</span><a href="${n.url}" target="_blank" rel="noopener" class="hlabel" style="text-decoration:underline;">${n.title}</a></li>`).join('')}</ul></div>` : '';
   const sourceLabel = kind==='bill' ? '국회 원문에서 보기 ↗' : '정부 발표 원문 보기 ↗';
   const sourceHTML = item.sourceUrl ? `<a class="btn ghost" href="${item.sourceUrl}" target="_blank" rel="noopener" style="display:inline-block;padding:10px 16px;border:1px solid var(--border-strong);border-radius:6px;color:var(--text);text-decoration:none;font-size:13.5px;font-weight:600;">${sourceLabel}</a>` : '';
+  const kakaoShareHTML = `<button id="kakaoShareBtn" type="button" class="btn ghost" style="display:inline-block;padding:10px 16px;border:1px solid var(--border-strong);border-radius:6px;background:#fff;color:var(--text);font-size:13.5px;font-weight:600;cursor:pointer;margin-left:8px;">카카오톡 공유</button>`;
   const kindLabel = kind==='bill' ? '법안' : '정책';
 
   $('#detailView').innerHTML = `
@@ -607,9 +621,26 @@ function renderDetailView(kind, id){
     ${keyPointsHTML}
     ${historyListHTML(item)}
     ${relatedNewsHTML}
-    ${sourceHTML}
+    ${sourceHTML}${kakaoShareHTML}
   `;
+  const kakaoBtn = document.getElementById('kakaoShareBtn');
+  if(kakaoBtn){
+    kakaoBtn.addEventListener('click', ()=> shareKakao(item.title, item.summary, location.href));
+  }
   window.scrollTo({top:0, behavior:'instant'});
+}
+
+/* ============ 카카오톡 공유 ============ */
+function shareKakao(title, desc, url){
+  if(!window.Kakao || !Kakao.isInitialized()){
+    alert('공유 기능을 불러오는 중이에요. 잠시 후 다시 시도해주세요.');
+    return;
+  }
+  Kakao.Share.sendDefault({
+    objectType: 'text',
+    text: desc ? `${title}\n${desc}` : title,
+    link: { mobileWebUrl: url, webUrl: url }
+  });
 }
 
 /* ============ 해시 라우팅: 목록 ↔ 상세 전환 ============ */
