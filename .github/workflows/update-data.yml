@@ -1,0 +1,40 @@
+name: 법안·국정과제 데이터 자동 갱신
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 국회 Open API에서 법안 데이터 수집
+        env:
+          ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
+        run: python assembly_fetch.py
+
+      - name: 정책브리핑 API에서 국정과제 관련 최신 뉴스 수집
+        env:
+          DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
+        run: python policy_fetch.py
+
+      - name: data.json 변경사항 커밋 및 배포
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 데이터 자동 갱신 (법안·국정과제)"
+          file_pattern: data.json
