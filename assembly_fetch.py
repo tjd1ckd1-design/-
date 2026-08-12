@@ -1,14 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-assembly_fetch.py
-------------------
-국회 "열린국회정보" Open API에서 실제 법안(의안) 데이터를 가져와,
-index.html이 그대로 읽을 수 있는 data.json으로 변환합니다.
-
-이 사이트는 "국가는 지금 어디로 가고 있나"에 집중하기 위해 법안(국회)과
-국정과제(정부, policy_fetch.py 담당)만 자동 추적합니다. 청원 데이터는
-Open API가 아니라 로그인 브라우저에서만 받아지는 파일 다운로드 방식이라
-자동화 대상에서 제외했습니다.
+assembly_fetch.py — 국회 열린국회정보 Open API에서 실제 법안 데이터를 가져와
+index.html이 읽을 수 있는 data.json으로 변환합니다.
 """
 
 import json
@@ -23,13 +16,12 @@ API_KEY = os.environ.get("ASSEMBLY_API_KEY", _PLACEHOLDER)
 
 BASE_URL = "https://open.assembly.go.kr/portal/openapi"
 BILL_SERVICE_ID = "ALLBILLV2"
+ASSEMBLY_ERACO = "제22대"   # ALLBILLV2 필수 파라미터: ERACO='제22대' 형식
 PAGE_SIZE = 100
 MAX_PAGES = 5
 
 
 def fetch_page(service_id: str, page_index: int, extra_params: dict | None = None):
-    """Open API 공통 호출 함수. GitHub Actions 등 해외 데이터센터 IP에서
-    연결이 간헐적으로 막히는 경우를 고려해, 타임아웃을 늘리고 재시도합니다."""
     params = {
         "KEY": API_KEY,
         "Type": "json",
@@ -64,11 +56,7 @@ def fetch_page(service_id: str, page_index: int, extra_params: dict | None = Non
             print(f"  ⚠ 요청 실패 (시도 {attempt}/3): {e}. 5초 후 재시도...")
             time.sleep(5)
 
-    raise RuntimeError(
-        f"3번 재시도했지만 계속 연결에 실패했습니다: {last_error}\n"
-        "   → open.assembly.go.kr 서버가 이 실행 환경(GitHub Actions)의 IP를 "
-        "차단하고 있을 가능성이 있습니다."
-    )
+    raise RuntimeError(f"3번 재시도했지만 계속 연결에 실패했습니다: {last_error}")
 
 
 def fetch_all_bills():
@@ -80,7 +68,7 @@ def fetch_all_bills():
     for page in range(1, MAX_PAGES + 1):
         print(f"[의안정보] {page}페이지 요청 중...")
         try:
-            data = fetch_page(BILL_SERVICE_ID, page)
+            data = fetch_page(BILL_SERVICE_ID, page, {"ERACO": ASSEMBLY_ERACO})
         except RuntimeError as e:
             print(f"  → 중단: {e}")
             break
