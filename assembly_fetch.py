@@ -99,7 +99,7 @@ def fetch_all_bills():
     for page in range(1, MAX_PAGES + 1):
         print(f"[의안정보] {page}페이지 요청 중...")
         try:
-            data = fetch_page(BILL_SERVICE_ID, page, {"AGE": ASSEMBLY_UNIT})
+           data = fetch_page(BILL_SERVICE_ID, page)
         except RuntimeError as e:
             print(f"  → 중단: {e}")
             break
