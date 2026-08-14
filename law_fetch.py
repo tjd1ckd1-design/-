@@ -81,7 +81,7 @@ def fetch_law_list(query: str, display: int = 10):
     고려해, assembly_fetch.py와 동일하게 재시도 로직을 둡니다."""
     if API_OC == _PLACEHOLDER:
         print("[안내] LAW_API_OC가 설정되지 않아 실제 호출을 생략합니다.")
-        return []
+        return [], True  # 설정 문제이지 네트워크 실패가 아니므로 회로차단기 대상 아님
 
     params = {
         "OC": API_OC,
@@ -104,15 +104,15 @@ def fetch_law_list(query: str, display: int = 10):
             time.sleep(5)
         except ValueError:
             print("  → 응답이 JSON 형식이 아닙니다 (OC 값을 확인해주세요).")
-            return []
+            return [], True  # 형식 오류는 네트워크 문제가 아니라 재시도해도 소용없음
     else:
         print(f"  → 3번 재시도했지만 계속 실패했습니다: {last_error}")
-        return []
+        return [], False  # False = 네트워크 실패 (회로차단기가 감지해야 할 상황)
 
     laws = data.get("LawSearch", {}).get("law", [])
     if isinstance(laws, dict):  # 결과가 1건이면 dict로 오는 경우가 있어 리스트로 통일
         laws = [laws]
-    return laws
+    return laws, True
 
 
 def fmt_date(yyyymmdd: str) -> str:
@@ -147,10 +147,28 @@ def main():
 
     all_laws = []
     seen_titles = set()
+    consecutive_failures = 0
+    circuit_open = False
+    CIRCUIT_THRESHOLD = 3  # 연속 3개 분야가 네트워크 실패면 이후는 재시도 없이 건너뜀
 
     for category, query, limit in LAW_TOPICS:
+        if circuit_open:
+            print(f"[{category}] 연속 실패로 재시도 건너뜀 (연결 상태 회복되면 다음 실행에서 다시 시도)")
+            continue
+
         print(f"[{category}] '{query}' 검색 중...")
-        rows = fetch_law_list(query, display=limit * 2)  # 여유있게 받아서 필터링
+        rows, ok = fetch_law_list(query, display=limit * 2)  # 여유있게 받아서 필터링
+
+        if not ok:
+            consecutive_failures += 1
+            if consecutive_failures >= CIRCUIT_THRESHOLD:
+                circuit_open = True
+                print(f"  → 연속 {CIRCUIT_THRESHOLD}개 분야 연결 실패. 지금 서버 연결 상태가 좋지 않은 것 같아, "
+                      "남은 분야는 재시도 없이 건너뛰고 마무리합니다. (전체 실행 시간을 아끼기 위함)")
+            continue
+        else:
+            consecutive_failures = 0  # 성공하면 연속 실패 카운트 초기화
+
         kept = 0
         for row in rows:
             if row.get("현행연혁코드") != "현행":
@@ -170,6 +188,11 @@ def main():
 
     if not all_laws:
         print("[안내] 수집된 법령이 없어 data.json을 변경하지 않습니다.")
+        return
+
+    if circuit_open:
+        print("[안내] 연결 문제로 일부 분야만 수집된 상태라, 기존에 저장된(더 온전한)")
+        print("       현행법 목록을 이 부분적인 결과로 덮어쓰지 않습니다. 다음 자동 실행 때 다시 시도합니다.")
         return
 
     existing = {}
