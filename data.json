@@ -14426,11 +14426,191 @@
       ]
     }
   ],
-  "generatedAt": "2026-08-14T05:27:04.072847+00:00",
+  "generatedAt": "2026-08-14T07:28:30.136278+00:00",
   "isSampleData": false,
   "laws": [
     {
       "id": "law_auto_0",
+      "kind": "law",
+      "title": "2025 경주 아시아태평양경제협력체 정상회의 지원 특별법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "외교부",
+      "effectiveDate": "2025-08-12",
+      "promulgateDate": "2025-08-12",
+      "sourceUrl": "https://www.law.go.kr/법령/2025%20경주%20아시아태평양경제협력체%20정상회의%20지원%20특별법%20시행령"
+    },
+    {
+      "id": "law_auto_1",
+      "kind": "law",
+      "title": "경제관계장관회의 규정",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "재정경제부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/경제관계장관회의%20규정"
+    },
+    {
+      "id": "law_auto_2",
+      "kind": "law",
+      "title": "경제교육지원법",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "재정경제부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/경제교육지원법"
+    },
+    {
+      "id": "law_auto_3",
+      "kind": "law",
+      "title": "경제교육지원법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "재정경제부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/경제교육지원법%20시행령"
+    },
+    {
+      "id": "law_auto_4",
+      "kind": "law",
+      "title": "경제사회노동위원회법",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "고용노동부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/경제사회노동위원회법"
+    },
+    {
+      "id": "law_auto_5",
+      "kind": "law",
+      "title": "경제사회노동위원회법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "고용노동부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/경제사회노동위원회법%20시행령"
+    },
+    {
+      "id": "law_auto_6",
+      "kind": "law",
+      "title": "경제안보를 위한 공급망 안정화 지원 기본법",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "재정경제부",
+      "effectiveDate": "2026-06-24",
+      "promulgateDate": "2025-12-23",
+      "sourceUrl": "https://www.law.go.kr/법령/경제안보를%20위한%20공급망%20안정화%20지원%20기본법"
+    },
+    {
+      "id": "law_auto_7",
+      "kind": "law",
+      "title": "경제안보를 위한 공급망 안정화 지원 기본법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "재정경제부",
+      "effectiveDate": "2026-06-24",
+      "promulgateDate": "2026-06-23",
+      "sourceUrl": "https://www.law.go.kr/법령/경제안보를%20위한%20공급망%20안정화%20지원%20기본법%20시행령"
+    },
+    {
+      "id": "law_auto_8",
+      "kind": "law",
+      "title": "경제자유구역 내 외국의료기관의 개설허가절차 등에 관한 규칙",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "보건복지부령",
+      "ministry": "보건복지부",
+      "effectiveDate": "2024-11-07",
+      "promulgateDate": "2024-11-07",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역%20내%20외국의료기관의%20개설허가절차%20등에%20관한%20규칙"
+    },
+    {
+      "id": "law_auto_9",
+      "kind": "law",
+      "title": "경제자유구역 및 제주국제자유도시의 외국교육기관 설립ㆍ운영에 관한 특별법",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "교육부",
+      "effectiveDate": "2021-03-23",
+      "promulgateDate": "2021-03-23",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역%20및%20제주국제자유도시의%20외국교육기관%20설립ㆍ운영에%20관한%20특별법"
+    },
+    {
+      "id": "law_auto_10",
+      "kind": "law",
+      "title": "경제자유구역 및 제주국제자유도시의 외국교육기관 설립ㆍ운영에 관한 특별법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "교육부",
+      "effectiveDate": "2026-03-24",
+      "promulgateDate": "2026-03-24",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역%20및%20제주국제자유도시의%20외국교육기관%20설립ㆍ운영에%20관한%20특별법%20시행령"
+    },
+    {
+      "id": "law_auto_11",
+      "kind": "law",
+      "title": "경제자유구역의 지정 및 운영에 관한 특별법",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "산업통상부",
+      "effectiveDate": "2026-06-02",
+      "promulgateDate": "2026-06-02",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역의%20지정%20및%20운영에%20관한%20특별법"
+    },
+    {
+      "id": "law_auto_12",
+      "kind": "law",
+      "title": "경제자유구역의 지정 및 운영에 관한 특별법 시행령",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "산업통상부",
+      "effectiveDate": "2026-03-24",
+      "promulgateDate": "2026-03-24",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역의%20지정%20및%20운영에%20관한%20특별법%20시행령"
+    },
+    {
+      "id": "law_auto_13",
+      "kind": "law",
+      "title": "경제자유구역의 지정 및 운영에 관한 특별법 시행규칙",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "산업통상부령",
+      "ministry": "산업통상부",
+      "effectiveDate": "2025-10-01",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역의%20지정%20및%20운영에%20관한%20특별법%20시행규칙"
+    },
+    {
+      "id": "law_auto_14",
+      "kind": "law",
+      "title": "경제총조사 규칙",
+      "category": "경제",
+      "status": "implemented",
+      "lawType": "총리령",
+      "ministry": "국가데이터처",
+      "effectiveDate": "2025-12-23",
+      "promulgateDate": "2025-12-23",
+      "sourceUrl": "https://www.law.go.kr/법령/경제총조사%20규칙"
+    },
+    {
+      "id": "law_auto_15",
       "kind": "law",
       "title": "공인중개사법",
       "category": "부동산",
@@ -14442,7 +14622,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공인중개사법"
     },
     {
-      "id": "law_auto_1",
+      "id": "law_auto_16",
       "kind": "law",
       "title": "공인중개사법 시행령",
       "category": "부동산",
@@ -14454,7 +14634,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공인중개사법%20시행령"
     },
     {
-      "id": "law_auto_2",
+      "id": "law_auto_17",
       "kind": "law",
       "title": "공인중개사법 시행규칙",
       "category": "부동산",
@@ -14466,7 +14646,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공인중개사법%20시행규칙"
     },
     {
-      "id": "law_auto_3",
+      "id": "law_auto_18",
       "kind": "law",
       "title": "국ㆍ공유 부동산의 등기 촉탁에 관한 법률",
       "category": "부동산",
@@ -14478,7 +14658,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국ㆍ공유%20부동산의%20등기%20촉탁에%20관한%20법률"
     },
     {
-      "id": "law_auto_4",
+      "id": "law_auto_19",
       "kind": "law",
       "title": "법인 및 재외국민의 부동산등기용등록번호 부여에 관한 규칙",
       "category": "부동산",
@@ -14490,7 +14670,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/법인%20및%20재외국민의%20부동산등기용등록번호%20부여에%20관한%20규칙"
     },
     {
-      "id": "law_auto_5",
+      "id": "law_auto_20",
       "kind": "law",
       "title": "법인 아닌 사단ㆍ재단 및 외국인의 부동산등기용 등록번호 부여절차에 관한 규정",
       "category": "부동산",
@@ -14502,7 +14682,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/법인%20아닌%20사단ㆍ재단%20및%20외국인의%20부동산등기용%20등록번호%20부여절차에%20관한%20규정"
     },
     {
-      "id": "law_auto_6",
+      "id": "law_auto_21",
       "kind": "law",
       "title": "법인 아닌 사단ㆍ재단 및 외국인의 부동산등기용 등록번호 부여절차에 관한 규정 시행규칙",
       "category": "부동산",
@@ -14514,7 +14694,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/법인%20아닌%20사단ㆍ재단%20및%20외국인의%20부동산등기용%20등록번호%20부여절차에%20관한%20규정%20시행규칙"
     },
     {
-      "id": "law_auto_7",
+      "id": "law_auto_22",
       "kind": "law",
       "title": "부동산 가격공시에 관한 법률",
       "category": "부동산",
@@ -14526,7 +14706,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산%20가격공시에%20관한%20법률"
     },
     {
-      "id": "law_auto_8",
+      "id": "law_auto_23",
       "kind": "law",
       "title": "부동산 가격공시에 관한 법률 시행령",
       "category": "부동산",
@@ -14538,7 +14718,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산%20가격공시에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_9",
+      "id": "law_auto_24",
       "kind": "law",
       "title": "부동산 가격공시에 관한 법률 시행규칙",
       "category": "부동산",
@@ -14550,7 +14730,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산%20가격공시에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_10",
+      "id": "law_auto_25",
       "kind": "law",
       "title": "부동산개발사업 관리 등에 관한 법률",
       "category": "부동산",
@@ -14562,7 +14742,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산개발사업%20관리%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_11",
+      "id": "law_auto_26",
       "kind": "law",
       "title": "부동산개발사업 관리 등에 관한 법률 시행령",
       "category": "부동산",
@@ -14574,7 +14754,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산개발사업%20관리%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_12",
+      "id": "law_auto_27",
       "kind": "law",
       "title": "부동산개발사업 관리 등에 관한 법률 시행규칙",
       "category": "부동산",
@@ -14586,7 +14766,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산개발사업%20관리%20등에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_13",
+      "id": "law_auto_28",
       "kind": "law",
       "title": "부동산개발업의 관리 및 육성에 관한 법률",
       "category": "부동산",
@@ -14598,7 +14778,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산개발업의%20관리%20및%20육성에%20관한%20법률"
     },
     {
-      "id": "law_auto_14",
+      "id": "law_auto_29",
       "kind": "law",
       "title": "부동산개발업의 관리 및 육성에 관한 법률 시행령",
       "category": "부동산",
@@ -14610,7 +14790,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부동산개발업의%20관리%20및%20육성에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_15",
+      "id": "law_auto_30",
       "kind": "law",
       "title": "가사근로자의 고용개선 등에 관한 법률",
       "category": "노동",
@@ -14622,7 +14802,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/가사근로자의%20고용개선%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_16",
+      "id": "law_auto_31",
       "kind": "law",
       "title": "가사근로자의 고용개선 등에 관한 법률 시행령",
       "category": "노동",
@@ -14634,7 +14814,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/가사근로자의%20고용개선%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_17",
+      "id": "law_auto_32",
       "kind": "law",
       "title": "가사근로자의 고용개선 등에 관한 법률 시행규칙",
       "category": "노동",
@@ -14646,7 +14826,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/가사근로자의%20고용개선%20등에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_18",
+      "id": "law_auto_33",
       "kind": "law",
       "title": "건설근로자의 고용개선 등에 관한 법률",
       "category": "노동",
@@ -14658,7 +14838,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/건설근로자의%20고용개선%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_19",
+      "id": "law_auto_34",
       "kind": "law",
       "title": "건설근로자의 고용개선 등에 관한 법률 시행령",
       "category": "노동",
@@ -14670,7 +14850,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/건설근로자의%20고용개선%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_20",
+      "id": "law_auto_35",
       "kind": "law",
       "title": "건설근로자의 고용개선 등에 관한 법률 시행규칙",
       "category": "노동",
@@ -14682,7 +14862,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/건설근로자의%20고용개선%20등에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_21",
+      "id": "law_auto_36",
       "kind": "law",
       "title": "건설근로자의 기능등급확인증 발급 등에 관한 규칙",
       "category": "노동",
@@ -14694,7 +14874,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/건설근로자의%20기능등급확인증%20발급%20등에%20관한%20규칙"
     },
     {
-      "id": "law_auto_22",
+      "id": "law_auto_37",
       "kind": "law",
       "title": "국민 평생 직업능력 개발법",
       "category": "노동",
@@ -14706,7 +14886,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민%20평생%20직업능력%20개발법"
     },
     {
-      "id": "law_auto_23",
+      "id": "law_auto_38",
       "kind": "law",
       "title": "국민 평생 직업능력 개발법 시행령",
       "category": "노동",
@@ -14718,7 +14898,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민%20평생%20직업능력%20개발법%20시행령"
     },
     {
-      "id": "law_auto_24",
+      "id": "law_auto_39",
       "kind": "law",
       "title": "국민 평생 직업능력 개발법 시행규칙",
       "category": "노동",
@@ -14730,7 +14910,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민%20평생%20직업능력%20개발법%20시행규칙"
     },
     {
-      "id": "law_auto_25",
+      "id": "law_auto_40",
       "kind": "law",
       "title": "근로감독관규정",
       "category": "노동",
@@ -14742,7 +14922,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/근로감독관규정"
     },
     {
-      "id": "law_auto_26",
+      "id": "law_auto_41",
       "kind": "law",
       "title": "근로감독관증 규칙",
       "category": "노동",
@@ -14754,7 +14934,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/근로감독관증%20규칙"
     },
     {
-      "id": "law_auto_27",
+      "id": "law_auto_42",
       "kind": "law",
       "title": "근로기준법",
       "category": "노동",
@@ -14766,7 +14946,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/근로기준법"
     },
     {
-      "id": "law_auto_28",
+      "id": "law_auto_43",
       "kind": "law",
       "title": "근로기준법 시행령",
       "category": "노동",
@@ -14778,7 +14958,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/근로기준법%20시행령"
     },
     {
-      "id": "law_auto_29",
+      "id": "law_auto_44",
       "kind": "law",
       "title": "근로기준법 시행규칙",
       "category": "노동",
@@ -14790,7 +14970,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/근로기준법%20시행규칙"
     },
     {
-      "id": "law_auto_30",
+      "id": "law_auto_45",
       "kind": "law",
       "title": "대기환경보전법",
       "category": "환경",
@@ -14802,7 +14982,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대기환경보전법"
     },
     {
-      "id": "law_auto_31",
+      "id": "law_auto_46",
       "kind": "law",
       "title": "대기환경보전법 시행령",
       "category": "환경",
@@ -14814,7 +14994,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대기환경보전법%20시행령"
     },
     {
-      "id": "law_auto_32",
+      "id": "law_auto_47",
       "kind": "law",
       "title": "대기환경보전법 시행규칙",
       "category": "환경",
@@ -14826,7 +15006,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대기환경보전법%20시행규칙"
     },
     {
-      "id": "law_auto_33",
+      "id": "law_auto_48",
       "kind": "law",
       "title": "댐 주변지역 친환경 보전 및 활용에 관한 특별법",
       "category": "환경",
@@ -14838,7 +15018,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/댐%20주변지역%20친환경%20보전%20및%20활용에%20관한%20특별법"
     },
     {
-      "id": "law_auto_34",
+      "id": "law_auto_49",
       "kind": "law",
       "title": "댐 주변지역 친환경 보전 및 활용에 관한 특별법 시행령",
       "category": "환경",
@@ -14850,7 +15030,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/댐%20주변지역%20친환경%20보전%20및%20활용에%20관한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_35",
+      "id": "law_auto_50",
       "kind": "law",
       "title": "댐 주변지역 친환경 보전 및 활용에 관한 특별법 시행규칙",
       "category": "환경",
@@ -14862,7 +15042,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/댐%20주변지역%20친환경%20보전%20및%20활용에%20관한%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_36",
+      "id": "law_auto_51",
       "kind": "law",
       "title": "물환경보전법",
       "category": "환경",
@@ -14874,7 +15054,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/물환경보전법"
     },
     {
-      "id": "law_auto_37",
+      "id": "law_auto_52",
       "kind": "law",
       "title": "물환경보전법 시행령",
       "category": "환경",
@@ -14886,7 +15066,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/물환경보전법%20시행령"
     },
     {
-      "id": "law_auto_38",
+      "id": "law_auto_53",
       "kind": "law",
       "title": "물환경보전법 시행규칙",
       "category": "환경",
@@ -14898,7 +15078,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/물환경보전법%20시행규칙"
     },
     {
-      "id": "law_auto_39",
+      "id": "law_auto_54",
       "kind": "law",
       "title": "자연환경보전법",
       "category": "환경",
@@ -14910,7 +15090,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/자연환경보전법"
     },
     {
-      "id": "law_auto_40",
+      "id": "law_auto_55",
       "kind": "law",
       "title": "자연환경보전법 시행령",
       "category": "환경",
@@ -14922,7 +15102,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/자연환경보전법%20시행령"
     },
     {
-      "id": "law_auto_41",
+      "id": "law_auto_56",
       "kind": "law",
       "title": "자연환경보전법 시행규칙",
       "category": "환경",
@@ -14934,7 +15114,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/자연환경보전법%20시행규칙"
     },
     {
-      "id": "law_auto_42",
+      "id": "law_auto_57",
       "kind": "law",
       "title": "토양환경보전법",
       "category": "환경",
@@ -14946,7 +15126,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/토양환경보전법"
     },
     {
-      "id": "law_auto_43",
+      "id": "law_auto_58",
       "kind": "law",
       "title": "토양환경보전법 시행령",
       "category": "환경",
@@ -14958,7 +15138,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/토양환경보전법%20시행령"
     },
     {
-      "id": "law_auto_44",
+      "id": "law_auto_59",
       "kind": "law",
       "title": "토양환경보전법 시행규칙",
       "category": "환경",
@@ -14970,7 +15150,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/토양환경보전법%20시행규칙"
     },
     {
-      "id": "law_auto_45",
+      "id": "law_auto_60",
       "kind": "law",
       "title": "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률",
       "category": "복지",
@@ -14982,7 +15162,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장급여의%20이용ㆍ제공%20및%20수급권자%20발굴에%20관한%20법률"
     },
     {
-      "id": "law_auto_46",
+      "id": "law_auto_61",
       "kind": "law",
       "title": "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률 시행령",
       "category": "복지",
@@ -14994,7 +15174,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장급여의%20이용ㆍ제공%20및%20수급권자%20발굴에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_47",
+      "id": "law_auto_62",
       "kind": "law",
       "title": "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률 시행규칙",
       "category": "복지",
@@ -15006,7 +15186,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장급여의%20이용ㆍ제공%20및%20수급권자%20발굴에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_48",
+      "id": "law_auto_63",
       "kind": "law",
       "title": "사회보장기본법",
       "category": "복지",
@@ -15018,7 +15198,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장기본법"
     },
     {
-      "id": "law_auto_49",
+      "id": "law_auto_64",
       "kind": "law",
       "title": "사회보장기본법 시행령",
       "category": "복지",
@@ -15030,7 +15210,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장기본법%20시행령"
     },
     {
-      "id": "law_auto_50",
+      "id": "law_auto_65",
       "kind": "law",
       "title": "사회보장기본법 시행규칙",
       "category": "복지",
@@ -15042,7 +15222,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사회보장기본법%20시행규칙"
     },
     {
-      "id": "law_auto_51",
+      "id": "law_auto_66",
       "kind": "law",
       "title": "감사교육원 운영 등에 관한 규칙",
       "category": "교육",
@@ -15054,7 +15234,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/감사교육원%20운영%20등에%20관한%20규칙"
     },
     {
-      "id": "law_auto_52",
+      "id": "law_auto_67",
       "kind": "law",
       "title": "감사교육원직제",
       "category": "교육",
@@ -15066,55 +15246,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/감사교육원직제"
     },
     {
-      "id": "law_auto_53",
-      "kind": "law",
-      "title": "경제교육지원법",
-      "category": "교육",
-      "status": "implemented",
-      "lawType": "법률",
-      "ministry": "재정경제부",
-      "effectiveDate": "2026-01-02",
-      "promulgateDate": "2025-10-01",
-      "sourceUrl": "https://www.law.go.kr/법령/경제교육지원법"
-    },
-    {
-      "id": "law_auto_54",
-      "kind": "law",
-      "title": "경제교육지원법 시행령",
-      "category": "교육",
-      "status": "implemented",
-      "lawType": "대통령령",
-      "ministry": "재정경제부",
-      "effectiveDate": "2026-01-02",
-      "promulgateDate": "2025-12-30",
-      "sourceUrl": "https://www.law.go.kr/법령/경제교육지원법%20시행령"
-    },
-    {
-      "id": "law_auto_55",
-      "kind": "law",
-      "title": "경제자유구역 및 제주국제자유도시의 외국교육기관 설립ㆍ운영에 관한 특별법",
-      "category": "교육",
-      "status": "implemented",
-      "lawType": "법률",
-      "ministry": "교육부",
-      "effectiveDate": "2021-03-23",
-      "promulgateDate": "2021-03-23",
-      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역%20및%20제주국제자유도시의%20외국교육기관%20설립ㆍ운영에%20관한%20특별법"
-    },
-    {
-      "id": "law_auto_56",
-      "kind": "law",
-      "title": "경제자유구역 및 제주국제자유도시의 외국교육기관 설립ㆍ운영에 관한 특별법 시행령",
-      "category": "교육",
-      "status": "implemented",
-      "lawType": "대통령령",
-      "ministry": "교육부",
-      "effectiveDate": "2026-03-24",
-      "promulgateDate": "2026-03-24",
-      "sourceUrl": "https://www.law.go.kr/법령/경제자유구역%20및%20제주국제자유도시의%20외국교육기관%20설립ㆍ운영에%20관한%20특별법%20시행령"
-    },
-    {
-      "id": "law_auto_57",
+      "id": "law_auto_68",
       "kind": "law",
       "title": "경찰공무원 교육훈련규정",
       "category": "교육",
@@ -15126,7 +15258,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/경찰공무원%20교육훈련규정"
     },
     {
-      "id": "law_auto_58",
+      "id": "law_auto_69",
       "kind": "law",
       "title": "고등교육기관의 자체평가에 관한 규칙",
       "category": "교육",
@@ -15138,7 +15270,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고등교육기관의%20자체평가에%20관한%20규칙"
     },
     {
-      "id": "law_auto_59",
+      "id": "law_auto_70",
       "kind": "law",
       "title": "고등교육기관의 평가ㆍ인증 등에 관한 규정",
       "category": "교육",
@@ -15150,7 +15282,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고등교육기관의%20평가ㆍ인증%20등에%20관한%20규정"
     },
     {
-      "id": "law_auto_60",
+      "id": "law_auto_71",
       "kind": "law",
       "title": "고등교육법",
       "category": "교육",
@@ -15162,7 +15294,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고등교육법"
     },
     {
-      "id": "law_auto_61",
+      "id": "law_auto_72",
       "kind": "law",
       "title": "고등교육법 시행령",
       "category": "교육",
@@ -15174,7 +15306,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고등교육법%20시행령"
     },
     {
-      "id": "law_auto_62",
+      "id": "law_auto_73",
       "kind": "law",
       "title": "고등ㆍ평생교육지원특별회계법",
       "category": "교육",
@@ -15186,7 +15318,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고등ㆍ평생교육지원특별회계법"
     },
     {
-      "id": "law_auto_63",
+      "id": "law_auto_74",
       "kind": "law",
       "title": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법",
       "category": "교육",
@@ -15198,7 +15330,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공교육%20정상화%20촉진%20및%20선행교육%20규제에%20관한%20특별법"
     },
     {
-      "id": "law_auto_64",
+      "id": "law_auto_75",
       "kind": "law",
       "title": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 시행령",
       "category": "교육",
@@ -15210,7 +15342,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공교육%20정상화%20촉진%20및%20선행교육%20규제에%20관한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_65",
+      "id": "law_auto_76",
       "kind": "law",
       "title": "공군교육사령부령",
       "category": "교육",
@@ -15222,7 +15354,55 @@
       "sourceUrl": "https://www.law.go.kr/법령/공군교육사령부령"
     },
     {
-      "id": "law_auto_66",
+      "id": "law_auto_77",
+      "kind": "law",
+      "title": "공무원 인재개발법",
+      "category": "교육",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "인사혁신처",
+      "effectiveDate": "2022-11-15",
+      "promulgateDate": "2022-11-15",
+      "sourceUrl": "https://www.law.go.kr/법령/공무원%20인재개발법"
+    },
+    {
+      "id": "law_auto_78",
+      "kind": "law",
+      "title": "공무원 인재개발법 시행령",
+      "category": "교육",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "인사혁신처",
+      "effectiveDate": "2026-06-30",
+      "promulgateDate": "2026-06-30",
+      "sourceUrl": "https://www.law.go.kr/법령/공무원%20인재개발법%20시행령"
+    },
+    {
+      "id": "law_auto_79",
+      "kind": "law",
+      "title": "과학ㆍ수학ㆍ정보 교육 진흥법",
+      "category": "교육",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "교육부",
+      "effectiveDate": "2018-04-25",
+      "promulgateDate": "2017-10-24",
+      "sourceUrl": "https://www.law.go.kr/법령/과학ㆍ수학ㆍ정보%20교육%20진흥법"
+    },
+    {
+      "id": "law_auto_80",
+      "kind": "law",
+      "title": "과학ㆍ수학ㆍ정보 교육 진흥법 시행령",
+      "category": "교육",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "교육부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/과학ㆍ수학ㆍ정보%20교육%20진흥법%20시행령"
+    },
+    {
+      "id": "law_auto_81",
       "kind": "law",
       "title": "고압가스 안전관리법",
       "category": "안전",
@@ -15234,7 +15414,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고압가스%20안전관리법"
     },
     {
-      "id": "law_auto_67",
+      "id": "law_auto_82",
       "kind": "law",
       "title": "고압가스 안전관리법 시행령",
       "category": "안전",
@@ -15246,7 +15426,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고압가스%20안전관리법%20시행령"
     },
     {
-      "id": "law_auto_68",
+      "id": "law_auto_83",
       "kind": "law",
       "title": "고압가스 안전관리법 시행규칙",
       "category": "안전",
@@ -15258,7 +15438,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고압가스%20안전관리법%20시행규칙"
     },
     {
-      "id": "law_auto_69",
+      "id": "law_auto_84",
       "kind": "law",
       "title": "공공기관의 소방안전관리에 관한 규정",
       "category": "안전",
@@ -15270,7 +15450,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공기관의%20소방안전관리에%20관한%20규정"
     },
     {
-      "id": "law_auto_70",
+      "id": "law_auto_85",
       "kind": "law",
       "title": "교육시설 등의 안전 및 유지관리 등에 관한 법률",
       "category": "안전",
@@ -15282,7 +15462,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교육시설%20등의%20안전%20및%20유지관리%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_71",
+      "id": "law_auto_86",
       "kind": "law",
       "title": "교육시설 등의 안전 및 유지관리 등에 관한 법률 시행령",
       "category": "안전",
@@ -15294,7 +15474,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교육시설%20등의%20안전%20및%20유지관리%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_72",
+      "id": "law_auto_87",
       "kind": "law",
       "title": "교육시설 등의 안전 및 유지관리 등에 관한 법률 시행규칙",
       "category": "안전",
@@ -15306,7 +15486,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교육시설%20등의%20안전%20및%20유지관리%20등에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_73",
+      "id": "law_auto_88",
       "kind": "law",
       "title": "국토안전관리원법",
       "category": "안전",
@@ -15318,7 +15498,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국토안전관리원법"
     },
     {
-      "id": "law_auto_74",
+      "id": "law_auto_89",
       "kind": "law",
       "title": "국토안전관리원법 시행령",
       "category": "안전",
@@ -15330,7 +15510,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국토안전관리원법%20시행령"
     },
     {
-      "id": "law_auto_75",
+      "id": "law_auto_90",
       "kind": "law",
       "title": "다중이용업소의 안전관리에 관한 특별법",
       "category": "안전",
@@ -15342,7 +15522,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/다중이용업소의%20안전관리에%20관한%20특별법"
     },
     {
-      "id": "law_auto_76",
+      "id": "law_auto_91",
       "kind": "law",
       "title": "다중이용업소의 안전관리에 관한 특별법 시행령",
       "category": "안전",
@@ -15354,7 +15534,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/다중이용업소의%20안전관리에%20관한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_77",
+      "id": "law_auto_92",
       "kind": "law",
       "title": "다중이용업소의 안전관리에 관한 특별법 시행규칙",
       "category": "안전",
@@ -15366,7 +15546,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/다중이용업소의%20안전관리에%20관한%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_78",
+      "id": "law_auto_93",
       "kind": "law",
       "title": "동물 진단용 방사선발생장치의 안전관리에 관한 규칙",
       "category": "안전",
@@ -15378,7 +15558,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/동물%20진단용%20방사선발생장치의%20안전관리에%20관한%20규칙"
     },
     {
-      "id": "law_auto_79",
+      "id": "law_auto_94",
       "kind": "law",
       "title": "사격 및 사격장 안전관리에 관한 법률",
       "category": "안전",
@@ -15390,7 +15570,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사격%20및%20사격장%20안전관리에%20관한%20법률"
     },
     {
-      "id": "law_auto_80",
+      "id": "law_auto_95",
       "kind": "law",
       "title": "사격 및 사격장 안전관리에 관한 법률 시행령",
       "category": "안전",
@@ -15402,7 +15582,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/사격%20및%20사격장%20안전관리에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_81",
+      "id": "law_auto_96",
       "kind": "law",
       "title": "개인정보 단체소송규칙",
       "category": "개인정보",
@@ -15414,7 +15594,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/개인정보%20단체소송규칙"
     },
     {
-      "id": "law_auto_82",
+      "id": "law_auto_97",
       "kind": "law",
       "title": "개인정보 보호법",
       "category": "개인정보",
@@ -15426,7 +15606,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/개인정보%20보호법"
     },
     {
-      "id": "law_auto_83",
+      "id": "law_auto_98",
       "kind": "law",
       "title": "개인정보 보호법 시행령",
       "category": "개인정보",
@@ -15438,7 +15618,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/개인정보%20보호법%20시행령"
     },
     {
-      "id": "law_auto_84",
+      "id": "law_auto_99",
       "kind": "law",
       "title": "개인정보 보호위원회 직제",
       "category": "개인정보",
@@ -15450,7 +15630,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/개인정보%20보호위원회%20직제"
     },
     {
-      "id": "law_auto_85",
+      "id": "law_auto_100",
       "kind": "law",
       "title": "개인정보 보호위원회 직제 시행규칙",
       "category": "개인정보",
@@ -15462,7 +15642,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/개인정보%20보호위원회%20직제%20시행규칙"
     },
     {
-      "id": "law_auto_86",
+      "id": "law_auto_101",
       "kind": "law",
       "title": "검찰 및 특별사법경찰관리 등의 개인정보 처리에 관한 규정",
       "category": "개인정보",
@@ -15474,7 +15654,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/검찰%20및%20특별사법경찰관리%20등의%20개인정보%20처리에%20관한%20규정"
     },
     {
-      "id": "law_auto_87",
+      "id": "law_auto_102",
       "kind": "law",
       "title": "경찰공무원 등의 개인정보 처리에 관한 규정",
       "category": "개인정보",
@@ -15486,7 +15666,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/경찰공무원%20등의%20개인정보%20처리에%20관한%20규정"
     },
     {
-      "id": "law_auto_88",
+      "id": "law_auto_103",
       "kind": "law",
       "title": "고위공직자범죄수사처의 개인정보 처리에 관한 규정",
       "category": "개인정보",
@@ -15498,7 +15678,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/고위공직자범죄수사처의%20개인정보%20처리에%20관한%20규정"
     },
     {
-      "id": "law_auto_89",
+      "id": "law_auto_104",
       "kind": "law",
       "title": "군검찰 및 군사법경찰관리의 개인정보 처리에 관한 규정",
       "category": "개인정보",
@@ -15510,7 +15690,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/군검찰%20및%20군사법경찰관리의%20개인정보%20처리에%20관한%20규정"
     },
     {
-      "id": "law_auto_90",
+      "id": "law_auto_105",
       "kind": "law",
       "title": "범죄대응ㆍ수사 등 국제공조 등을 위한 개인정보의 국외 이전에 관한 규정",
       "category": "개인정보",
@@ -15522,7 +15702,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/범죄대응ㆍ수사%20등%20국제공조%20등을%20위한%20개인정보의%20국외%20이전에%20관한%20규정"
     },
     {
-      "id": "law_auto_91",
+      "id": "law_auto_106",
       "kind": "law",
       "title": "법원 개인정보 보호에 관한 규칙",
       "category": "개인정보",
@@ -15534,7 +15714,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/법원%20개인정보%20보호에%20관한%20규칙"
     },
     {
-      "id": "law_auto_92",
+      "id": "law_auto_107",
       "kind": "law",
       "title": "선거관리위원회 개인정보 보호에 관한 규칙",
       "category": "개인정보",
@@ -15546,7 +15726,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/선거관리위원회%20개인정보%20보호에%20관한%20규칙"
     },
     {
-      "id": "law_auto_93",
+      "id": "law_auto_108",
       "kind": "law",
       "title": "헌법재판소 개인정보 보호 규칙",
       "category": "개인정보",
@@ -15558,7 +15738,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/헌법재판소%20개인정보%20보호%20규칙"
     },
     {
-      "id": "law_auto_94",
+      "id": "law_auto_109",
       "kind": "law",
       "title": "금융소비자 보호에 관한 법률",
       "category": "소비자",
@@ -15570,7 +15750,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/금융소비자%20보호에%20관한%20법률"
     },
     {
-      "id": "law_auto_95",
+      "id": "law_auto_110",
       "kind": "law",
       "title": "금융소비자 보호에 관한 법률 시행령",
       "category": "소비자",
@@ -15582,7 +15762,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/금융소비자%20보호에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_96",
+      "id": "law_auto_111",
       "kind": "law",
       "title": "소비자기본법",
       "category": "소비자",
@@ -15594,7 +15774,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/소비자기본법"
     },
     {
-      "id": "law_auto_97",
+      "id": "law_auto_112",
       "kind": "law",
       "title": "소비자기본법 시행령",
       "category": "소비자",
@@ -15606,7 +15786,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/소비자기본법%20시행령"
     },
     {
-      "id": "law_auto_98",
+      "id": "law_auto_113",
       "kind": "law",
       "title": "전자상거래 등에서의 소비자보호에 관한 법률",
       "category": "소비자",
@@ -15618,7 +15798,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/전자상거래%20등에서의%20소비자보호에%20관한%20법률"
     },
     {
-      "id": "law_auto_99",
+      "id": "law_auto_114",
       "kind": "law",
       "title": "전자상거래 등에서의 소비자보호에 관한 법률 시행령",
       "category": "소비자",
@@ -15630,7 +15810,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/전자상거래%20등에서의%20소비자보호에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_100",
+      "id": "law_auto_115",
       "kind": "law",
       "title": "전자상거래 등에서의 소비자보호에 관한 법률 시행규칙",
       "category": "소비자",
@@ -15642,7 +15822,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/전자상거래%20등에서의%20소비자보호에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_101",
+      "id": "law_auto_116",
       "kind": "law",
       "title": "공공주택 특별법",
       "category": "주거",
@@ -15654,7 +15834,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공주택%20특별법"
     },
     {
-      "id": "law_auto_102",
+      "id": "law_auto_117",
       "kind": "law",
       "title": "공공주택 특별법 시행령",
       "category": "주거",
@@ -15666,7 +15846,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공주택%20특별법%20시행령"
     },
     {
-      "id": "law_auto_103",
+      "id": "law_auto_118",
       "kind": "law",
       "title": "공공주택 특별법 시행규칙",
       "category": "주거",
@@ -15678,7 +15858,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공주택%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_104",
+      "id": "law_auto_119",
       "kind": "law",
       "title": "공동주택관리법",
       "category": "주거",
@@ -15690,7 +15870,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공동주택관리법"
     },
     {
-      "id": "law_auto_105",
+      "id": "law_auto_120",
       "kind": "law",
       "title": "공동주택관리법 시행령",
       "category": "주거",
@@ -15702,7 +15882,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공동주택관리법%20시행령"
     },
     {
-      "id": "law_auto_106",
+      "id": "law_auto_121",
       "kind": "law",
       "title": "공동주택관리법 시행규칙",
       "category": "주거",
@@ -15714,7 +15894,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공동주택관리법%20시행규칙"
     },
     {
-      "id": "law_auto_107",
+      "id": "law_auto_122",
       "kind": "law",
       "title": "공동주택 분양가격의 산정 등에 관한 규칙",
       "category": "주거",
@@ -15726,7 +15906,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공동주택%20분양가격의%20산정%20등에%20관한%20규칙"
     },
     {
-      "id": "law_auto_108",
+      "id": "law_auto_123",
       "kind": "law",
       "title": "공동주택 층간소음의 범위와 기준에 관한 규칙",
       "category": "주거",
@@ -15738,7 +15918,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공동주택%20층간소음의%20범위와%20기준에%20관한%20규칙"
     },
     {
-      "id": "law_auto_109",
+      "id": "law_auto_124",
       "kind": "law",
       "title": "민간임대주택에 관한 특별법",
       "category": "주거",
@@ -15750,7 +15930,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/민간임대주택에%20관한%20특별법"
     },
     {
-      "id": "law_auto_110",
+      "id": "law_auto_125",
       "kind": "law",
       "title": "민간임대주택에 관한 특별법 시행령",
       "category": "주거",
@@ -15762,7 +15942,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/민간임대주택에%20관한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_111",
+      "id": "law_auto_126",
       "kind": "law",
       "title": "민간임대주택에 관한 특별법 시행규칙",
       "category": "주거",
@@ -15774,7 +15954,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/민간임대주택에%20관한%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_112",
+      "id": "law_auto_127",
       "kind": "law",
       "title": "부도공공건설임대주택 임차인 보호를 위한 특별법",
       "category": "주거",
@@ -15786,7 +15966,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부도공공건설임대주택%20임차인%20보호를%20위한%20특별법"
     },
     {
-      "id": "law_auto_113",
+      "id": "law_auto_128",
       "kind": "law",
       "title": "부도공공건설임대주택 임차인 보호를 위한 특별법 시행령",
       "category": "주거",
@@ -15798,7 +15978,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/부도공공건설임대주택%20임차인%20보호를%20위한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_114",
+      "id": "law_auto_129",
       "kind": "law",
       "title": "빈집 및 소규모주택 정비에 관한 특례법",
       "category": "주거",
@@ -15810,7 +15990,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/빈집%20및%20소규모주택%20정비에%20관한%20특례법"
     },
     {
-      "id": "law_auto_115",
+      "id": "law_auto_130",
       "kind": "law",
       "title": "빈집 및 소규모주택 정비에 관한 특례법 시행령",
       "category": "주거",
@@ -15822,7 +16002,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/빈집%20및%20소규모주택%20정비에%20관한%20특례법%20시행령"
     },
     {
-      "id": "law_auto_116",
+      "id": "law_auto_131",
       "kind": "law",
       "title": "국제조세조정에 관한 법률",
       "category": "세금",
@@ -15834,7 +16014,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국제조세조정에%20관한%20법률"
     },
     {
-      "id": "law_auto_117",
+      "id": "law_auto_132",
       "kind": "law",
       "title": "국제조세조정에 관한 법률 시행령",
       "category": "세금",
@@ -15846,7 +16026,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국제조세조정에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_118",
+      "id": "law_auto_133",
       "kind": "law",
       "title": "국제조세조정에 관한 법률 시행규칙",
       "category": "세금",
@@ -15858,7 +16038,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국제조세조정에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_119",
+      "id": "law_auto_134",
       "kind": "law",
       "title": "조세범 처벌법",
       "category": "세금",
@@ -15870,7 +16050,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세범%20처벌법"
     },
     {
-      "id": "law_auto_120",
+      "id": "law_auto_135",
       "kind": "law",
       "title": "조세범 처벌절차법",
       "category": "세금",
@@ -15882,7 +16062,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세범%20처벌절차법"
     },
     {
-      "id": "law_auto_121",
+      "id": "law_auto_136",
       "kind": "law",
       "title": "조세범 처벌절차법 시행령",
       "category": "세금",
@@ -15894,7 +16074,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세범%20처벌절차법%20시행령"
     },
     {
-      "id": "law_auto_122",
+      "id": "law_auto_137",
       "kind": "law",
       "title": "조세특례제한법",
       "category": "세금",
@@ -15906,7 +16086,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세특례제한법"
     },
     {
-      "id": "law_auto_123",
+      "id": "law_auto_138",
       "kind": "law",
       "title": "조세특례제한법 시행령",
       "category": "세금",
@@ -15918,7 +16098,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세특례제한법%20시행령"
     },
     {
-      "id": "law_auto_124",
+      "id": "law_auto_139",
       "kind": "law",
       "title": "조세특례제한법 시행규칙",
       "category": "세금",
@@ -15930,7 +16110,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/조세특례제한법%20시행규칙"
     },
     {
-      "id": "law_auto_125",
+      "id": "law_auto_140",
       "kind": "law",
       "title": "주타이베이 대한민국 대표부와 주한국 타이베이 대표부 간의 소득에 관한 조세의 이중과세 방지와 탈세 예방을 위한 약정의 이행에 관한 법률",
       "category": "세금",
@@ -15942,7 +16122,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/주타이베이%20대한민국%20대표부와%20주한국%20타이베이%20대표부%20간의%20소득에%20관한%20조세의%20이중과세%20방지와%20탈세%20예방을%20위한%20약정의%20이행에%20관한%20법률"
     },
     {
-      "id": "law_auto_126",
+      "id": "law_auto_141",
       "kind": "law",
       "title": "저작권법",
       "category": "저작권",
@@ -15954,7 +16134,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/저작권법"
     },
     {
-      "id": "law_auto_127",
+      "id": "law_auto_142",
       "kind": "law",
       "title": "저작권법 시행령",
       "category": "저작권",
@@ -15966,7 +16146,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/저작권법%20시행령"
     },
     {
-      "id": "law_auto_128",
+      "id": "law_auto_143",
       "kind": "law",
       "title": "저작권법 시행규칙",
       "category": "저작권",
@@ -15978,7 +16158,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/저작권법%20시행규칙"
     },
     {
-      "id": "law_auto_129",
+      "id": "law_auto_144",
       "kind": "law",
       "title": "교통안전법",
       "category": "교통",
@@ -15990,7 +16170,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통안전법"
     },
     {
-      "id": "law_auto_130",
+      "id": "law_auto_145",
       "kind": "law",
       "title": "교통안전법 시행령",
       "category": "교통",
@@ -16002,7 +16182,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통안전법%20시행령"
     },
     {
-      "id": "law_auto_131",
+      "id": "law_auto_146",
       "kind": "law",
       "title": "교통안전법 시행규칙",
       "category": "교통",
@@ -16014,7 +16194,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통안전법%20시행규칙"
     },
     {
-      "id": "law_auto_132",
+      "id": "law_auto_147",
       "kind": "law",
       "title": "한국교통안전공단법",
       "category": "교통",
@@ -16026,7 +16206,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/한국교통안전공단법"
     },
     {
-      "id": "law_auto_133",
+      "id": "law_auto_148",
       "kind": "law",
       "title": "한국교통안전공단법 시행령",
       "category": "교통",
@@ -16038,7 +16218,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/한국교통안전공단법%20시행령"
     },
     {
-      "id": "law_auto_134",
+      "id": "law_auto_149",
       "kind": "law",
       "title": "한국해양교통안전공단법",
       "category": "교통",
@@ -16050,7 +16230,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/한국해양교통안전공단법"
     },
     {
-      "id": "law_auto_135",
+      "id": "law_auto_150",
       "kind": "law",
       "title": "한국해양교통안전공단법 시행령",
       "category": "교통",
@@ -16062,7 +16242,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/한국해양교통안전공단법%20시행령"
     },
     {
-      "id": "law_auto_136",
+      "id": "law_auto_151",
       "kind": "law",
       "title": "해사안전기본법",
       "category": "교통",
@@ -16074,7 +16254,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해사안전기본법"
     },
     {
-      "id": "law_auto_137",
+      "id": "law_auto_152",
       "kind": "law",
       "title": "해사안전기본법 시행령",
       "category": "교통",
@@ -16086,7 +16266,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해사안전기본법%20시행령"
     },
     {
-      "id": "law_auto_138",
+      "id": "law_auto_153",
       "kind": "law",
       "title": "해사안전기본법 시행규칙",
       "category": "교통",
@@ -16098,7 +16278,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해사안전기본법%20시행규칙"
     },
     {
-      "id": "law_auto_139",
+      "id": "law_auto_154",
       "kind": "law",
       "title": "해상교통안전법",
       "category": "교통",
@@ -16110,7 +16290,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해상교통안전법"
     },
     {
-      "id": "law_auto_140",
+      "id": "law_auto_155",
       "kind": "law",
       "title": "해상교통안전법 시행령",
       "category": "교통",
@@ -16122,7 +16302,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해상교통안전법%20시행령"
     },
     {
-      "id": "law_auto_141",
+      "id": "law_auto_156",
       "kind": "law",
       "title": "해상교통안전법 시행규칙",
       "category": "교통",
@@ -16134,7 +16314,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해상교통안전법%20시행규칙"
     },
     {
-      "id": "law_auto_142",
+      "id": "law_auto_157",
       "kind": "law",
       "title": "공공보건의료에 관한 법률",
       "category": "의료·보건",
@@ -16146,7 +16326,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공보건의료에%20관한%20법률"
     },
     {
-      "id": "law_auto_143",
+      "id": "law_auto_158",
       "kind": "law",
       "title": "공공보건의료에 관한 법률 시행령",
       "category": "의료·보건",
@@ -16158,7 +16338,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공보건의료에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_144",
+      "id": "law_auto_159",
       "kind": "law",
       "title": "공공보건의료에 관한 법률 시행규칙",
       "category": "의료·보건",
@@ -16170,7 +16350,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공공보건의료에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_145",
+      "id": "law_auto_160",
       "kind": "law",
       "title": "공중보건 위기대응 의료제품의 개발 촉진 및 긴급 공급을 위한 특별법",
       "category": "의료·보건",
@@ -16182,7 +16362,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공중보건%20위기대응%20의료제품의%20개발%20촉진%20및%20긴급%20공급을%20위한%20특별법"
     },
     {
-      "id": "law_auto_146",
+      "id": "law_auto_161",
       "kind": "law",
       "title": "공중보건 위기대응 의료제품의 개발 촉진 및 긴급 공급을 위한 특별법 시행령",
       "category": "의료·보건",
@@ -16194,7 +16374,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공중보건%20위기대응%20의료제품의%20개발%20촉진%20및%20긴급%20공급을%20위한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_147",
+      "id": "law_auto_162",
       "kind": "law",
       "title": "공중보건 위기대응 의료제품의 개발 촉진 및 긴급 공급을 위한 특별법 시행규칙",
       "category": "의료·보건",
@@ -16206,7 +16386,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공중보건%20위기대응%20의료제품의%20개발%20촉진%20및%20긴급%20공급을%20위한%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_148",
+      "id": "law_auto_163",
       "kind": "law",
       "title": "군보건의료에 관한 법률",
       "category": "의료·보건",
@@ -16218,7 +16398,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/군보건의료에%20관한%20법률"
     },
     {
-      "id": "law_auto_149",
+      "id": "law_auto_164",
       "kind": "law",
       "title": "군보건의료에 관한 법률 시행령",
       "category": "의료·보건",
@@ -16230,7 +16410,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/군보건의료에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_150",
+      "id": "law_auto_165",
       "kind": "law",
       "title": "농어촌 등 보건의료를 위한 특별조치법",
       "category": "의료·보건",
@@ -16242,7 +16422,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농어촌%20등%20보건의료를%20위한%20특별조치법"
     },
     {
-      "id": "law_auto_151",
+      "id": "law_auto_166",
       "kind": "law",
       "title": "농어촌 등 보건의료를 위한 특별조치법 시행령",
       "category": "의료·보건",
@@ -16254,7 +16434,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농어촌%20등%20보건의료를%20위한%20특별조치법%20시행령"
     },
     {
-      "id": "law_auto_152",
+      "id": "law_auto_167",
       "kind": "law",
       "title": "농어촌 등 보건의료를 위한 특별조치법 시행규칙",
       "category": "의료·보건",
@@ -16266,7 +16446,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농어촌%20등%20보건의료를%20위한%20특별조치법%20시행규칙"
     },
     {
-      "id": "law_auto_153",
+      "id": "law_auto_168",
       "kind": "law",
       "title": "보건의료기본법",
       "category": "의료·보건",
@@ -16278,7 +16458,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/보건의료기본법"
     },
     {
-      "id": "law_auto_154",
+      "id": "law_auto_169",
       "kind": "law",
       "title": "보건의료기본법 시행령",
       "category": "의료·보건",
@@ -16290,7 +16470,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/보건의료기본법%20시행령"
     },
     {
-      "id": "law_auto_155",
+      "id": "law_auto_170",
       "kind": "law",
       "title": "보건의료기술 진흥법",
       "category": "의료·보건",
@@ -16302,7 +16482,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/보건의료기술%20진흥법"
     },
     {
-      "id": "law_auto_156",
+      "id": "law_auto_171",
       "kind": "law",
       "title": "보건의료기술 진흥법 시행령",
       "category": "의료·보건",
@@ -16314,7 +16494,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/보건의료기술%20진흥법%20시행령"
     },
     {
-      "id": "law_auto_157",
+      "id": "law_auto_172",
       "kind": "law",
       "title": "수입식품안전관리 특별법",
       "category": "식품",
@@ -16326,7 +16506,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수입식품안전관리%20특별법"
     },
     {
-      "id": "law_auto_158",
+      "id": "law_auto_173",
       "kind": "law",
       "title": "수입식품안전관리 특별법 시행령",
       "category": "식품",
@@ -16338,7 +16518,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수입식품안전관리%20특별법%20시행령"
     },
     {
-      "id": "law_auto_159",
+      "id": "law_auto_174",
       "kind": "law",
       "title": "수입식품안전관리 특별법 시행규칙",
       "category": "식품",
@@ -16350,7 +16530,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수입식품안전관리%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_160",
+      "id": "law_auto_175",
       "kind": "law",
       "title": "식품안전기본법",
       "category": "식품",
@@ -16362,7 +16542,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품안전기본법"
     },
     {
-      "id": "law_auto_161",
+      "id": "law_auto_176",
       "kind": "law",
       "title": "식품안전기본법 시행령",
       "category": "식품",
@@ -16374,7 +16554,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품안전기본법%20시행령"
     },
     {
-      "id": "law_auto_162",
+      "id": "law_auto_177",
       "kind": "law",
       "title": "식품ㆍ의약품 등의 안전 및 제품화 지원에 관한 규제과학혁신법",
       "category": "식품",
@@ -16386,7 +16566,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품ㆍ의약품%20등의%20안전%20및%20제품화%20지원에%20관한%20규제과학혁신법"
     },
     {
-      "id": "law_auto_163",
+      "id": "law_auto_178",
       "kind": "law",
       "title": "식품ㆍ의약품 등의 안전 및 제품화 지원에 관한 규제과학혁신법 시행령",
       "category": "식품",
@@ -16398,7 +16578,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품ㆍ의약품%20등의%20안전%20및%20제품화%20지원에%20관한%20규제과학혁신법%20시행령"
     },
     {
-      "id": "law_auto_164",
+      "id": "law_auto_179",
       "kind": "law",
       "title": "식품ㆍ의약품 등의 안전 및 제품화 지원에 관한 규제과학혁신법 시행규칙",
       "category": "식품",
@@ -16410,7 +16590,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품ㆍ의약품%20등의%20안전%20및%20제품화%20지원에%20관한%20규제과학혁신법%20시행규칙"
     },
     {
-      "id": "law_auto_165",
+      "id": "law_auto_180",
       "kind": "law",
       "title": "식품의약품안전처 및 그 소속기관 시험ㆍ검사의뢰 규칙",
       "category": "식품",
@@ -16422,7 +16602,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품의약품안전처%20및%20그%20소속기관%20시험ㆍ검사의뢰%20규칙"
     },
     {
-      "id": "law_auto_166",
+      "id": "law_auto_181",
       "kind": "law",
       "title": "식품의약품안전처 소관 비상대비에 관한 법률 시행규칙",
       "category": "식품",
@@ -16434,7 +16614,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품의약품안전처%20소관%20비상대비에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_167",
+      "id": "law_auto_182",
       "kind": "law",
       "title": "식품의약품안전처 소관 비영리법인의 설립 및 감독에 관한 규칙",
       "category": "식품",
@@ -16446,7 +16626,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품의약품안전처%20소관%20비영리법인의%20설립%20및%20감독에%20관한%20규칙"
     },
     {
-      "id": "law_auto_168",
+      "id": "law_auto_183",
       "kind": "law",
       "title": "식품의약품안전처와 그 소속기관 직제",
       "category": "식품",
@@ -16458,7 +16638,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품의약품안전처와%20그%20소속기관%20직제"
     },
     {
-      "id": "law_auto_169",
+      "id": "law_auto_184",
       "kind": "law",
       "title": "식품의약품안전처와 그 소속기관 직제 시행규칙",
       "category": "식품",
@@ -16470,7 +16650,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/식품의약품안전처와%20그%20소속기관%20직제%20시행규칙"
     },
     {
-      "id": "law_auto_170",
+      "id": "law_auto_185",
       "kind": "law",
       "title": "질병관리청 시험의뢰규칙",
       "category": "식품",
@@ -16482,7 +16662,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/질병관리청%20시험의뢰규칙"
     },
     {
-      "id": "law_auto_171",
+      "id": "law_auto_186",
       "kind": "law",
       "title": "한국식품안전관리인증원의 설립 및 운영에 관한 법률",
       "category": "식품",
@@ -16494,7 +16674,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/한국식품안전관리인증원의%20설립%20및%20운영에%20관한%20법률"
     },
     {
-      "id": "law_auto_172",
+      "id": "law_auto_187",
       "kind": "law",
       "title": "동물보호법",
       "category": "동물보호",
@@ -16506,7 +16686,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/동물보호법"
     },
     {
-      "id": "law_auto_173",
+      "id": "law_auto_188",
       "kind": "law",
       "title": "동물보호법 시행령",
       "category": "동물보호",
@@ -16518,7 +16698,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/동물보호법%20시행령"
     },
     {
-      "id": "law_auto_174",
+      "id": "law_auto_189",
       "kind": "law",
       "title": "동물보호법 시행규칙",
       "category": "동물보호",
@@ -16530,7 +16710,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/동물보호법%20시행규칙"
     },
     {
-      "id": "law_auto_175",
+      "id": "law_auto_190",
       "kind": "law",
       "title": "국가유산보호기금법",
       "category": "문화재",
@@ -16542,7 +16722,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국가유산보호기금법"
     },
     {
-      "id": "law_auto_176",
+      "id": "law_auto_191",
       "kind": "law",
       "title": "국가유산보호기금법 시행령",
       "category": "문화재",
@@ -16554,7 +16734,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국가유산보호기금법%20시행령"
     },
     {
-      "id": "law_auto_177",
+      "id": "law_auto_192",
       "kind": "law",
       "title": "매장유산 보호 및 조사에 관한 법률",
       "category": "문화재",
@@ -16566,7 +16746,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/매장유산%20보호%20및%20조사에%20관한%20법률"
     },
     {
-      "id": "law_auto_178",
+      "id": "law_auto_193",
       "kind": "law",
       "title": "매장유산 보호 및 조사에 관한 법률 시행령",
       "category": "문화재",
@@ -16578,7 +16758,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/매장유산%20보호%20및%20조사에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_179",
+      "id": "law_auto_194",
       "kind": "law",
       "title": "매장유산 보호 및 조사에 관한 법률 시행규칙",
       "category": "문화재",
@@ -16590,7 +16770,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/매장유산%20보호%20및%20조사에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_180",
+      "id": "law_auto_195",
       "kind": "law",
       "title": "문화유산의 보존 및 활용에 관한 법률",
       "category": "문화재",
@@ -16602,7 +16782,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/문화유산의%20보존%20및%20활용에%20관한%20법률"
     },
     {
-      "id": "law_auto_181",
+      "id": "law_auto_196",
       "kind": "law",
       "title": "문화유산의 보존 및 활용에 관한 법률 시행령",
       "category": "문화재",
@@ -16614,7 +16794,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/문화유산의%20보존%20및%20활용에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_182",
+      "id": "law_auto_197",
       "kind": "law",
       "title": "문화유산의 보존 및 활용에 관한 법률 시행규칙",
       "category": "문화재",
@@ -16626,7 +16806,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/문화유산의%20보존%20및%20활용에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_183",
+      "id": "law_auto_198",
       "kind": "law",
       "title": "과학기술정보통신부 및 우주항공청 소관 비영리법인의 설립 및 감독에 관한 규칙",
       "category": "정보통신",
@@ -16638,7 +16818,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/과학기술정보통신부%20및%20우주항공청%20소관%20비영리법인의%20설립%20및%20감독에%20관한%20규칙"
     },
     {
-      "id": "law_auto_184",
+      "id": "law_auto_199",
       "kind": "law",
       "title": "과학기술정보통신부 소관 비상대비에 관한 법률 시행규칙",
       "category": "정보통신",
@@ -16650,7 +16830,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/과학기술정보통신부%20소관%20비상대비에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_185",
+      "id": "law_auto_200",
       "kind": "law",
       "title": "과학기술정보통신부와 그 소속기관 직제",
       "category": "정보통신",
@@ -16662,7 +16842,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/과학기술정보통신부와%20그%20소속기관%20직제"
     },
     {
-      "id": "law_auto_186",
+      "id": "law_auto_201",
       "kind": "law",
       "title": "과학기술정보통신부와 그 소속기관 직제 시행규칙",
       "category": "정보통신",
@@ -16674,7 +16854,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/과학기술정보통신부와%20그%20소속기관%20직제%20시행규칙"
     },
     {
-      "id": "law_auto_187",
+      "id": "law_auto_202",
       "kind": "law",
       "title": "과학기술정보통신부장관의 소속 청장 지휘에 관한 규칙",
       "category": "정보통신",
@@ -16686,7 +16866,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/과학기술정보통신부장관의%20소속%20청장%20지휘에%20관한%20규칙"
     },
     {
-      "id": "law_auto_188",
+      "id": "law_auto_203",
       "kind": "law",
       "title": "육군정보통신학교령",
       "category": "정보통신",
@@ -16698,7 +16878,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/육군정보통신학교령"
     },
     {
-      "id": "law_auto_189",
+      "id": "law_auto_204",
       "kind": "law",
       "title": "정보통신공사업법",
       "category": "정보통신",
@@ -16710,7 +16890,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신공사업법"
     },
     {
-      "id": "law_auto_190",
+      "id": "law_auto_205",
       "kind": "law",
       "title": "정보통신공사업법 시행령",
       "category": "정보통신",
@@ -16722,7 +16902,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신공사업법%20시행령"
     },
     {
-      "id": "law_auto_191",
+      "id": "law_auto_206",
       "kind": "law",
       "title": "정보통신공사업법 시행규칙",
       "category": "정보통신",
@@ -16734,7 +16914,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신공사업법%20시행규칙"
     },
     {
-      "id": "law_auto_192",
+      "id": "law_auto_207",
       "kind": "law",
       "title": "정보통신기반 보호법",
       "category": "정보통신",
@@ -16746,7 +16926,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신기반%20보호법"
     },
     {
-      "id": "law_auto_193",
+      "id": "law_auto_208",
       "kind": "law",
       "title": "정보통신기반 보호법 시행령",
       "category": "정보통신",
@@ -16758,7 +16938,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신기반%20보호법%20시행령"
     },
     {
-      "id": "law_auto_194",
+      "id": "law_auto_209",
       "kind": "law",
       "title": "정보통신기반 보호법 시행규칙",
       "category": "정보통신",
@@ -16770,7 +16950,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신기반%20보호법%20시행규칙"
     },
     {
-      "id": "law_auto_195",
+      "id": "law_auto_210",
       "kind": "law",
       "title": "정보통신망 관련 가중 손해배상 청구 소송에 관한 규칙",
       "category": "정보통신",
@@ -16782,7 +16962,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신망%20관련%20가중%20손해배상%20청구%20소송에%20관한%20규칙"
     },
     {
-      "id": "law_auto_196",
+      "id": "law_auto_211",
       "kind": "law",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률",
       "category": "정보통신",
@@ -16794,7 +16974,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신망%20이용촉진%20및%20정보보호%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_197",
+      "id": "law_auto_212",
       "kind": "law",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행령",
       "category": "정보통신",
@@ -16806,7 +16986,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/정보통신망%20이용촉진%20및%20정보보호%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_198",
+      "id": "law_auto_213",
       "kind": "law",
       "title": "관광진흥개발기금법",
       "category": "관광",
@@ -16818,7 +16998,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥개발기금법"
     },
     {
-      "id": "law_auto_199",
+      "id": "law_auto_214",
       "kind": "law",
       "title": "관광진흥개발기금법 시행령",
       "category": "관광",
@@ -16830,7 +17010,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥개발기금법%20시행령"
     },
     {
-      "id": "law_auto_200",
+      "id": "law_auto_215",
       "kind": "law",
       "title": "관광진흥개발기금법 시행규칙",
       "category": "관광",
@@ -16842,7 +17022,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥개발기금법%20시행규칙"
     },
     {
-      "id": "law_auto_201",
+      "id": "law_auto_216",
       "kind": "law",
       "title": "관광진흥법",
       "category": "관광",
@@ -16854,7 +17034,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥법"
     },
     {
-      "id": "law_auto_202",
+      "id": "law_auto_217",
       "kind": "law",
       "title": "관광진흥법 시행령",
       "category": "관광",
@@ -16866,7 +17046,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥법%20시행령"
     },
     {
-      "id": "law_auto_203",
+      "id": "law_auto_218",
       "kind": "law",
       "title": "관광진흥법 시행규칙",
       "category": "관광",
@@ -16878,7 +17058,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/관광진흥법%20시행규칙"
     },
     {
-      "id": "law_auto_204",
+      "id": "law_auto_219",
       "kind": "law",
       "title": "해양레저관광진흥법",
       "category": "관광",
@@ -16890,7 +17070,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해양레저관광진흥법"
     },
     {
-      "id": "law_auto_205",
+      "id": "law_auto_220",
       "kind": "law",
       "title": "해양레저관광진흥법 시행령",
       "category": "관광",
@@ -16902,7 +17082,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해양레저관광진흥법%20시행령"
     },
     {
-      "id": "law_auto_206",
+      "id": "law_auto_221",
       "kind": "law",
       "title": "해양레저관광진흥법 시행규칙",
       "category": "관광",
@@ -16914,7 +17094,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/해양레저관광진흥법%20시행규칙"
     },
     {
-      "id": "law_auto_207",
+      "id": "law_auto_222",
       "kind": "law",
       "title": "국민체육진흥법",
       "category": "체육",
@@ -16926,7 +17106,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민체육진흥법"
     },
     {
-      "id": "law_auto_208",
+      "id": "law_auto_223",
       "kind": "law",
       "title": "국민체육진흥법 시행령",
       "category": "체육",
@@ -16938,7 +17118,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민체육진흥법%20시행령"
     },
     {
-      "id": "law_auto_209",
+      "id": "law_auto_224",
       "kind": "law",
       "title": "국민체육진흥법 시행규칙",
       "category": "체육",
@@ -16950,7 +17130,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/국민체육진흥법%20시행규칙"
     },
     {
-      "id": "law_auto_210",
+      "id": "law_auto_225",
       "kind": "law",
       "title": "아동복지법",
       "category": "아동",
@@ -16962,7 +17142,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/아동복지법"
     },
     {
-      "id": "law_auto_211",
+      "id": "law_auto_226",
       "kind": "law",
       "title": "아동복지법 시행령",
       "category": "아동",
@@ -16974,7 +17154,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/아동복지법%20시행령"
     },
     {
-      "id": "law_auto_212",
+      "id": "law_auto_227",
       "kind": "law",
       "title": "아동복지법 시행규칙",
       "category": "아동",
@@ -16986,7 +17166,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/아동복지법%20시행규칙"
     },
     {
-      "id": "law_auto_213",
+      "id": "law_auto_228",
       "kind": "law",
       "title": "장애아동 복지지원법",
       "category": "아동",
@@ -16998,7 +17178,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애아동%20복지지원법"
     },
     {
-      "id": "law_auto_214",
+      "id": "law_auto_229",
       "kind": "law",
       "title": "장애아동 복지지원법 시행령",
       "category": "아동",
@@ -17010,7 +17190,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애아동%20복지지원법%20시행령"
     },
     {
-      "id": "law_auto_215",
+      "id": "law_auto_230",
       "kind": "law",
       "title": "장애아동 복지지원법 시행규칙",
       "category": "아동",
@@ -17022,7 +17202,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애아동%20복지지원법%20시행규칙"
     },
     {
-      "id": "law_auto_216",
+      "id": "law_auto_231",
       "kind": "law",
       "title": "노인ㆍ장애인 등 사회복지시설의 급식안전 지원에 관한 법률",
       "category": "장애인",
@@ -17034,7 +17214,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인ㆍ장애인%20등%20사회복지시설의%20급식안전%20지원에%20관한%20법률"
     },
     {
-      "id": "law_auto_217",
+      "id": "law_auto_232",
       "kind": "law",
       "title": "노인ㆍ장애인 등 사회복지시설의 급식안전 지원에 관한 법률 시행령",
       "category": "장애인",
@@ -17046,7 +17226,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인ㆍ장애인%20등%20사회복지시설의%20급식안전%20지원에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_218",
+      "id": "law_auto_233",
       "kind": "law",
       "title": "노인ㆍ장애인 등 사회복지시설의 급식안전 지원에 관한 법률 시행규칙",
       "category": "장애인",
@@ -17058,7 +17238,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인ㆍ장애인%20등%20사회복지시설의%20급식안전%20지원에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_219",
+      "id": "law_auto_234",
       "kind": "law",
       "title": "장애인복지법",
       "category": "장애인",
@@ -17070,7 +17250,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애인복지법"
     },
     {
-      "id": "law_auto_220",
+      "id": "law_auto_235",
       "kind": "law",
       "title": "장애인복지법 시행령",
       "category": "장애인",
@@ -17082,7 +17262,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애인복지법%20시행령"
     },
     {
-      "id": "law_auto_221",
+      "id": "law_auto_236",
       "kind": "law",
       "title": "장애인복지법 시행규칙",
       "category": "장애인",
@@ -17094,7 +17274,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/장애인복지법%20시행규칙"
     },
     {
-      "id": "law_auto_222",
+      "id": "law_auto_237",
       "kind": "law",
       "title": "노인복지법",
       "category": "고령자",
@@ -17106,7 +17286,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인복지법"
     },
     {
-      "id": "law_auto_223",
+      "id": "law_auto_238",
       "kind": "law",
       "title": "노인복지법 시행령",
       "category": "고령자",
@@ -17118,7 +17298,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인복지법%20시행령"
     },
     {
-      "id": "law_auto_224",
+      "id": "law_auto_239",
       "kind": "law",
       "title": "노인복지법 시행규칙",
       "category": "고령자",
@@ -17130,7 +17310,43 @@
       "sourceUrl": "https://www.law.go.kr/법령/노인복지법%20시행규칙"
     },
     {
-      "id": "law_auto_225",
+      "id": "law_auto_240",
+      "kind": "law",
+      "title": "다문화가족지원법",
+      "category": "다문화·이민",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "성평등가족부",
+      "effectiveDate": "2025-12-30",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/다문화가족지원법"
+    },
+    {
+      "id": "law_auto_241",
+      "kind": "law",
+      "title": "다문화가족지원법 시행령",
+      "category": "다문화·이민",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "성평등가족부",
+      "effectiveDate": "2026-01-02",
+      "promulgateDate": "2025-12-30",
+      "sourceUrl": "https://www.law.go.kr/법령/다문화가족지원법%20시행령"
+    },
+    {
+      "id": "law_auto_242",
+      "kind": "law",
+      "title": "다문화가족지원법 시행규칙",
+      "category": "다문화·이민",
+      "status": "implemented",
+      "lawType": "성평등가족부령",
+      "ministry": "성평등가족부",
+      "effectiveDate": "2025-10-01",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/다문화가족지원법%20시행규칙"
+    },
+    {
+      "id": "law_auto_243",
       "kind": "law",
       "title": "재난관리자원의 관리 등에 관한 법률",
       "category": "재난안전",
@@ -17142,7 +17358,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난관리자원의%20관리%20등에%20관한%20법률"
     },
     {
-      "id": "law_auto_226",
+      "id": "law_auto_244",
       "kind": "law",
       "title": "재난관리자원의 관리 등에 관한 법률 시행령",
       "category": "재난안전",
@@ -17154,7 +17370,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난관리자원의%20관리%20등에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_227",
+      "id": "law_auto_245",
       "kind": "law",
       "title": "재난관리자원의 관리 등에 관한 법률 시행규칙",
       "category": "재난안전",
@@ -17166,7 +17382,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난관리자원의%20관리%20등에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_228",
+      "id": "law_auto_246",
       "kind": "law",
       "title": "재난 및 안전관리 기본법",
       "category": "재난안전",
@@ -17178,7 +17394,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난%20및%20안전관리%20기본법"
     },
     {
-      "id": "law_auto_229",
+      "id": "law_auto_247",
       "kind": "law",
       "title": "재난 및 안전관리 기본법 시행령",
       "category": "재난안전",
@@ -17190,7 +17406,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난%20및%20안전관리%20기본법%20시행령"
     },
     {
-      "id": "law_auto_230",
+      "id": "law_auto_248",
       "kind": "law",
       "title": "재난 및 안전관리 기본법 시행규칙",
       "category": "재난안전",
@@ -17202,7 +17418,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/재난%20및%20안전관리%20기본법%20시행규칙"
     },
     {
-      "id": "law_auto_231",
+      "id": "law_auto_249",
       "kind": "law",
       "title": "초고층 및 지하연계 복합건축물 재난관리에 관한 특별법",
       "category": "재난안전",
@@ -17214,7 +17430,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/초고층%20및%20지하연계%20복합건축물%20재난관리에%20관한%20특별법"
     },
     {
-      "id": "law_auto_232",
+      "id": "law_auto_250",
       "kind": "law",
       "title": "초고층 및 지하연계 복합건축물 재난관리에 관한 특별법 시행령",
       "category": "재난안전",
@@ -17226,7 +17442,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/초고층%20및%20지하연계%20복합건축물%20재난관리에%20관한%20특별법%20시행령"
     },
     {
-      "id": "law_auto_233",
+      "id": "law_auto_251",
       "kind": "law",
       "title": "초고층 및 지하연계 복합건축물 재난관리에 관한 특별법 시행규칙",
       "category": "재난안전",
@@ -17238,7 +17454,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/초고층%20및%20지하연계%20복합건축물%20재난관리에%20관한%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_234",
+      "id": "law_auto_252",
       "kind": "law",
       "title": "교통ㆍ에너지ㆍ환경세법",
       "category": "에너지",
@@ -17250,7 +17466,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통ㆍ에너지ㆍ환경세법"
     },
     {
-      "id": "law_auto_235",
+      "id": "law_auto_253",
       "kind": "law",
       "title": "교통ㆍ에너지ㆍ환경세법 시행령",
       "category": "에너지",
@@ -17262,7 +17478,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통ㆍ에너지ㆍ환경세법%20시행령"
     },
     {
-      "id": "law_auto_236",
+      "id": "law_auto_254",
       "kind": "law",
       "title": "교통ㆍ에너지ㆍ환경세법 시행규칙",
       "category": "에너지",
@@ -17274,7 +17490,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/교통ㆍ에너지ㆍ환경세법%20시행규칙"
     },
     {
-      "id": "law_auto_237",
+      "id": "law_auto_255",
       "kind": "law",
       "title": "기후에너지환경부 및 기상청 소관 비영리법인의 설립과 감독에 관한 규칙",
       "category": "에너지",
@@ -17286,7 +17502,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/기후에너지환경부%20및%20기상청%20소관%20비영리법인의%20설립과%20감독에%20관한%20규칙"
     },
     {
-      "id": "law_auto_238",
+      "id": "law_auto_256",
       "kind": "law",
       "title": "기후에너지환경부 소관 비상대비자원 관리법 시행규칙",
       "category": "에너지",
@@ -17298,7 +17514,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/기후에너지환경부%20소관%20비상대비자원%20관리법%20시행규칙"
     },
     {
-      "id": "law_auto_239",
+      "id": "law_auto_257",
       "kind": "law",
       "title": "기후에너지환경부와 그 소속기관 직제",
       "category": "에너지",
@@ -17310,7 +17526,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/기후에너지환경부와%20그%20소속기관%20직제"
     },
     {
-      "id": "law_auto_240",
+      "id": "law_auto_258",
       "kind": "law",
       "title": "기후에너지환경부와 그 소속기관 직제 시행규칙",
       "category": "에너지",
@@ -17322,7 +17538,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/기후에너지환경부와%20그%20소속기관%20직제%20시행규칙"
     },
     {
-      "id": "law_auto_241",
+      "id": "law_auto_259",
       "kind": "law",
       "title": "기후에너지환경부장관의 소속청장에 대한 지휘에 관한 규칙",
       "category": "에너지",
@@ -17334,7 +17550,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/기후에너지환경부장관의%20소속청장에%20대한%20지휘에%20관한%20규칙"
     },
     {
-      "id": "law_auto_242",
+      "id": "law_auto_260",
       "kind": "law",
       "title": "분산에너지 활성화 특별법",
       "category": "에너지",
@@ -17346,7 +17562,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/분산에너지%20활성화%20특별법"
     },
     {
-      "id": "law_auto_243",
+      "id": "law_auto_261",
       "kind": "law",
       "title": "분산에너지 활성화 특별법 시행령",
       "category": "에너지",
@@ -17358,7 +17574,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/분산에너지%20활성화%20특별법%20시행령"
     },
     {
-      "id": "law_auto_244",
+      "id": "law_auto_262",
       "kind": "law",
       "title": "분산에너지 활성화 특별법 시행규칙",
       "category": "에너지",
@@ -17370,7 +17586,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/분산에너지%20활성화%20특별법%20시행규칙"
     },
     {
-      "id": "law_auto_245",
+      "id": "law_auto_263",
       "kind": "law",
       "title": "산업기술혁신 촉진법",
       "category": "에너지",
@@ -17382,7 +17598,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/산업기술혁신%20촉진법"
     },
     {
-      "id": "law_auto_246",
+      "id": "law_auto_264",
       "kind": "law",
       "title": "산업기술혁신 촉진법 시행령",
       "category": "에너지",
@@ -17394,7 +17610,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/산업기술혁신%20촉진법%20시행령"
     },
     {
-      "id": "law_auto_247",
+      "id": "law_auto_265",
       "kind": "law",
       "title": "산업기술혁신 촉진법 시행규칙",
       "category": "에너지",
@@ -17406,7 +17622,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/산업기술혁신%20촉진법%20시행규칙"
     },
     {
-      "id": "law_auto_248",
+      "id": "law_auto_266",
       "kind": "law",
       "title": "신에너지 및 재생에너지 개발ㆍ이용ㆍ보급 촉진법",
       "category": "에너지",
@@ -17418,7 +17634,187 @@
       "sourceUrl": "https://www.law.go.kr/법령/신에너지%20및%20재생에너지%20개발ㆍ이용ㆍ보급%20촉진법"
     },
     {
-      "id": "law_auto_249",
+      "id": "law_auto_267",
+      "kind": "law",
+      "title": "간척지의 농어업적 이용 및 관리에 관한 법률",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2023-07-25",
+      "promulgateDate": "2023-07-25",
+      "sourceUrl": "https://www.law.go.kr/법령/간척지의%20농어업적%20이용%20및%20관리에%20관한%20법률"
+    },
+    {
+      "id": "law_auto_268",
+      "kind": "law",
+      "title": "간척지의 농어업적 이용 및 관리에 관한 법률 시행령",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2022-07-05",
+      "promulgateDate": "2022-07-04",
+      "sourceUrl": "https://www.law.go.kr/법령/간척지의%20농어업적%20이용%20및%20관리에%20관한%20법률%20시행령"
+    },
+    {
+      "id": "law_auto_269",
+      "kind": "law",
+      "title": "간척지의 농어업적 이용 및 관리에 관한 법률 시행규칙",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "농림축산식품부령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2022-07-05",
+      "promulgateDate": "2022-07-05",
+      "sourceUrl": "https://www.law.go.kr/법령/간척지의%20농어업적%20이용%20및%20관리에%20관한%20법률%20시행규칙"
+    },
+    {
+      "id": "law_auto_270",
+      "kind": "law",
+      "title": "국립농업박물관법",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2021-12-16",
+      "promulgateDate": "2021-06-15",
+      "sourceUrl": "https://www.law.go.kr/법령/국립농업박물관법"
+    },
+    {
+      "id": "law_auto_271",
+      "kind": "law",
+      "title": "국립농업박물관법 시행령",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2021-12-16",
+      "promulgateDate": "2021-12-14",
+      "sourceUrl": "https://www.law.go.kr/법령/국립농업박물관법%20시행령"
+    },
+    {
+      "id": "law_auto_272",
+      "kind": "law",
+      "title": "농림축산식품부 소관 친환경농어업 육성 및 유기식품 등의 관리ㆍ지원에 관한 법률 시행규칙",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "농림축산식품부령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2026-06-29",
+      "promulgateDate": "2026-06-29",
+      "sourceUrl": "https://www.law.go.kr/법령/농림축산식품부%20소관%20친환경농어업%20육성%20및%20유기식품%20등의%20관리ㆍ지원에%20관한%20법률%20시행규칙"
+    },
+    {
+      "id": "law_auto_273",
+      "kind": "law",
+      "title": "농어업재해대책법",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2025-04-22",
+      "promulgateDate": "2025-04-22",
+      "sourceUrl": "https://www.law.go.kr/법령/농어업재해대책법"
+    },
+    {
+      "id": "law_auto_274",
+      "kind": "law",
+      "title": "농어업재해대책법 시행령",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2026-08-04",
+      "promulgateDate": "2026-08-04",
+      "sourceUrl": "https://www.law.go.kr/법령/농어업재해대책법%20시행령"
+    },
+    {
+      "id": "law_auto_275",
+      "kind": "law",
+      "title": "농업과학기술정보서비스의 제공 및 이용 활성화에 관한 법률",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농촌진흥청",
+      "effectiveDate": "2024-06-21",
+      "promulgateDate": "2023-06-20",
+      "sourceUrl": "https://www.law.go.kr/법령/농업과학기술정보서비스의%20제공%20및%20이용%20활성화에%20관한%20법률"
+    },
+    {
+      "id": "law_auto_276",
+      "kind": "law",
+      "title": "농업과학기술정보서비스의 제공 및 이용 활성화에 관한 법률 시행령",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "농촌진흥청",
+      "effectiveDate": "2024-06-21",
+      "promulgateDate": "2024-06-18",
+      "sourceUrl": "https://www.law.go.kr/법령/농업과학기술정보서비스의%20제공%20및%20이용%20활성화에%20관한%20법률%20시행령"
+    },
+    {
+      "id": "law_auto_277",
+      "kind": "law",
+      "title": "농업과학기술정보서비스의 제공 및 이용 활성화에 관한 법률 시행규칙",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "농림축산식품부령",
+      "ministry": "농촌진흥청",
+      "effectiveDate": "2024-06-21",
+      "promulgateDate": "2024-06-19",
+      "sourceUrl": "https://www.law.go.kr/법령/농업과학기술정보서비스의%20제공%20및%20이용%20활성화에%20관한%20법률%20시행규칙"
+    },
+    {
+      "id": "law_auto_278",
+      "kind": "law",
+      "title": "농업기계화 촉진법",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2024-06-21",
+      "promulgateDate": "2023-06-20",
+      "sourceUrl": "https://www.law.go.kr/법령/농업기계화%20촉진법"
+    },
+    {
+      "id": "law_auto_279",
+      "kind": "law",
+      "title": "농업기계화 촉진법 시행령",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2024-06-21",
+      "promulgateDate": "2024-06-18",
+      "sourceUrl": "https://www.law.go.kr/법령/농업기계화%20촉진법%20시행령"
+    },
+    {
+      "id": "law_auto_280",
+      "kind": "law",
+      "title": "농업기계화 촉진법 시행규칙",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "농림축산식품부령",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2025-05-07",
+      "promulgateDate": "2025-05-07",
+      "sourceUrl": "https://www.law.go.kr/법령/농업기계화%20촉진법%20시행규칙"
+    },
+    {
+      "id": "law_auto_281",
+      "kind": "law",
+      "title": "농업ㆍ농촌 공익기능 증진 직접지불제도 운영에 관한 법률",
+      "category": "농업",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "농림축산식품부",
+      "effectiveDate": "2025-10-01",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/농업ㆍ농촌%20공익기능%20증진%20직접지불제도%20운영에%20관한%20법률"
+    },
+    {
+      "id": "law_auto_282",
       "kind": "law",
       "title": "농림수산업자 신용보증법",
       "category": "수산업",
@@ -17430,7 +17826,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농림수산업자%20신용보증법"
     },
     {
-      "id": "law_auto_250",
+      "id": "law_auto_283",
       "kind": "law",
       "title": "농림수산업자 신용보증법 시행령",
       "category": "수산업",
@@ -17442,7 +17838,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농림수산업자%20신용보증법%20시행령"
     },
     {
-      "id": "law_auto_251",
+      "id": "law_auto_284",
       "kind": "law",
       "title": "농림수산업자 신용보증법 시행규칙",
       "category": "수산업",
@@ -17454,7 +17850,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/농림수산업자%20신용보증법%20시행규칙"
     },
     {
-      "id": "law_auto_252",
+      "id": "law_auto_285",
       "kind": "law",
       "title": "수산관계법령 위반행위에 대한 행정처분의 기준과 절차에 관한 규칙",
       "category": "수산업",
@@ -17466,7 +17862,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산관계법령%20위반행위에%20대한%20행정처분의%20기준과%20절차에%20관한%20규칙"
     },
     {
-      "id": "law_auto_253",
+      "id": "law_auto_286",
       "kind": "law",
       "title": "수산업법",
       "category": "수산업",
@@ -17478,7 +17874,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업법"
     },
     {
-      "id": "law_auto_254",
+      "id": "law_auto_287",
       "kind": "law",
       "title": "수산업법 시행령",
       "category": "수산업",
@@ -17490,7 +17886,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업법%20시행령"
     },
     {
-      "id": "law_auto_255",
+      "id": "law_auto_288",
       "kind": "law",
       "title": "수산업법 시행규칙",
       "category": "수산업",
@@ -17502,7 +17898,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업법%20시행규칙"
     },
     {
-      "id": "law_auto_256",
+      "id": "law_auto_289",
       "kind": "law",
       "title": "수산업ㆍ어촌 공익기능 증진을 위한 직접지불제도 운영에 관한 법률",
       "category": "수산업",
@@ -17514,7 +17910,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업ㆍ어촌%20공익기능%20증진을%20위한%20직접지불제도%20운영에%20관한%20법률"
     },
     {
-      "id": "law_auto_257",
+      "id": "law_auto_290",
       "kind": "law",
       "title": "수산업ㆍ어촌 공익기능 증진을 위한 직접지불제도 운영에 관한 법률 시행령",
       "category": "수산업",
@@ -17526,7 +17922,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업ㆍ어촌%20공익기능%20증진을%20위한%20직접지불제도%20운영에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_258",
+      "id": "law_auto_291",
       "kind": "law",
       "title": "수산업ㆍ어촌 공익기능 증진을 위한 직접지불제도 운영에 관한 법률 시행규칙",
       "category": "수산업",
@@ -17538,7 +17934,115 @@
       "sourceUrl": "https://www.law.go.kr/법령/수산업ㆍ어촌%20공익기능%20증진을%20위한%20직접지불제도%20운영에%20관한%20법률%20시행규칙"
     },
     {
-      "id": "law_auto_259",
+      "id": "law_auto_292",
+      "kind": "law",
+      "title": "특허권 등의 등록령",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2025-10-01",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/특허권%20등의%20등록령"
+    },
+    {
+      "id": "law_auto_293",
+      "kind": "law",
+      "title": "특허권 등의 등록령 시행규칙",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "총리령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2025-11-28",
+      "promulgateDate": "2025-11-28",
+      "sourceUrl": "https://www.law.go.kr/법령/특허권%20등의%20등록령%20시행규칙"
+    },
+    {
+      "id": "law_auto_294",
+      "kind": "law",
+      "title": "특허권의 수용ㆍ실시 등에 관한 규정",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2025-10-02",
+      "promulgateDate": "2025-09-23",
+      "sourceUrl": "https://www.law.go.kr/법령/특허권의%20수용ㆍ실시%20등에%20관한%20규정"
+    },
+    {
+      "id": "law_auto_295",
+      "kind": "law",
+      "title": "특허료 등의 징수규칙",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "총리령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2026-02-27",
+      "promulgateDate": "2026-02-27",
+      "sourceUrl": "https://www.law.go.kr/법령/특허료%20등의%20징수규칙"
+    },
+    {
+      "id": "law_auto_296",
+      "kind": "law",
+      "title": "특허법",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "법률",
+      "ministry": "지식재산처",
+      "effectiveDate": "2025-11-11",
+      "promulgateDate": "2025-11-11",
+      "sourceUrl": "https://www.law.go.kr/법령/특허법"
+    },
+    {
+      "id": "law_auto_297",
+      "kind": "law",
+      "title": "특허법 시행령",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "대통령령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2025-10-01",
+      "promulgateDate": "2025-10-01",
+      "sourceUrl": "https://www.law.go.kr/법령/특허법%20시행령"
+    },
+    {
+      "id": "law_auto_298",
+      "kind": "law",
+      "title": "특허법 시행규칙",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "총리령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2026-05-14",
+      "promulgateDate": "2026-05-14",
+      "sourceUrl": "https://www.law.go.kr/법령/특허법%20시행규칙"
+    },
+    {
+      "id": "law_auto_299",
+      "kind": "law",
+      "title": "특허법ㆍ실용신안법ㆍ의장법ㆍ상표법의시행에관한규칙",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "대법원규칙",
+      "ministry": "대법원",
+      "effectiveDate": "2002-07-01",
+      "promulgateDate": "2002-06-28",
+      "sourceUrl": "https://www.law.go.kr/법령/특허법ㆍ실용신안법ㆍ의장법ㆍ상표법의시행에관한규칙"
+    },
+    {
+      "id": "law_auto_300",
+      "kind": "law",
+      "title": "특허심판원 국선대리인의 선임 및 운영에 관한 규칙",
+      "category": "지식재산권",
+      "status": "implemented",
+      "lawType": "산업통상자원부령",
+      "ministry": "지식재산처",
+      "effectiveDate": "2021-11-11",
+      "promulgateDate": "2021-11-11",
+      "sourceUrl": "https://www.law.go.kr/법령/특허심판원%20국선대리인의%20선임%20및%20운영에%20관한%20규칙"
+    },
+    {
+      "id": "law_auto_301",
       "kind": "law",
       "title": "가맹사업거래의 공정화에 관한 법률",
       "category": "공정거래",
@@ -17550,7 +18054,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/가맹사업거래의%20공정화에%20관한%20법률"
     },
     {
-      "id": "law_auto_260",
+      "id": "law_auto_302",
       "kind": "law",
       "title": "가맹사업거래의 공정화에 관한 법률 시행령",
       "category": "공정거래",
@@ -17562,7 +18066,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/가맹사업거래의%20공정화에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_261",
+      "id": "law_auto_303",
       "kind": "law",
       "title": "공정거래위원회 소관 비영리법인의 설립 및 감독에 관한 규칙",
       "category": "공정거래",
@@ -17574,7 +18078,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공정거래위원회%20소관%20비영리법인의%20설립%20및%20감독에%20관한%20규칙"
     },
     {
-      "id": "law_auto_262",
+      "id": "law_auto_304",
       "kind": "law",
       "title": "공정거래위원회와 그 소속기관 직제",
       "category": "공정거래",
@@ -17586,7 +18090,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공정거래위원회와%20그%20소속기관%20직제"
     },
     {
-      "id": "law_auto_263",
+      "id": "law_auto_305",
       "kind": "law",
       "title": "공정거래위원회와 그 소속기관 직제 시행규칙",
       "category": "공정거래",
@@ -17598,7 +18102,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/공정거래위원회와%20그%20소속기관%20직제%20시행규칙"
     },
     {
-      "id": "law_auto_264",
+      "id": "law_auto_306",
       "kind": "law",
       "title": "대규모유통업에서의 거래 공정화에 관한 법률",
       "category": "공정거래",
@@ -17610,7 +18114,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대규모유통업에서의%20거래%20공정화에%20관한%20법률"
     },
     {
-      "id": "law_auto_265",
+      "id": "law_auto_307",
       "kind": "law",
       "title": "대규모유통업에서의 거래 공정화에 관한 법률 시행령",
       "category": "공정거래",
@@ -17622,7 +18126,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대규모유통업에서의%20거래%20공정화에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_266",
+      "id": "law_auto_308",
       "kind": "law",
       "title": "대리점거래의 공정화에 관한 법률",
       "category": "공정거래",
@@ -17634,7 +18138,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대리점거래의%20공정화에%20관한%20법률"
     },
     {
-      "id": "law_auto_267",
+      "id": "law_auto_309",
       "kind": "law",
       "title": "대리점거래의 공정화에 관한 법률 시행령",
       "category": "공정거래",
@@ -17646,7 +18150,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/대리점거래의%20공정화에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_268",
+      "id": "law_auto_310",
       "kind": "law",
       "title": "독점규제 및 공정거래에 관한 법률",
       "category": "공정거래",
@@ -17658,7 +18162,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/독점규제%20및%20공정거래에%20관한%20법률"
     },
     {
-      "id": "law_auto_269",
+      "id": "law_auto_311",
       "kind": "law",
       "title": "독점규제 및 공정거래에 관한 법률 시행령",
       "category": "공정거래",
@@ -17670,7 +18174,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/독점규제%20및%20공정거래에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_270",
+      "id": "law_auto_312",
       "kind": "law",
       "title": "물가안정에 관한 법률",
       "category": "공정거래",
@@ -17682,7 +18186,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/물가안정에%20관한%20법률"
     },
     {
-      "id": "law_auto_271",
+      "id": "law_auto_313",
       "kind": "law",
       "title": "물가안정에 관한 법률 시행령",
       "category": "공정거래",
@@ -17694,7 +18198,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/물가안정에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_272",
+      "id": "law_auto_314",
       "kind": "law",
       "title": "하도급거래 공정화에 관한 법률",
       "category": "공정거래",
@@ -17706,7 +18210,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/하도급거래%20공정화에%20관한%20법률"
     },
     {
-      "id": "law_auto_273",
+      "id": "law_auto_315",
       "kind": "law",
       "title": "하도급거래 공정화에 관한 법률 시행령",
       "category": "공정거래",
@@ -17718,7 +18222,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/하도급거래%20공정화에%20관한%20법률%20시행령"
     },
     {
-      "id": "law_auto_274",
+      "id": "law_auto_316",
       "kind": "law",
       "title": "백두대간 보호에 관한 법률",
       "category": "산림·자연환경",
@@ -17730,7 +18234,7 @@
       "sourceUrl": "https://www.law.go.kr/법령/백두대간%20보호에%20관한%20법률"
     },
     {
-      "id": "law_auto_275",
+      "id": "law_auto_317",
       "kind": "law",
       "title": "백두대간 보호에 관한 법률 시행령",
       "category": "산림·자연환경",
@@ -17742,5 +18246,5 @@
       "sourceUrl": "https://www.law.go.kr/법령/백두대간%20보호에%20관한%20법률%20시행령"
     }
   ],
-  "lawsUpdatedAt": "2026-08-14T05:29:40.336116+00:00"
+  "lawsUpdatedAt": "2026-08-14T07:31:20.005616+00:00"
 }
