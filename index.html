@@ -4,8 +4,19 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>국가는 지금 어디로 가고 있나 | 법안·국정과제 트래커</title>
-<meta name="description" content="국회 법안과 정부 국정과제 진행 상황을 매일 자동으로 추적하는 사이트입니다.">
-<meta property="og:title" content="국가는 지금 어디로 가고 있나 | 법안·국정과제 트래커">
+<meta name="description" content="국회 법안, 국정과제, 정치·정책 최신 동향을 매일 자동으로 추적합니다. 계류중인 법안, 국회 입법 현황, 정부 국정운영 진행상황을 한눈에 확인하세요.">
+<meta name="keywords" content="국회 법안, 국정과제, 입법 현황, 정치 뉴스, 정부 정책, 국회 계류법안, 법안 발의, 정책 추적">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "국가는 지금 어디로 가고 있나 | 법안·국정과제 트래커",
+  "alternateName": "정책워치",
+  "url": "https://policywatch.kr/",
+  "description": "국회 법안과 정부 국정과제 진행 상황을 매일 자동으로 추적하는 사이트입니다.",
+  "inLanguage": "ko"
+}
+</script><meta property="og:title" content="국가는 지금 어디로 가고 있나 | 법안·국정과제 트래커">
 <meta property="og:description" content="국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부 국정과제가 어떻게 진행되는지 매일 자동으로 추적합니다.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://policywatch.kr/">
@@ -223,7 +234,7 @@
   <header class="top">
     <p class="eyebrow">법안 진행 현황 · 국정과제 추적 — 매일 자동 갱신</p>
     <h1 class="title">국가는 지금 어디로 가고 있나</h1>
-    <p class="lede">국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부가 5년간 추진하겠다고 밝힌 국정과제가 어떻게 진행되는지를 한 곳에서 자동으로 추적합니다.</p>
+    <p class="lede">국회에 계류 중인 법안이 지금 어느 단계에 있는지, 정부가 5년간 추진하겠다고 밝힌 국정과제가 어떻게 진행되는지를 한 곳에서 자동으로 추적합니다. 국회 입법 현황, 정치·정책 뉴스, 정부 정책 진행상황을 매일 업데이트합니다.</p>
     <button id="siteShareBtn" type="button" style="display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border:1px solid var(--border-strong);border-radius:6px;background:#fff;color:var(--text);font-size:13.5px;font-weight:600;font-family:inherit;cursor:pointer;margin-bottom:20px;">카카오톡으로 공유하기</button>
 
     <div class="stat-ledger" id="statBoard"></div>
@@ -264,6 +275,7 @@
     <div class="tab active" data-tab="all">전체</div>
     <div class="tab" data-tab="bill">법안만</div>
     <div class="tab" data-tab="policy">국정과제·정책</div>
+    <div class="tab" data-tab="law">현행법</div>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -409,7 +421,7 @@ function bucketOf(status){
 
 /* ============ 통계 보드 ============ */
 function renderBoard(){
-  const bills = DATA.bills||[], policies = DATA.policies||[];
+  const bills = DATA.bills||[], policies = DATA.policies||[], laws = DATA.laws||[];
   const pending = bills.filter(b=>!['done','dropped'].includes(b.status)).length;
   const doneBills = bills.filter(b=>b.status==='done').length;
   const nearFinal = [...bills, ...policies].filter(i=>{
@@ -422,6 +434,7 @@ function renderBoard(){
     <div class="stat-cell"><div class="stat-num">${doneBills}<small>건</small></div><div class="stat-label">처리 완료 법안</div></div>
     <div class="stat-cell"><div class="stat-num">${policies.length}<small>건</small></div><div class="stat-label">추진중인 국정과제</div></div>
     <div class="stat-cell"><div class="stat-num">${nearFinal}<small>건</small></div><div class="stat-label">다음 단계 임박</div></div>
+    <div class="stat-cell"><div class="stat-num">${laws.length}<small>건</small></div><div class="stat-label">시행중인 현행법</div></div>
   `;
 }
 
@@ -485,6 +498,25 @@ function stageProgress(item){
 
 function cardHTML(item){
   const sm = statusMeta(item.status);
+
+  if(item.kind==='law'){
+    return `<div class="card" data-id="${item.id}" data-kind="law" data-url="${item.sourceUrl}">
+      <div class="card-strip"></div>
+      <div class="card-body">
+        <div class="card-top">
+          <span class="meta-line">현행법 · ${item.category}</span>
+          <span class="badge ${sm.cls}">${sm.label}</span>
+        </div>
+        <h3>${item.title}</h3>
+        <div class="progress-meta"><span>${item.lawType}</span><span>시행일 ${item.effectiveDate}</span></div>
+        <div class="card-foot">
+          <span>${item.ministry}</span>
+          <span style="color:var(--primary);font-weight:600;">원문 보기 ↗</span>
+        </div>
+      </div>
+    </div>`;
+  }
+
   const sp = stageProgress(item);
   let segs = '';
   for(let i=0;i<sp.total;i++) segs += `<div class="seg ${i<=sp.current?'on':''}"></div>`;
@@ -529,14 +561,15 @@ function currentFilters(){
 
 function renderGrid(){
   const f = currentFilters();
-  let items = [...(DATA.bills||[]), ...(DATA.policies||[])];
+  let items = [...(DATA.bills||[]), ...(DATA.policies||[]), ...(DATA.laws||[])];
 
   if(f.tab==='bill') items = items.filter(i=>i.kind==='bill');
   if(f.tab==='policy') items = items.filter(i=>i.kind==='policy');
+  if(f.tab==='law') items = items.filter(i=>i.kind==='law');
 
   if(f.cat!=='all') items = items.filter(i=>i.category===f.cat);
   if(f.status!=='all') items = items.filter(i=>bucketOf(i.status)===f.status);
-  if(f.q) items = items.filter(i=> (i.title+i.summary).toLowerCase().includes(f.q));
+  if(f.q) items = items.filter(i=> (i.title + (i.summary||'')).toLowerCase().includes(f.q));
 
   const grid = $('#grid');
   if(items.length===0){
@@ -544,12 +577,18 @@ function renderGrid(){
     return;
   }
   grid.innerHTML = items.map(cardHTML).join('');
-  $$('.card').forEach(c=>c.addEventListener('click', ()=>{ location.hash = `detail-${c.dataset.kind}-${c.dataset.id}`; }));
+  $$('.card').forEach(c=>c.addEventListener('click', ()=>{
+    if(c.dataset.kind==='law'){
+      window.open(c.dataset.url, '_blank', 'noopener');
+    } else {
+      location.hash = `detail-${c.dataset.kind}-${c.dataset.id}`;
+    }
+  }));
 }
 
 /* ============ 카테고리 셀렉트 채우기 ============ */
 function populateCategories(){
-  const cats = Array.from(new Set([...(DATA.bills||[]), ...(DATA.policies||[])].map(i=>i.category)));
+  const cats = Array.from(new Set([...(DATA.bills||[]), ...(DATA.policies||[]), ...(DATA.laws||[])].map(i=>i.category)));
   const sel = $('#categoryFilter');
   sel.innerHTML = `<option value="all">전체 분야</option>` + cats.map(c=>`<option value="${c}">${c}</option>`).join('');
 }
