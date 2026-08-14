@@ -76,7 +76,9 @@ LAW_TOPICS = [
 
 
 def fetch_law_list(query: str, display: int = 10):
-    """OC=test 로도 동작이 확인된 검색 API. 실 서비스에서는 반드시 본인 OC를 쓰세요."""
+    """OC=test 로도 동작이 확인된 검색 API. 실 서비스에서는 반드시 본인 OC를 쓰세요.
+    GitHub Actions 등 해외 데이터센터 IP에서 연결이 간헐적으로 막히는 경우를
+    고려해, assembly_fetch.py와 동일하게 재시도 로직을 둡니다."""
     if API_OC == _PLACEHOLDER:
         print("[안내] LAW_API_OC가 설정되지 않아 실제 호출을 생략합니다.")
         return []
@@ -88,15 +90,23 @@ def fetch_law_list(query: str, display: int = 10):
         "query": query,
         "display": display,
     }
-    try:
-        resp = requests.get(BASE_URL, params=params, timeout=20)
-        resp.raise_for_status()
-        data = resp.json()
-    except requests.exceptions.RequestException as e:
-        print(f"  → 요청 실패: {e}")
-        return []
-    except ValueError:
-        print("  → 응답이 JSON 형식이 아닙니다 (OC 값을 확인해주세요).")
+
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            resp = requests.get(BASE_URL, params=params, timeout=20)
+            resp.raise_for_status()
+            data = resp.json()
+            break
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            print(f"  ⚠ 요청 실패 (시도 {attempt}/3): {e}. 5초 후 재시도...")
+            time.sleep(5)
+        except ValueError:
+            print("  → 응답이 JSON 형식이 아닙니다 (OC 값을 확인해주세요).")
+            return []
+    else:
+        print(f"  → 3번 재시도했지만 계속 실패했습니다: {last_error}")
         return []
 
     laws = data.get("LawSearch", {}).get("law", [])
