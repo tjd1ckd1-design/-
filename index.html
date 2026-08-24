@@ -68,6 +68,12 @@
     color:var(--text); line-height:1.3;
   }
   .lede{color:var(--text-soft); font-size:14.5px; max-width:640px; margin:0 0 20px;}
+  .about-block{margin-top:28px; padding-top:24px; border-top:1px solid var(--border); max-width:720px;}
+  .about-block h2{font-size:15px; font-weight:700; color:var(--text); margin:22px 0 8px;}
+  .about-block h2:first-child{margin-top:0;}
+  .about-block p{font-size:13.5px; color:var(--text-soft); line-height:1.75; margin:0;}
+  .about-block a{color:var(--primary); text-decoration:none; font-weight:600;}
+  .about-block a:hover{text-decoration:underline;}
 
   /* ---------- stat row ---------- */
   .stat-ledger{
@@ -142,6 +148,15 @@
 
   /* ---------- grid & cards ---------- */
   .grid{margin-top:18px; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px;}
+  .category-groups-wrap{margin-top:4px;}
+  .category-group{margin-bottom:34px;}
+  .category-group-title{
+    font-size:15px; font-weight:700; color:var(--text); margin:0 0 12px;
+    padding-bottom:8px; border-bottom:2px solid var(--border);
+    display:flex; align-items:baseline; gap:8px;
+  }
+  .category-count{font-size:12px; font-weight:600; color:var(--text-mute);}
+  .category-group .grid{margin-top:0;}
   .card{background:var(--card); border:1px solid var(--border); border-radius:var(--radius-sm); cursor:pointer; transition:.12s ease; overflow:hidden;}
   .card:hover{border-color:var(--primary); box-shadow:0 0 0 1px var(--primary);}
   .card-strip{height:3px; background:var(--primary);}
@@ -238,6 +253,20 @@
     <button id="siteShareBtn" type="button" style="display:inline-flex;align-items:center;gap:6px;padding:9px 15px;border:1px solid var(--border-strong);border-radius:6px;background:#fff;color:var(--text);font-size:13.5px;font-weight:600;font-family:inherit;cursor:pointer;margin-bottom:20px;">카카오톡으로 공유하기</button>
 
     <div class="stat-ledger" id="statBoard"></div>
+
+    <section class="about-block">
+      <h2>이 사이트는 무엇인가요?</h2>
+      <p>국회에 발의된 법안이 실제로 법이 되기까지 어떤 단계를 거치는지, 정부가 임기 5년 동안 추진하겠다고 밝힌 국정과제가 지금 어디까지 진행됐는지, 그리고 이미 시행 중인 법에는 어떤 것들이 있는지를 한 자리에서 확인할 수 있도록 만든 사이트입니다. 국회나 정부 각 부처 홈페이지를 일일이 찾아다니지 않아도, 지금 우리 사회에 어떤 법과 정책이 오가고 있는지 시민 누구나 쉽게 파악할 수 있게 하는 것이 목표입니다.</p>
+
+      <h2>데이터는 어디서 오나요?</h2>
+      <p>법안 진행 정보는 국회가 공식 제공하는 <a href="https://open.assembly.go.kr" target="_blank" rel="noopener">열린국회정보 Open API</a>에서, 국정과제는 국정기획위원회가 2025년 9월 국무회의에서 확정한 '123대 국정과제' 정부 발표 자료를 바탕으로, 현행 법령 목록은 법제처가 운영하는 <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보 공동활용 API</a>에서 가져옵니다. 세 곳 모두 정부가 공식적으로 운영·공개하는 공공데이터입니다.</p>
+
+      <h2>어떻게 매일 갱신되나요?</h2>
+      <p>사람이 수작업으로 글을 올리는 방식이 아니라, 매일 정해진 시각에 프로그램이 각 기관의 공개 API를 자동으로 호출해 새로운 법안·정책·법령 정보를 받아와 반영합니다. 그래서 항상 최신 상태를 유지하지만, 그만큼 원본 데이터의 형식과 갱신 주기에 그대로 영향을 받습니다.</p>
+
+      <h2>알아두시면 좋은 한계</h2>
+      <p>국회 Open API는 법안의 진행 단계와 날짜 정보는 제공하지만, 법안의 구체적인 제안 이유나 주요 내용까지는 제공하지 않습니다. 법안의 자세한 내용이 궁금하시면 각 법안 상세 페이지의 '국회 원문에서 보기' 링크를 통해 국회 의안정보시스템에서 원문을 확인하시길 권해드립니다. 현행법 목록도 검색 편의를 위해 주요 관심 분야 위주로 선별해 보여드리는 것으로, 대한민국 전체 법령(6천여 건)을 빠짐없이 담고 있지는 않습니다.</p>
+    </section>
     <script>
       document.getElementById('siteShareBtn').addEventListener('click', function(){
         shareKakao('국가는 지금 어디로 가고 있나', '국회 법안과 정부 국정과제 진행 상황을 매일 자동으로 추적합니다.', location.origin + location.pathname);
@@ -550,6 +579,9 @@ function cardHTML(item){
   </div>`;
 }
 
+const PAGE_SIZE = 24;
+let currentPage = 1;
+
 function currentFilters(){
   return {
     q: $('#searchInput').value.trim().toLowerCase(),
@@ -576,7 +608,34 @@ function renderGrid(){
     grid.innerHTML = `<div class="empty"><b>조건에 맞는 결과가 없어요</b>다른 검색어나 필터를 시도해보세요.</div>`;
     return;
   }
-  grid.innerHTML = items.map(cardHTML).join('');
+
+  // 현행법 탭에서 "전체 분야" + 검색어 없음 → 분야별 섹션으로 묶어서 보여줍니다.
+  if(f.tab==='law' && f.cat==='all' && !f.q){
+    renderGridGrouped(items, grid);
+    return;
+  }
+
+  const visibleCount = Math.min(items.length, currentPage * PAGE_SIZE);
+  const visibleItems = items.slice(0, visibleCount);
+
+  grid.innerHTML = visibleItems.map(cardHTML).join('');
+  bindCardClicks();
+
+  if(visibleCount < items.length){
+    const moreWrap = document.createElement('div');
+    moreWrap.style.cssText = 'grid-column:1/-1; text-align:center; padding:8px 0 4px;';
+    moreWrap.innerHTML = `<button id="loadMoreBtn" type="button" class="btn ghost" style="padding:10px 22px;">
+      더 보기 (${visibleCount} / ${items.length})
+    </button>`;
+    grid.appendChild(moreWrap);
+    document.getElementById('loadMoreBtn').addEventListener('click', ()=>{
+      currentPage += 1;
+      renderGrid();
+    });
+  }
+}
+
+function bindCardClicks(){
   $$('.card').forEach(c=>c.addEventListener('click', ()=>{
     if(c.dataset.kind==='law'){
       window.open(c.dataset.url, '_blank', 'noopener');
@@ -584,6 +643,32 @@ function renderGrid(){
       location.hash = `detail-${c.dataset.kind}-${c.dataset.id}`;
     }
   }));
+}
+
+function renderGridGrouped(items, grid){
+  // 처음 등장하는 순서대로 분야 그룹을 만듭니다 (law_fetch.py의 분야 순서를 그대로 따름).
+  const groups = new Map();
+  items.forEach(it=>{
+    if(!groups.has(it.category)) groups.set(it.category, []);
+    groups.get(it.category).push(it);
+  });
+
+  let html = '';
+  for(const [cat, groupItems] of groups){
+    html += `
+      <div class="category-group">
+        <div class="category-group-title">${cat} <span class="category-count">${groupItems.length}건</span></div>
+        <div class="grid">${groupItems.map(cardHTML).join('')}</div>
+      </div>
+    `;
+  }
+  grid.innerHTML = `<div class="category-groups-wrap">${html}</div>`;
+  bindCardClicks();
+}
+
+function resetPageAndRender(){
+  currentPage = 1;
+  renderGrid();
 }
 
 /* ============ 카테고리 셀렉트 채우기 ============ */
@@ -712,13 +797,13 @@ async function autoLoadData(){
 }
 
 /* ============ 이벤트 바인딩 ============ */
-$('#searchInput').addEventListener('input', renderGrid);
-$('#categoryFilter').addEventListener('change', renderGrid);
-$('#statusFilter').addEventListener('change', renderGrid);
+$('#searchInput').addEventListener('input', resetPageAndRender);
+$('#categoryFilter').addEventListener('change', resetPageAndRender);
+$('#statusFilter').addEventListener('change', resetPageAndRender);
 $$('#tabs .tab').forEach(t=>t.addEventListener('click', ()=>{
   $$('#tabs .tab').forEach(x=>x.classList.remove('active'));
   t.classList.add('active');
-  renderGrid();
+  resetPageAndRender();
 }));
 
 /* ============ 초기 실행 ============ */
