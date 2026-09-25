@@ -15256,7 +15256,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-24T23:47:39.215029+00:00",
+  "generatedAt": "2026-09-25T23:52:57.172368+00:00",
   "isSampleData": false,
   "laws": [
     {
@@ -15915,8 +15915,8 @@
       "status": "implemented",
       "lawType": "법률",
       "ministry": "기후에너지환경부",
-      "effectiveDate": "2026-07-01",
-      "promulgateDate": "2026-03-05",
+      "effectiveDate": "2026-09-26",
+      "promulgateDate": "2025-03-25",
       "sourceUrl": "https://www.law.go.kr/법령/자연환경보전법"
     },
     {
@@ -19076,5 +19076,5 @@
       "sourceUrl": "https://www.law.go.kr/법령/백두대간%20보호에%20관한%20법률%20시행령"
     }
   ],
-  "lawsUpdatedAt": "2026-09-24T23:48:39.861402+00:00"
+  "lawsUpdatedAt": "2026-09-25T23:54:15.241935+00:00"
 }
