@@ -3,37 +3,451 @@
     {
       "id": "b_auto_0",
       "kind": "bill",
-      "title": "국가기술자격법 일부개정법률안",
+      "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
       "status": "progress",
-      "billNo": "2221958",
-      "proposer": "김위상의원 등 14인(의원)",
-      "proposeDate": "2026-10-19",
+      "billNo": "2221977",
+      "proposer": "김남준의원 등 11인(의원)",
+      "proposeDate": "2026-10-20",
       "committee": "미확인",
-      "summary": "제안자: 김위상의원 등 14인 · 소관위원회: 미확인",
+      "summary": "제안자: 김남준의원 등 11인 · 소관위원회: 미확인",
       "reason": "",
       "keyPoints": [],
       "history": [
         {
           "stage": 0,
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "label": ""
         }
       ],
       "billStage": 0,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F910B25B6E8F4FDEB8F20FE80A361A"
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_FBB7EE998A424B0CA952D64DA90CE5"
     },
     {
       "id": "b_auto_1",
       "kind": "bill",
-      "title": "청년고용촉진 특별법 일부개정법률안",
+      "title": "국유재산특례제한법 일부개정법률안",
       "category": "기타",
       "status": "progress",
-      "billNo": "2221957",
-      "proposer": "김위상의원 등 13인(의원)",
-      "proposeDate": "2026-10-19",
+      "billNo": "2221976",
+      "proposer": "박상혁의원 등 24인(의원)",
+      "proposeDate": "2026-10-20",
       "committee": "미확인",
-      "summary": "제안자: 김위상의원 등 13인 · 소관위원회: 미확인",
+      "summary": "제안자: 박상혁의원 등 24인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8B3ECC84E4AE44DFBB39D1350D0C68"
+    },
+    {
+      "id": "b_auto_2",
+      "kind": "bill",
+      "title": "토지이용규제 기본법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221975",
+      "proposer": "박상혁의원 등 24인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박상혁의원 등 24인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EFE4CB1CE37E485C9B25CC9DE334B7"
+    },
+    {
+      "id": "b_auto_3",
+      "kind": "bill",
+      "title": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221974",
+      "proposer": "박상혁의원 등 24인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박상혁의원 등 24인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C1EE6CFA3B14415597C2644EAA5755"
+    },
+    {
+      "id": "b_auto_4",
+      "kind": "bill",
+      "title": "지방주도성장을 위한 초광역권전략산업특구 지정 및 운영에 관한 특별법안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221973",
+      "proposer": "박상혁의원 등 24인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박상혁의원 등 24인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3DB8FBC241F8401287C6EA6E7FA679"
+    },
+    {
+      "id": "b_auto_5",
+      "kind": "bill",
+      "title": "조세특례제한법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221972",
+      "proposer": "문진석의원 등 12인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 문진석의원 등 12인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_340F112B47774357B1B47563ADBC57"
+    },
+    {
+      "id": "b_auto_6",
+      "kind": "bill",
+      "title": "모듈러 건축 활성화 지원에 관한 특별법안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221971",
+      "proposer": "황운하의원 등 11인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 황운하의원 등 11인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_962777D5A1A94004BA6232B4F20EB4"
+    },
+    {
+      "id": "b_auto_7",
+      "kind": "bill",
+      "title": "축산자조금의 조성 및 운용에 관한 법률 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221970",
+      "proposer": "임미애의원 등 11인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 임미애의원 등 11인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_22BD550C65534942BC8ABF05DE6F48"
+    },
+    {
+      "id": "b_auto_8",
+      "kind": "bill",
+      "title": "기업구조조정 촉진법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221969",
+      "proposer": "서일준의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 서일준의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_83A1B8B6126E4166AFCA70EFF5EDF1"
+    },
+    {
+      "id": "b_auto_9",
+      "kind": "bill",
+      "title": "공공기관의 운영에 관한 법률 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221968",
+      "proposer": "최혁진의원 등 12인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 최혁진의원 등 12인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2G6H0O2Q1O2O1M6N5L0H4I1G2G0F1"
+    },
+    {
+      "id": "b_auto_10",
+      "kind": "bill",
+      "title": "도시 및 주거환경정비법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221967",
+      "proposer": "김정재의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 김정재의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6Y0Y3W0X6S1U0S3S6Q1R6Q8X3Y8"
+    },
+    {
+      "id": "b_auto_11",
+      "kind": "bill",
+      "title": "노후 국가산업단지 주변지역 정주환경 개선 및 주민건강 보호에 관한 특별법안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221966",
+      "proposer": "김정재의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 김정재의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6K0K8S1T3R1S0Q4Q3P5L9L7K4L2"
+    },
+    {
+      "id": "b_auto_12",
+      "kind": "bill",
+      "title": "기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221965",
+      "proposer": "박지혜의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박지혜의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6B00ADEF85C243E584D12DF9C4C151"
+    },
+    {
+      "id": "b_auto_13",
+      "kind": "bill",
+      "title": "산업안전보건법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221964",
+      "proposer": "이종배의원 등 11인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 이종배의원 등 11인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6I0G9H1O6P1O4O1M4N2M8T9U9S2"
+    },
+    {
+      "id": "b_auto_14",
+      "kind": "bill",
+      "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221963",
+      "proposer": "박지혜의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박지혜의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2ED08C5D59BF4209BE835A759C0E78"
+    },
+    {
+      "id": "b_auto_15",
+      "kind": "bill",
+      "title": "지방세특례제한법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221962",
+      "proposer": "곽규택의원 등 16인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 곽규택의원 등 16인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EDD482D9A67B44DCB2002DB004FDFA"
+    },
+    {
+      "id": "b_auto_16",
+      "kind": "bill",
+      "title": "형의 집행 및 수용자의 처우에 관한 법률 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221961",
+      "proposer": "박은정의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 박은정의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_08949EDC0CB248B8855B02E98D7C51"
+    },
+    {
+      "id": "b_auto_17",
+      "kind": "bill",
+      "title": "전기통신사업법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221960",
+      "proposer": "김우영의원 등 18인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 김우영의원 등 18인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_43997ECF2D7D472E93A944B367E809"
+    },
+    {
+      "id": "b_auto_18",
+      "kind": "bill",
+      "title": "조세특례제한법 일부개정법률안",
+      "category": "기타",
+      "status": "progress",
+      "billNo": "2221959",
+      "proposer": "안도걸의원 등 10인(의원)",
+      "proposeDate": "2026-10-20",
+      "committee": "미확인",
+      "summary": "제안자: 안도걸의원 등 10인 · 소관위원회: 미확인",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 0,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_165F7DCC00EF48F4B5C8CB33F38EB1"
+    },
+    {
+      "id": "b_auto_19",
+      "kind": "bill",
+      "title": "국가기술자격법 일부개정법률안",
+      "category": "노동",
+      "status": "progress",
+      "billNo": "2221958",
+      "proposer": "김위상의원 등 14인(의원)",
+      "proposeDate": "2026-10-19",
+      "committee": "기후에너지환경노동위원회",
+      "summary": "제안자: 김위상의원 등 14인 · 소관위원회: 기후에너지환경노동위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -41,13 +455,46 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
+      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F910B25B6E8F4FDEB8F20FE80A361A"
+    },
+    {
+      "id": "b_auto_20",
+      "kind": "bill",
+      "title": "청년고용촉진 특별법 일부개정법률안",
+      "category": "노동",
+      "status": "progress",
+      "billNo": "2221957",
+      "proposer": "김위상의원 등 13인(의원)",
+      "proposeDate": "2026-10-19",
+      "committee": "기후에너지환경노동위원회",
+      "summary": "제안자: 김위상의원 등 13인 · 소관위원회: 기후에너지환경노동위원회",
+      "reason": "",
+      "keyPoints": [],
+      "history": [
+        {
+          "stage": 0,
+          "date": "2026-10-19",
+          "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
+        }
+      ],
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2A3BE292995243798B6A56C064721C"
     },
     {
-      "id": "b_auto_2",
+      "id": "b_auto_21",
       "kind": "bill",
       "title": "상속세 및 증여세법 일부개정법률안",
       "category": "기타",
@@ -55,8 +502,8 @@
       "billNo": "2221956",
       "proposer": "문진석의원 등 11인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 문진석의원 등 11인 · 소관위원회: 미확인",
+      "committee": "재정경제기획위원회",
+      "summary": "제안자: 문진석의원 등 11인 · 소관위원회: 재정경제기획위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -64,17 +511,22 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C571F2E1DD7F4AF08453625C0FAA63"
     },
     {
-      "id": "b_auto_3",
+      "id": "b_auto_22",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
-      "status": "progress",
+      "status": "done",
       "billNo": "2221955",
       "proposer": "문진석의원 등 14인(의원)",
       "proposeDate": "2026-10-19",
@@ -87,13 +539,18 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 5,
+          "date": "2026-10-20",
+          "label": "철회"
         }
       ],
-      "billStage": 0,
+      "billStage": 5,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C5A2D52E82064D9FA49C88BF06A9BD"
     },
     {
-      "id": "b_auto_4",
+      "id": "b_auto_23",
       "kind": "bill",
       "title": "소방재정지원 및 시·도 소방특별회계 설치법 일부개정법률안",
       "category": "기타",
@@ -116,16 +573,16 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B9D7D677C9654E00A9833187E6AD10"
     },
     {
-      "id": "b_auto_5",
+      "id": "b_auto_24",
       "kind": "bill",
       "title": "마약류 관리에 관한 법률 일부개정법률안",
-      "category": "기타",
+      "category": "복지",
       "status": "progress",
       "billNo": "2221953",
       "proposer": "박지원의원 등 10인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 박지원의원 등 10인 · 소관위원회: 미확인",
+      "committee": "보건복지위원회",
+      "summary": "제안자: 박지원의원 등 10인 · 소관위원회: 보건복지위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -133,13 +590,18 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2K6L0J9R0R7Q1R2P1P3O1W6W9V9W3"
     },
     {
-      "id": "b_auto_6",
+      "id": "b_auto_25",
       "kind": "bill",
       "title": "헴프산업 진흥 및 지원에 관한 특별법안",
       "category": "기타",
@@ -162,7 +624,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2O6M0M9U0T7T1R2S1Q2R1Z7A3Y7W3"
     },
     {
-      "id": "b_auto_7",
+      "id": "b_auto_26",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -170,8 +632,8 @@
       "billNo": "2221951",
       "proposer": "김영환의원 등 10인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 김영환의원 등 10인 · 소관위원회: 미확인",
+      "committee": "재정경제기획위원회",
+      "summary": "제안자: 김영환의원 등 10인 · 소관위원회: 재정경제기획위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -179,13 +641,18 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6E0N9N2L2M1K3L2J1K3G8E3E7C7"
     },
     {
-      "id": "b_auto_8",
+      "id": "b_auto_27",
       "kind": "bill",
       "title": "국가를 당사자로 하는 계약에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -193,8 +660,8 @@
       "billNo": "2221950",
       "proposer": "김영환의원 등 11인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 김영환의원 등 11인 · 소관위원회: 미확인",
+      "committee": "재정경제기획위원회",
+      "summary": "제안자: 김영환의원 등 11인 · 소관위원회: 재정경제기획위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -202,22 +669,27 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2M6N0U9V2U2S1S3Q2R5Z1A2Y0W2X4"
     },
     {
-      "id": "b_auto_9",
+      "id": "b_auto_28",
       "kind": "bill",
       "title": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률 일부개정법률안",
-      "category": "기타",
+      "category": "복지",
       "status": "progress",
       "billNo": "2221949",
       "proposer": "김영환의원 등 10인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 김영환의원 등 10인 · 소관위원회: 미확인",
+      "committee": "보건복지위원회",
+      "summary": "제안자: 김영환의원 등 10인 · 소관위원회: 보건복지위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -225,22 +697,27 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6J0H7D2D8B0C9B0B4Z3I8I1G2H4"
     },
     {
-      "id": "b_auto_10",
+      "id": "b_auto_29",
       "kind": "bill",
       "title": "항공안전법 일부개정법률안",
-      "category": "기타",
+      "category": "주거",
       "status": "progress",
       "billNo": "2221948",
       "proposer": "김정재의원 등 10인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 김정재의원 등 10인 · 소관위원회: 미확인",
+      "committee": "국토교통위원회",
+      "summary": "제안자: 김정재의원 등 10인 · 소관위원회: 국토교통위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -248,13 +725,18 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6M0K9L1J8K1I3J2E8D1D3C6C4B4"
     },
     {
-      "id": "b_auto_11",
+      "id": "b_auto_30",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -262,8 +744,8 @@
       "billNo": "2221947",
       "proposer": "안도걸의원 등 10인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 안도걸의원 등 10인 · 소관위원회: 미확인",
+      "committee": "재정경제기획위원회",
+      "summary": "제안자: 안도걸의원 등 10인 · 소관위원회: 재정경제기획위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -271,22 +753,27 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9BAC4C1E3337470B95D4573DA3FC7C"
     },
     {
-      "id": "b_auto_12",
+      "id": "b_auto_31",
       "kind": "bill",
       "title": "산림장비 도입 및 관리에 관한 법률안",
-      "category": "기타",
+      "category": "농림수산",
       "status": "progress",
       "billNo": "2221946",
       "proposer": "서삼석의원 등 11인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 서삼석의원 등 11인 · 소관위원회: 미확인",
+      "committee": "농림축산식품해양수산위원회",
+      "summary": "제안자: 서삼석의원 등 11인 · 소관위원회: 농림축산식품해양수산위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -294,22 +781,27 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CE7D96285AC142BD9D540E0818CE26"
     },
     {
-      "id": "b_auto_13",
+      "id": "b_auto_32",
       "kind": "bill",
       "title": "산업재해보상보험법 일부개정법률안",
-      "category": "기타",
+      "category": "노동",
       "status": "progress",
       "billNo": "2221945",
       "proposer": "김태선의원 등 13인(의원)",
       "proposeDate": "2026-10-19",
-      "committee": "미확인",
-      "summary": "제안자: 김태선의원 등 13인 · 소관위원회: 미확인",
+      "committee": "기후에너지환경노동위원회",
+      "summary": "제안자: 김태선의원 등 13인 · 소관위원회: 기후에너지환경노동위원회",
       "reason": "",
       "keyPoints": [],
       "history": [
@@ -317,13 +809,18 @@
           "stage": 0,
           "date": "2026-10-19",
           "label": ""
+        },
+        {
+          "stage": 1,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 0,
+      "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B09D8CD0FC4E4723BA7E03B2A42869"
     },
     {
-      "id": "b_auto_14",
+      "id": "b_auto_33",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -351,7 +848,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DA4CF05B2C9A452289F64CAF1D1401"
     },
     {
-      "id": "b_auto_15",
+      "id": "b_auto_34",
       "kind": "bill",
       "title": "협동조합 기본법 일부개정법률안",
       "category": "기타",
@@ -379,7 +876,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C5218366C91540B1A4D4478DA87C09"
     },
     {
-      "id": "b_auto_16",
+      "id": "b_auto_35",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -407,7 +904,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9FD425427EFA490A97CEEB4137B09C"
     },
     {
-      "id": "b_auto_17",
+      "id": "b_auto_36",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -435,7 +932,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_60586CE1EF4A438399712564E717E5"
     },
     {
-      "id": "b_auto_18",
+      "id": "b_auto_37",
       "kind": "bill",
       "title": "법인세법 일부개정법률안",
       "category": "기타",
@@ -463,7 +960,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_09FEB5B7384C4A549734917FD4359B"
     },
     {
-      "id": "b_auto_19",
+      "id": "b_auto_38",
       "kind": "bill",
       "title": "자원의 절약과 재활용촉진에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -491,7 +988,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E8085F311EF24B9D8EE6B2E18108BE"
     },
     {
-      "id": "b_auto_20",
+      "id": "b_auto_39",
       "kind": "bill",
       "title": "산업재해보상보험법 일부개정법률안",
       "category": "노동",
@@ -519,7 +1016,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C036CC629885420EB6073B7374482B"
     },
     {
-      "id": "b_auto_21",
+      "id": "b_auto_40",
       "kind": "bill",
       "title": "한국발전공사법안",
       "category": "노동",
@@ -547,7 +1044,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A5833A63082748C0A965D3269B8FA6"
     },
     {
-      "id": "b_auto_22",
+      "id": "b_auto_41",
       "kind": "bill",
       "title": "국유재산특례제한법 일부개정법률안",
       "category": "기타",
@@ -575,7 +1072,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2H6H0F8G1O2M0N9L4M2K1L8T4R0S0"
     },
     {
-      "id": "b_auto_23",
+      "id": "b_auto_42",
       "kind": "bill",
       "title": "신행정수도 후속대책을 위한 연기·공주지역 행정중심복합도시 건설을 위한 특별법 일부개정법률안",
       "category": "주거",
@@ -603,7 +1100,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2V6T0T9B0A3A1Y0Z2Y9Y4G8E7F7D9"
     },
     {
-      "id": "b_auto_24",
+      "id": "b_auto_43",
       "kind": "bill",
       "title": "제대군인지원에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -631,7 +1128,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_486DA57BCAA14DD5B00AD3ADCB940E"
     },
     {
-      "id": "b_auto_25",
+      "id": "b_auto_44",
       "kind": "bill",
       "title": "경제자유구역의 지정 및 운영에 관한 특별법 일부개정법률안",
       "category": "경제",
@@ -659,7 +1156,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2ACCFEC384834BE3BE4B18E8670E8F"
     },
     {
-      "id": "b_auto_26",
+      "id": "b_auto_45",
       "kind": "bill",
       "title": "광업법 일부개정법률안",
       "category": "경제",
@@ -687,7 +1184,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4786394A724545EBAEA9A88F824582"
     },
     {
-      "id": "b_auto_27",
+      "id": "b_auto_46",
       "kind": "bill",
       "title": "광산피해의 방지 및 복구에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -715,7 +1212,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4075940421B14F62A153D9AB8A6411"
     },
     {
-      "id": "b_auto_28",
+      "id": "b_auto_47",
       "kind": "bill",
       "title": "국가첨단전략산업 경쟁력 강화 및 보호에 관한 특별조치법 일부개정법률안",
       "category": "경제",
@@ -743,7 +1240,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_605452DBBF1D4E19B4226B32613A48"
     },
     {
-      "id": "b_auto_29",
+      "id": "b_auto_48",
       "kind": "bill",
       "title": "광산안전법 일부개정법률안",
       "category": "경제",
@@ -771,7 +1268,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8D6016C040B74937A6DE58676EC1DC"
     },
     {
-      "id": "b_auto_30",
+      "id": "b_auto_49",
       "kind": "bill",
       "title": "고압가스 안전관리법 일부개정법률안",
       "category": "경제",
@@ -799,7 +1296,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7330D7DC685A4FF1AEA6F4536E9A28"
     },
     {
-      "id": "b_auto_31",
+      "id": "b_auto_50",
       "kind": "bill",
       "title": "지방세기본법 일부개정법률안",
       "category": "행정",
@@ -827,7 +1324,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6597F9BD2C954399B79032B59F4C3E"
     },
     {
-      "id": "b_auto_32",
+      "id": "b_auto_51",
       "kind": "bill",
       "title": "지방세법 일부개정법률안",
       "category": "행정",
@@ -855,7 +1352,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_BDF24A395A3A4C95A8625E39541F34"
     },
     {
-      "id": "b_auto_33",
+      "id": "b_auto_52",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -883,7 +1380,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CA08819253FC4C568B3676B5D7FFBE"
     },
     {
-      "id": "b_auto_34",
+      "id": "b_auto_53",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -911,7 +1408,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_AA0669715A1A4D12AD7C3CF732860A"
     },
     {
-      "id": "b_auto_35",
+      "id": "b_auto_54",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -939,7 +1436,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0D2E0B01B1CB43269B26553CC2D957"
     },
     {
-      "id": "b_auto_36",
+      "id": "b_auto_55",
       "kind": "bill",
       "title": "섬 관광진흥법안",
       "category": "문화",
@@ -967,7 +1464,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G5F0F7D1E7M0K9L5J7K0I3J5R1R1"
     },
     {
-      "id": "b_auto_37",
+      "id": "b_auto_56",
       "kind": "bill",
       "title": "주식·사채 등의 전자등록에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -995,7 +1492,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DFB8374C988144B29CAA67CE681BEC"
     },
     {
-      "id": "b_auto_38",
+      "id": "b_auto_57",
       "kind": "bill",
       "title": "대부업 등의 등록 및 금융이용자 보호에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -1023,7 +1520,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_BAB8D60EB45D4366AC67ECAE859A2C"
     },
     {
-      "id": "b_auto_39",
+      "id": "b_auto_58",
       "kind": "bill",
       "title": "의료법 일부개정법률안",
       "category": "복지",
@@ -1051,7 +1548,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2Q6Q0O9P1O8O1K4I4J3H0I5G1H1P2"
     },
     {
-      "id": "b_auto_40",
+      "id": "b_auto_59",
       "kind": "bill",
       "title": "장기등 이식에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -1079,7 +1576,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2U6V0D9E1C8B1B4Z4A3I4J6H2F9G7"
     },
     {
-      "id": "b_auto_41",
+      "id": "b_auto_60",
       "kind": "bill",
       "title": "인체조직안전 및 관리 등에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -1107,7 +1604,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2X6X0V9W1S8S1Q4R4P4O4O2W2X9V8"
     },
     {
-      "id": "b_auto_42",
+      "id": "b_auto_61",
       "kind": "bill",
       "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -1135,7 +1632,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_223B568F116844FFB4D93D94D559C8"
     },
     {
-      "id": "b_auto_43",
+      "id": "b_auto_62",
       "kind": "bill",
       "title": "지방세징수법 일부개정법률안",
       "category": "행정",
@@ -1163,7 +1660,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_AD3E97EC668E4A8DA00D9FA88F3CCC"
     },
     {
-      "id": "b_auto_44",
+      "id": "b_auto_63",
       "kind": "bill",
       "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -1191,7 +1688,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2L6M0T9U0T8T1R9S0Q7Y2Z3X2Y6W6"
     },
     {
-      "id": "b_auto_45",
+      "id": "b_auto_64",
       "kind": "bill",
       "title": "독점규제 및 공정거래에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -1219,7 +1716,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1CEC2CFEE9874A28BF5790D8A85F56"
     },
     {
-      "id": "b_auto_46",
+      "id": "b_auto_65",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -1247,7 +1744,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_26F966796D844E759452A275BC8FF8"
     },
     {
-      "id": "b_auto_47",
+      "id": "b_auto_66",
       "kind": "bill",
       "title": "소비자기본법 일부개정법률안",
       "category": "경제",
@@ -1275,7 +1772,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B591F7F29A1D4C3480FCD8920C4940"
     },
     {
-      "id": "b_auto_48",
+      "id": "b_auto_67",
       "kind": "bill",
       "title": "공공주택 특별법 일부개정법률안",
       "category": "주거",
@@ -1303,7 +1800,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2E6E0C8L2L8J1K8I0J5H4I1Q7O0P5"
     },
     {
-      "id": "b_auto_49",
+      "id": "b_auto_68",
       "kind": "bill",
       "title": "전통사찰의 보존 및 지원에 관한 법률 일부개정법률안",
       "category": "문화",
@@ -1331,7 +1828,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E124335245E74DCFAFF6977223C766"
     },
     {
-      "id": "b_auto_50",
+      "id": "b_auto_69",
       "kind": "bill",
       "title": "용산공원 조성 특별법 일부개정법률안",
       "category": "주거",
@@ -1359,7 +1856,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2H6I0G8H1P8P1N4M2N5L4M2G8H9F6"
     },
     {
-      "id": "b_auto_51",
+      "id": "b_auto_70",
       "kind": "bill",
       "title": "야생생물 보호 및 관리에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -1387,7 +1884,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_75E8355FA85245BEAEA6F83F88AB7F"
     },
     {
-      "id": "b_auto_52",
+      "id": "b_auto_71",
       "kind": "bill",
       "title": "용산공원 조성 특별법 일부개정법률안",
       "category": "주거",
@@ -1415,7 +1912,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_173F5ACE25304C3DA1D28C566D93C7"
     },
     {
-      "id": "b_auto_53",
+      "id": "b_auto_72",
       "kind": "bill",
       "title": "친밀관계폭력대책 특별위원회 구성결의안",
       "category": "기타",
@@ -1443,7 +1940,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F8C82B14430147E59974333B11F9D7"
     },
     {
-      "id": "b_auto_54",
+      "id": "b_auto_73",
       "kind": "bill",
       "title": "동물원 및 수족관의 관리에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -1471,7 +1968,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_760AB0A65F5B41A1B9A85F77AB02E7"
     },
     {
-      "id": "b_auto_55",
+      "id": "b_auto_74",
       "kind": "bill",
       "title": "노인복지법 일부개정법률안",
       "category": "복지",
@@ -1499,7 +1996,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_62C17599B75549DB8A94AABBDD6034"
     },
     {
-      "id": "b_auto_56",
+      "id": "b_auto_75",
       "kind": "bill",
       "title": "국민건강보험법 일부개정법률안",
       "category": "복지",
@@ -1527,7 +2024,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8ED32CA4E74B4058BAE7D2751D2787"
     },
     {
-      "id": "b_auto_57",
+      "id": "b_auto_76",
       "kind": "bill",
       "title": "마약류 관리에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -1555,7 +2052,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5686827377E4446DA0A7F559BE411D"
     },
     {
-      "id": "b_auto_58",
+      "id": "b_auto_77",
       "kind": "bill",
       "title": "형의 집행 및 수용자의 처우에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -1583,7 +2080,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1C13661BECB44E7B8DD9E03FA78F36"
     },
     {
-      "id": "b_auto_59",
+      "id": "b_auto_78",
       "kind": "bill",
       "title": "군사분계선(MDL) 이남지역에서의 북한 지뢰 도발 규탄 결의안(대안)",
       "category": "안보",
@@ -1611,7 +2108,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_75B3BA438B71475E9DE4F91A4754DC"
     },
     {
-      "id": "b_auto_60",
+      "id": "b_auto_79",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -1639,7 +2136,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6E0F8N0O4M1M9L1J8K0F0G3F4F4"
     },
     {
-      "id": "b_auto_61",
+      "id": "b_auto_80",
       "kind": "bill",
       "title": "농지법 일부개정법률안",
       "category": "농림수산",
@@ -1667,7 +2164,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_849ED682AF0A4653BA9FB7063CF420"
     },
     {
-      "id": "b_auto_62",
+      "id": "b_auto_81",
       "kind": "bill",
       "title": "지역방송발전지원 특별법 일부개정법률안",
       "category": "과학기술",
@@ -1695,7 +2192,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_63D0429FCCEA441CB891C3E489E01D"
     },
     {
-      "id": "b_auto_63",
+      "id": "b_auto_82",
       "kind": "bill",
       "title": "여성폭력방지기본법 일부개정법률안",
       "category": "기타",
@@ -1723,7 +2220,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7AF6D39114974F29A0E6AAAD0B62DD"
     },
     {
-      "id": "b_auto_64",
+      "id": "b_auto_83",
       "kind": "bill",
       "title": "양성평등기본법 일부개정법률안",
       "category": "기타",
@@ -1751,7 +2248,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0FFEB40AA6254AC0A056CD8F141DDC"
     },
     {
-      "id": "b_auto_65",
+      "id": "b_auto_84",
       "kind": "bill",
       "title": "성별영향평가법 일부개정법률안",
       "category": "기타",
@@ -1779,7 +2276,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0B904B8BEC56450B83D3D5CD57B82E"
     },
     {
-      "id": "b_auto_66",
+      "id": "b_auto_85",
       "kind": "bill",
       "title": "사립학교법 일부개정법률안",
       "category": "교육",
@@ -1807,7 +2304,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2D6C0C9K1L4J0K9I2I5H3P6P0N8O7"
     },
     {
-      "id": "b_auto_67",
+      "id": "b_auto_86",
       "kind": "bill",
       "title": "응급의료에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -1835,7 +2332,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E37FE80B84E64084BABD8E9EB5F802"
     },
     {
-      "id": "b_auto_68",
+      "id": "b_auto_87",
       "kind": "bill",
       "title": "북한인권법 일부개정법률안",
       "category": "외교",
@@ -1863,7 +2360,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DB02AC98AE2944FB89416782545279"
     },
     {
-      "id": "b_auto_69",
+      "id": "b_auto_88",
       "kind": "bill",
       "title": "정당법 일부개정법률안",
       "category": "행정",
@@ -1891,7 +2388,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3E8E56507A1B4915A481278FFF5450"
     },
     {
-      "id": "b_auto_70",
+      "id": "b_auto_89",
       "kind": "bill",
       "title": "조선산업 생태계 활성화 및 경쟁력 강화를 위한 특별법안",
       "category": "경제",
@@ -1919,7 +2416,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6F465A8B0F714D91AA2518EC3753A8"
     },
     {
-      "id": "b_auto_71",
+      "id": "b_auto_90",
       "kind": "bill",
       "title": "지방자치단체 출자·출연 기관의 운영에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -1947,7 +2444,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2U6C0C9A1B7A1A8Y2Z7V4T1T1S9T4"
     },
     {
-      "id": "b_auto_72",
+      "id": "b_auto_91",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -1975,7 +2472,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2K6L0K9F1G7E1F8D2E9C0K8K3J3K4"
     },
     {
-      "id": "b_auto_73",
+      "id": "b_auto_92",
       "kind": "bill",
       "title": "지방공기업법 일부개정법률안",
       "category": "행정",
@@ -2003,7 +2500,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2A6W0X9V1T7U1S8T2B8B2A3A0Z8X2"
     },
     {
-      "id": "b_auto_74",
+      "id": "b_auto_93",
       "kind": "bill",
       "title": "한식진흥법 일부개정법률안",
       "category": "농림수산",
@@ -2031,7 +2528,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2C3DBA49A40040EF835364224B7F2C"
     },
     {
-      "id": "b_auto_75",
+      "id": "b_auto_94",
       "kind": "bill",
       "title": "이재명 대통령 일가의 황제 골프 특혜 및 특수활동비 등 국가 예산의 사적 유용 의혹 진상규명을 위한 특별검사 임명 등에 관한 법률안",
       "category": "사법",
@@ -2059,7 +2556,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6476A403F8E64D14A9F1D6E1B2B570"
     },
     {
-      "id": "b_auto_76",
+      "id": "b_auto_95",
       "kind": "bill",
       "title": "학교체육 진흥법 일부개정법률안",
       "category": "교육",
@@ -2087,7 +2584,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2U5S1T2S2Z9A1Y6Y1X7Y2W3W7T0R7"
     },
     {
-      "id": "b_auto_77",
+      "id": "b_auto_96",
       "kind": "bill",
       "title": "자전거 이용 활성화에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -2115,7 +2612,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2R6S0R9P2P2Y1Y3W1X0V2U0U4C9D6"
     },
     {
-      "id": "b_auto_78",
+      "id": "b_auto_97",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -2143,7 +2640,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EC79D21C54024C16A5D06122914938"
     },
     {
-      "id": "b_auto_79",
+      "id": "b_auto_98",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -2171,7 +2668,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2K6S0S9Q2R2Q1O3O1W0W5V4W8U8U7"
     },
     {
-      "id": "b_auto_80",
+      "id": "b_auto_99",
       "kind": "bill",
       "title": "대체역의 편입 및 복무 등에 관한 법률 일부개정법률안",
       "category": "안보",
@@ -2199,7 +2696,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6C1C9C69EEAE4989810098458E18E8"
     },
     {
-      "id": "b_auto_81",
+      "id": "b_auto_100",
       "kind": "bill",
       "title": "해양수산생명자원의 확보·관리 및 이용 등에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -2227,7 +2724,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A805A73284B54D3184B7F01FED311E"
     },
     {
-      "id": "b_auto_82",
+      "id": "b_auto_101",
       "kind": "bill",
       "title": "해양생태계의 보전 및 관리에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -2255,7 +2752,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7D48C07754364EDB86653E1C190ABF"
     },
     {
-      "id": "b_auto_83",
+      "id": "b_auto_102",
       "kind": "bill",
       "title": "해양조사와 해양정보 활용에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -2283,7 +2780,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E7F7BC9F9D614BD4B4D4156FE83093"
     },
     {
-      "id": "b_auto_84",
+      "id": "b_auto_103",
       "kind": "bill",
       "title": "방위사업법 일부개정법률안",
       "category": "안보",
@@ -2311,7 +2808,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DE9119CD156E46D7A2F2478C3D17D3"
     },
     {
-      "id": "b_auto_85",
+      "id": "b_auto_104",
       "kind": "bill",
       "title": "여수ㆍ순천 10ㆍ19사건 진상규명 및 희생자 명예회복에 관한 특별법 일부개정법률안",
       "category": "행정",
@@ -2339,7 +2836,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DBD3A005AA074A61AE80E31EFBE3B0"
     },
     {
-      "id": "b_auto_86",
+      "id": "b_auto_105",
       "kind": "bill",
       "title": "개별소비세법 일부개정법률안",
       "category": "기타",
@@ -2367,7 +2864,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4EB4E00897DB4FB582C1FFD2FEDFB5"
     },
     {
-      "id": "b_auto_87",
+      "id": "b_auto_106",
       "kind": "bill",
       "title": "주세법 일부개정법률안",
       "category": "기타",
@@ -2395,7 +2892,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D371A617E7DF473EB8A5004A7B5100"
     },
     {
-      "id": "b_auto_88",
+      "id": "b_auto_107",
       "kind": "bill",
       "title": "통합발전회사 설립 및 지원에 관한 특별법안",
       "category": "노동",
@@ -2423,7 +2920,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3B48C0500DD34E7BBA963B50292C07"
     },
     {
-      "id": "b_auto_89",
+      "id": "b_auto_108",
       "kind": "bill",
       "title": "자연공원법 일부개정법률안",
       "category": "노동",
@@ -2451,7 +2948,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E61D36AF90674C40A34353235B7A36"
     },
     {
-      "id": "b_auto_90",
+      "id": "b_auto_109",
       "kind": "bill",
       "title": "국민연금법 일부개정법률안",
       "category": "복지",
@@ -2479,7 +2976,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2C6K0I9J1H8I1G4H3O3P5N6M4M0K3"
     },
     {
-      "id": "b_auto_91",
+      "id": "b_auto_110",
       "kind": "bill",
       "title": "암관리법 일부개정법률안",
       "category": "복지",
@@ -2507,7 +3004,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EF468AAFF3BC4FEBA9360C703369D4"
     },
     {
-      "id": "b_auto_92",
+      "id": "b_auto_111",
       "kind": "bill",
       "title": "산업집적활성화 및 공장설립에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -2535,7 +3032,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2X6W0W9U0V3T1B7C5A7B5Z7A0Y7G7"
     },
     {
-      "id": "b_auto_93",
+      "id": "b_auto_112",
       "kind": "bill",
       "title": "개인정보 보호법 일부개정법률안",
       "category": "경제",
@@ -2563,7 +3060,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0F0BF58DD05640E19B987CDAB90A13"
     },
     {
-      "id": "b_auto_94",
+      "id": "b_auto_113",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -2591,7 +3088,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EFFA4C7D8BC1445A901998073309BC"
     },
     {
-      "id": "b_auto_95",
+      "id": "b_auto_114",
       "kind": "bill",
       "title": "선박투자회사법 일부개정법률안",
       "category": "농림수산",
@@ -2619,7 +3116,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_82357723CF1A4B0EA0261AB0D8EF80"
     },
     {
-      "id": "b_auto_96",
+      "id": "b_auto_115",
       "kind": "bill",
       "title": "필수의료 강화 지원 및 지역 간 의료격차 해소를 위한 특별법 일부개정법률안",
       "category": "복지",
@@ -2647,7 +3144,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EEDBE39E322E4999B9DC07E89B2080"
     },
     {
-      "id": "b_auto_97",
+      "id": "b_auto_116",
       "kind": "bill",
       "title": "제대군인지원에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -2675,7 +3172,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1DB73763DDB246B38A4EC713EF120F"
     },
     {
-      "id": "b_auto_98",
+      "id": "b_auto_117",
       "kind": "bill",
       "title": "독점규제 및 공정거래에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -2703,7 +3200,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9DCD75E9C9C842F7B3307DB8456A6A"
     },
     {
-      "id": "b_auto_99",
+      "id": "b_auto_118",
       "kind": "bill",
       "title": "에너지이용 합리화법 일부개정법률안",
       "category": "노동",
@@ -2731,7 +3228,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_61FC089B7CC4421D9C53909527ACC2"
     },
     {
-      "id": "b_auto_100",
+      "id": "b_auto_119",
       "kind": "bill",
       "title": "농지법 일부개정법률안",
       "category": "농림수산",
@@ -2759,7 +3256,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7141E90F7DA54285BC029079FA22CC"
     },
     {
-      "id": "b_auto_101",
+      "id": "b_auto_120",
       "kind": "bill",
       "title": "고압가스 안전관리법 일부개정법률안",
       "category": "경제",
@@ -2787,7 +3284,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4C57CF659AB7458A8660CF6EA7C9DB"
     },
     {
-      "id": "b_auto_102",
+      "id": "b_auto_121",
       "kind": "bill",
       "title": "지능형 로봇 개발 및 보급 촉진법 전부개정법률안",
       "category": "경제",
@@ -2815,7 +3312,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D962F6CEEFD84FF7BEEF8CC05CADEC"
     },
     {
-      "id": "b_auto_103",
+      "id": "b_auto_122",
       "kind": "bill",
       "title": "한국투자공사법 일부개정법률안",
       "category": "기타",
@@ -2843,7 +3340,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0A9C572C3B7144EAB31F16219144DE"
     },
     {
-      "id": "b_auto_104",
+      "id": "b_auto_123",
       "kind": "bill",
       "title": "4·16세월호참사 피해구제 및 지원 등을 위한 특별법 일부개정법률안",
       "category": "농림수산",
@@ -2871,7 +3368,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C299F74B1F974C58A43523F9E2EDEF"
     },
     {
-      "id": "b_auto_105",
+      "id": "b_auto_124",
       "kind": "bill",
       "title": "필수의료 강화 지원 및 지역 간 의료격차 해소를 위한 특별법 일부개정법률안",
       "category": "복지",
@@ -2899,7 +3396,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0E0F2D6DFBDB4C74ADA77818A9793D"
     },
     {
-      "id": "b_auto_106",
+      "id": "b_auto_125",
       "kind": "bill",
       "title": "군인사법 일부개정법률안",
       "category": "안보",
@@ -2927,7 +3424,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_48C733CCC45E41D28EF0CEAA4EF093"
     },
     {
-      "id": "b_auto_107",
+      "id": "b_auto_126",
       "kind": "bill",
       "title": "공익법무관에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -2955,7 +3452,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_523CC8EC416442298232DD77AE0981"
     },
     {
-      "id": "b_auto_108",
+      "id": "b_auto_127",
       "kind": "bill",
       "title": "공중방역수의사에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -2983,7 +3480,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EBAEC6C8640043C7B72787B9A4D380"
     },
     {
-      "id": "b_auto_109",
+      "id": "b_auto_128",
       "kind": "bill",
       "title": "농어촌 등 보건의료를 위한 특별조치법 일부개정법률안",
       "category": "복지",
@@ -3011,7 +3508,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_27AEB90F9B52424E8E2B850348CCF4"
     },
     {
-      "id": "b_auto_110",
+      "id": "b_auto_129",
       "kind": "bill",
       "title": "병역법 일부개정법률안",
       "category": "안보",
@@ -3039,7 +3536,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A4F2A190731A4242B03FFA6D780629"
     },
     {
-      "id": "b_auto_111",
+      "id": "b_auto_130",
       "kind": "bill",
       "title": "상표법 일부개정법률안",
       "category": "경제",
@@ -3067,7 +3564,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_35896B49E5234802B603FE37446F8A"
     },
     {
-      "id": "b_auto_112",
+      "id": "b_auto_131",
       "kind": "bill",
       "title": "공무원연금법 일부개정법률안",
       "category": "행정",
@@ -3095,7 +3592,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F56C896FE32A4B13AF193353677B3A"
     },
     {
-      "id": "b_auto_113",
+      "id": "b_auto_132",
       "kind": "bill",
       "title": "공공보건의료에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -3123,7 +3620,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0EC1EE7524C647E9A11E8453B93397"
     },
     {
-      "id": "b_auto_114",
+      "id": "b_auto_133",
       "kind": "bill",
       "title": "철강산업 경쟁력 강화 및 탄소중립 전환을 위한 특별법 일부개정법률안",
       "category": "경제",
@@ -3151,7 +3648,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2S6T0P9P0N9O1M4L2L8T2T1S5T9R7"
     },
     {
-      "id": "b_auto_115",
+      "id": "b_auto_134",
       "kind": "bill",
       "title": "실종자의 수색 및 수사에 관한 법률안",
       "category": "행정",
@@ -3179,7 +3676,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4F42D5FA4D9246419E26D14E099D78"
     },
     {
-      "id": "b_auto_116",
+      "id": "b_auto_135",
       "kind": "bill",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -3207,7 +3704,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7AA09AA0B02A496491EEA442D645E0"
     },
     {
-      "id": "b_auto_117",
+      "id": "b_auto_136",
       "kind": "bill",
       "title": "강원과학기술원법안",
       "category": "과학기술",
@@ -3235,7 +3732,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F69420BC517444C4AFC8C2157EDEC8"
     },
     {
-      "id": "b_auto_118",
+      "id": "b_auto_137",
       "kind": "bill",
       "title": "국유재산특례제한법 일부개정법률안",
       "category": "기타",
@@ -3263,7 +3760,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_369E5E0AB39D4FA086B60C62AF93F4"
     },
     {
-      "id": "b_auto_119",
+      "id": "b_auto_138",
       "kind": "bill",
       "title": "남녀고용평등과 일·가정 양립 지원에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -3291,7 +3788,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_295E51FFC4FF43FF9D75B517406715"
     },
     {
-      "id": "b_auto_120",
+      "id": "b_auto_139",
       "kind": "bill",
       "title": "재난 및 안전관리 기본법 일부개정법률안",
       "category": "행정",
@@ -3319,7 +3816,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EB51DC7B6953412B8D25F1FA89F823"
     },
     {
-      "id": "b_auto_121",
+      "id": "b_auto_140",
       "kind": "bill",
       "title": "사회재난대책법안",
       "category": "행정",
@@ -3347,7 +3844,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2FB0B94EE114676BFF0389E9B3CB5"
     },
     {
-      "id": "b_auto_122",
+      "id": "b_auto_141",
       "kind": "bill",
       "title": "전파법 일부개정법률안",
       "category": "과학기술",
@@ -3375,7 +3872,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F5DACEBA450C4358B801176C6B8B9D"
     },
     {
-      "id": "b_auto_123",
+      "id": "b_auto_142",
       "kind": "bill",
       "title": "법과학기본법률안",
       "category": "행정",
@@ -3403,7 +3900,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_86BDE11FDECA44E281120717E97A79"
     },
     {
-      "id": "b_auto_124",
+      "id": "b_auto_143",
       "kind": "bill",
       "title": "전기통신사업법 일부개정법률안",
       "category": "과학기술",
@@ -3431,7 +3928,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_49AA020A42C24ADBA2B8744F28EAAF"
     },
     {
-      "id": "b_auto_125",
+      "id": "b_auto_144",
       "kind": "bill",
       "title": "김산업의 육성 및 지원에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -3459,7 +3956,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3E15A693C3E54F9DB64B1FD057772E"
     },
     {
-      "id": "b_auto_126",
+      "id": "b_auto_145",
       "kind": "bill",
       "title": "상속세 및 증여세법 일부개정법률안",
       "category": "기타",
@@ -3487,7 +3984,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DC5268631F1A4C38892F82AB28B1BF"
     },
     {
-      "id": "b_auto_127",
+      "id": "b_auto_146",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -3515,7 +4012,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_703E122BC6B04B73A90CD18FA7C1C7"
     },
     {
-      "id": "b_auto_128",
+      "id": "b_auto_147",
       "kind": "bill",
       "title": "교육공무원법 일부개정법률안",
       "category": "교육",
@@ -3543,7 +4040,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_72F0EDBB545849F680F075823820EE"
     },
     {
-      "id": "b_auto_129",
+      "id": "b_auto_148",
       "kind": "bill",
       "title": "생활화학제품 및 살생물제의 안전관리에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -3571,7 +4068,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_295A413FEF444F18B1DAC55D62C776"
     },
     {
-      "id": "b_auto_130",
+      "id": "b_auto_149",
       "kind": "bill",
       "title": "환경영향평가법 일부개정법률안",
       "category": "노동",
@@ -3599,7 +4096,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_EB48D57D53854742A8F9EB24CA4B69"
     },
     {
-      "id": "b_auto_131",
+      "id": "b_auto_150",
       "kind": "bill",
       "title": "장애아동 복지지원법 일부개정법률안",
       "category": "복지",
@@ -3627,7 +4124,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4C254BC1719D438A9C75B00706ED87"
     },
     {
-      "id": "b_auto_132",
+      "id": "b_auto_151",
       "kind": "bill",
       "title": "김산업의 육성 및 지원에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -3655,7 +4152,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CB33CF41A4A4418F879C562D4A4DA0"
     },
     {
-      "id": "b_auto_133",
+      "id": "b_auto_152",
       "kind": "bill",
       "title": "항로표지법 일부개정법률안",
       "category": "농림수산",
@@ -3683,7 +4180,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8D19510743634CC7BF0F213E8A5F00"
     },
     {
-      "id": "b_auto_134",
+      "id": "b_auto_153",
       "kind": "bill",
       "title": "수산업법 일부개정법률안",
       "category": "농림수산",
@@ -3711,7 +4208,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_851E9A080BAC47A2BFD9E0169663CA"
     },
     {
-      "id": "b_auto_135",
+      "id": "b_auto_154",
       "kind": "bill",
       "title": "재난 및 안전관리 기본법 일부개정법률안",
       "category": "행정",
@@ -3739,7 +4236,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6C0B8B1Z7A1I1I0H7H3F8E6F7M3"
     },
     {
-      "id": "b_auto_136",
+      "id": "b_auto_155",
       "kind": "bill",
       "title": "산업발전법 일부개정법률안",
       "category": "경제",
@@ -3767,7 +4264,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2CD7B163C47741128446D75D14E362"
     },
     {
-      "id": "b_auto_137",
+      "id": "b_auto_156",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -3795,7 +4292,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8B29EC3F789F479FB90BF3E7D7BAF3"
     },
     {
-      "id": "b_auto_138",
+      "id": "b_auto_157",
       "kind": "bill",
       "title": "선거관리위원회법 전부개정법률안",
       "category": "행정",
@@ -3823,7 +4320,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6426E6C02AAB4316B9AA327684085A"
     },
     {
-      "id": "b_auto_139",
+      "id": "b_auto_158",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -3851,7 +4348,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_583E3EEA7A0140F29B1E02ADBB3039"
     },
     {
-      "id": "b_auto_140",
+      "id": "b_auto_159",
       "kind": "bill",
       "title": "상속세 및 증여세법 일부개정법률안",
       "category": "기타",
@@ -3879,7 +4376,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5480446623004CD5956E78C4AE45C0"
     },
     {
-      "id": "b_auto_141",
+      "id": "b_auto_160",
       "kind": "bill",
       "title": "병역법 일부개정법률안",
       "category": "안보",
@@ -3907,7 +4404,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_97029D1B27F84F339E6D2CB228A55E"
     },
     {
-      "id": "b_auto_142",
+      "id": "b_auto_161",
       "kind": "bill",
       "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -3935,7 +4432,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DE85C8A3928F4770B17FFA91BAF354"
     },
     {
-      "id": "b_auto_143",
+      "id": "b_auto_162",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -3963,7 +4460,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6447BFE8BDDE42558F97B3342BAF4E"
     },
     {
-      "id": "b_auto_144",
+      "id": "b_auto_163",
       "kind": "bill",
       "title": "관세법 일부개정법률안",
       "category": "기타",
@@ -3991,7 +4488,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_707A5F4A8617479E9738B01DB72804"
     },
     {
-      "id": "b_auto_145",
+      "id": "b_auto_164",
       "kind": "bill",
       "title": "은퇴자마을 조성 및 운영에 관한 특별법 일부개정법률안",
       "category": "주거",
@@ -4019,7 +4516,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5E1A32D1D9394085915910D63B2D4F"
     },
     {
-      "id": "b_auto_146",
+      "id": "b_auto_165",
       "kind": "bill",
       "title": "신안보 혁신기업 육성에 관한 특별법안",
       "category": "경제",
@@ -4047,7 +4544,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7A77C79E8CE146BEA561A7A1967D24"
     },
     {
-      "id": "b_auto_147",
+      "id": "b_auto_166",
       "kind": "bill",
       "title": "지방자치단체 보조금 관리에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -4075,7 +4572,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E0BF388555884DB8B575E87EFF16C1"
     },
     {
-      "id": "b_auto_148",
+      "id": "b_auto_167",
       "kind": "bill",
       "title": "지방교육자치에 관한 법률 일부개정법률안",
       "category": "교육",
@@ -4103,7 +4600,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2K6L0J9K2S2S1Q3P1Q8O5P2D8E8C9"
     },
     {
-      "id": "b_auto_149",
+      "id": "b_auto_168",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -4131,7 +4628,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6R0S8A2A8Z1X8Y5W8X1F2F3D6C2"
     },
     {
-      "id": "b_auto_150",
+      "id": "b_auto_169",
       "kind": "bill",
       "title": "동물복지기본법안",
       "category": "농림수산",
@@ -4159,7 +4656,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9B5ECFD0B0424C9A8A2469D68D3825"
     },
     {
-      "id": "b_auto_151",
+      "id": "b_auto_170",
       "kind": "bill",
       "title": "청원산림보호직원 배치에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -4187,7 +4684,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5D2C7C17B2F842D485B5EBB91AB778"
     },
     {
-      "id": "b_auto_152",
+      "id": "b_auto_171",
       "kind": "bill",
       "title": "푸드테크산업 육성에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -4215,7 +4712,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_28B3CF04FB0E4DE889B743D5950FF0"
     },
     {
-      "id": "b_auto_153",
+      "id": "b_auto_172",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -4243,7 +4740,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F6998013E70742D1BF5DA5A1707DF9"
     },
     {
-      "id": "b_auto_154",
+      "id": "b_auto_173",
       "kind": "bill",
       "title": "주택법 일부개정법률안",
       "category": "주거",
@@ -4271,7 +4768,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B5827059B53C44CE9F4ACEB21AB160"
     },
     {
-      "id": "b_auto_155",
+      "id": "b_auto_174",
       "kind": "bill",
       "title": "대·중소기업 상생협력 촉진에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -4299,7 +4796,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_02738F6C27504E10A89ADAF8BB7EA7"
     },
     {
-      "id": "b_auto_156",
+      "id": "b_auto_175",
       "kind": "bill",
       "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안",
       "category": "문화",
@@ -4327,7 +4824,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A1EF741C5A23468190A9584EF048DD"
     },
     {
-      "id": "b_auto_157",
+      "id": "b_auto_176",
       "kind": "bill",
       "title": "상속세 및 증여세법 일부개정법률안",
       "category": "기타",
@@ -4355,7 +4852,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1A25866E1CE845EE9BD8449319EE94"
     },
     {
-      "id": "b_auto_158",
+      "id": "b_auto_177",
       "kind": "bill",
       "title": "하도급거래 공정화에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -4383,7 +4880,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_033ED77813EC4A3C9E1C676BC657B9"
     },
     {
-      "id": "b_auto_159",
+      "id": "b_auto_178",
       "kind": "bill",
       "title": "초·중등교육법 일부개정법률안",
       "category": "교육",
@@ -4411,7 +4908,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6P0N9O2M3N1J7H5H1F5H9F8F6N8"
     },
     {
-      "id": "b_auto_160",
+      "id": "b_auto_179",
       "kind": "bill",
       "title": "유아교육법 일부개정법률안",
       "category": "교육",
@@ -4439,7 +4936,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6E0D9E2Z3A1Y7Z5X1Y0W4E9E6D5"
     },
     {
-      "id": "b_auto_161",
+      "id": "b_auto_180",
       "kind": "bill",
       "title": "아동복지법 일부개정법률안",
       "category": "복지",
@@ -4467,7 +4964,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2S6S0Q9P2Q3O1P7X5X0W0U6U4T8U4"
     },
     {
-      "id": "b_auto_162",
+      "id": "b_auto_181",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -4495,7 +4992,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2C6C0K9J2J1H1I8H0H0C4B9C9A4A5"
     },
     {
-      "id": "b_auto_163",
+      "id": "b_auto_182",
       "kind": "bill",
       "title": "공공기관의 운영에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -4523,7 +5020,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9E77DD1C0E514B999A7CC430918915"
     },
     {
-      "id": "b_auto_164",
+      "id": "b_auto_183",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -4551,7 +5048,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6796AF28A5D24542A210446501CF3F"
     },
     {
-      "id": "b_auto_165",
+      "id": "b_auto_184",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -4579,7 +5076,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1813790628284C999A15EE954F6C1D"
     },
     {
-      "id": "b_auto_166",
+      "id": "b_auto_185",
       "kind": "bill",
       "title": "도시재생 활성화 및 지원에 관한 특별법 일부개정법률안",
       "category": "주거",
@@ -4607,7 +5104,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_50FC3F7C620340CF90D3A692522056"
     },
     {
-      "id": "b_auto_167",
+      "id": "b_auto_186",
       "kind": "bill",
       "title": "양육비 이행확보 및 지원에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -4635,7 +5132,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0E878AB997064FA0A4ADAA3AE105F2"
     },
     {
-      "id": "b_auto_168",
+      "id": "b_auto_187",
       "kind": "bill",
       "title": "부동산투자회사법 일부개정법률안",
       "category": "주거",
@@ -4663,7 +5160,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_434081904D504B3EA464149A5B9294"
     },
     {
-      "id": "b_auto_169",
+      "id": "b_auto_188",
       "kind": "bill",
       "title": "물가안정에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -4691,7 +5188,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2DF784D62AA4A8E8ABA8C5055DF55"
     },
     {
-      "id": "b_auto_170",
+      "id": "b_auto_189",
       "kind": "bill",
       "title": "정당법 일부개정법률안",
       "category": "행정",
@@ -4719,7 +5216,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_77C8886BC7AD4170B58C67FE209896"
     },
     {
-      "id": "b_auto_171",
+      "id": "b_auto_190",
       "kind": "bill",
       "title": "근로자퇴직급여 보장법 일부개정법률안",
       "category": "노동",
@@ -4747,7 +5244,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_65359F7D6D1A4AEE93D47956593EA4"
     },
     {
-      "id": "b_auto_172",
+      "id": "b_auto_191",
       "kind": "bill",
       "title": "산업재해보상보험법 일부개정법률안",
       "category": "노동",
@@ -4775,7 +5272,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1A7DF20C3D2A4B7A8805054108E437"
     },
     {
-      "id": "b_auto_173",
+      "id": "b_auto_192",
       "kind": "bill",
       "title": "고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -4803,7 +5300,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B96EEFCC4B0547469F2E40DB229F81"
     },
     {
-      "id": "b_auto_174",
+      "id": "b_auto_193",
       "kind": "bill",
       "title": "종합부동산세법 일부개정법률안",
       "category": "기타",
@@ -4831,7 +5328,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C3B66646ECAC461C91ADD3D2B19E36"
     },
     {
-      "id": "b_auto_175",
+      "id": "b_auto_194",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -4859,7 +5356,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3597719C4848420296956A1EE5550C"
     },
     {
-      "id": "b_auto_176",
+      "id": "b_auto_195",
       "kind": "bill",
       "title": "근로자퇴직급여 보장법 일부개정법률안",
       "category": "노동",
@@ -4887,7 +5384,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_525D4B5B022B433CB030F5C24D210D"
     },
     {
-      "id": "b_auto_177",
+      "id": "b_auto_196",
       "kind": "bill",
       "title": "한부모가족지원법 일부개정법률안",
       "category": "기타",
@@ -4915,7 +5412,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A7865A0F1ACA4FFBA3DC7B32EB2604"
     },
     {
-      "id": "b_auto_178",
+      "id": "b_auto_197",
       "kind": "bill",
       "title": "청년기본자산지원에 관한 법률안",
       "category": "복지",
@@ -4943,7 +5440,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2S6S0O9N2N2L1M5K2L0T0T3R4Q6R4"
     },
     {
-      "id": "b_auto_179",
+      "id": "b_auto_198",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -4971,7 +5468,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_810E579C19AD42428613C0A34029F7"
     },
     {
-      "id": "b_auto_180",
+      "id": "b_auto_199",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -4999,7 +5496,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_455CAEF77F634DB59086C78B2CC288"
     },
     {
-      "id": "b_auto_181",
+      "id": "b_auto_200",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -5027,7 +5524,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2E6M0N9L0M3K1K7J1R1R2P9R5P1P9"
     },
     {
-      "id": "b_auto_182",
+      "id": "b_auto_201",
       "kind": "bill",
       "title": "군사분계선(MDL) 이남지역에서의 북한 지뢰 폭발사고 규탄 결의안",
       "category": "안보",
@@ -5060,7 +5557,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_51DA4B336B7E41B5A063088D1C19A0"
     },
     {
-      "id": "b_auto_183",
+      "id": "b_auto_202",
       "kind": "bill",
       "title": "고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -5088,7 +5585,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_615FAE08011845AFB2722ED41383D9"
     },
     {
-      "id": "b_auto_184",
+      "id": "b_auto_203",
       "kind": "bill",
       "title": "부동산투자회사법 일부개정법률안",
       "category": "주거",
@@ -5116,7 +5613,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_46A332AA61B34D00921D19153C6E77"
     },
     {
-      "id": "b_auto_185",
+      "id": "b_auto_204",
       "kind": "bill",
       "title": "민원 처리에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -5144,7 +5641,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2H6C0D7B2C0A1Z7Z5H8I5G1F3F2D0"
     },
     {
-      "id": "b_auto_186",
+      "id": "b_auto_205",
       "kind": "bill",
       "title": "고용보험법 일부개정법률안",
       "category": "노동",
@@ -5172,7 +5669,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6FDB4432486A477284595713485084"
     },
     {
-      "id": "b_auto_187",
+      "id": "b_auto_206",
       "kind": "bill",
       "title": "성폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
       "category": "사법",
@@ -5200,7 +5697,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6D0E9M2N3L1L1K5I8J2R6R8Q6Q2"
     },
     {
-      "id": "b_auto_188",
+      "id": "b_auto_207",
       "kind": "bill",
       "title": "농업협동조합법 일부개정법률안",
       "category": "농림수산",
@@ -5228,7 +5725,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6R0R9Q2R2Y2Z0X3W2W0U6V2D3E1"
     },
     {
-      "id": "b_auto_189",
+      "id": "b_auto_208",
       "kind": "bill",
       "title": "고향사랑 기부금에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -5256,7 +5753,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B42E864A01984776A9D7B835B2680B"
     },
     {
-      "id": "b_auto_190",
+      "id": "b_auto_209",
       "kind": "bill",
       "title": "신행정수도 후속대책을 위한 연기·공주지역 행정중심복합도시 건설을 위한 특별법 일부개정법률안",
       "category": "주거",
@@ -5284,7 +5781,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_14A5C8A2878B434593E83130982C15"
     },
     {
-      "id": "b_auto_191",
+      "id": "b_auto_210",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -5312,7 +5809,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_97C68172923043C4B504DC1EB28986"
     },
     {
-      "id": "b_auto_192",
+      "id": "b_auto_211",
       "kind": "bill",
       "title": "하천법 일부개정법률안",
       "category": "노동",
@@ -5340,7 +5837,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_893316F8571041A5809756FE1FEF46"
     },
     {
-      "id": "b_auto_193",
+      "id": "b_auto_212",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -5368,7 +5865,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_AF7D88E881EF4628A615A3FAEFB718"
     },
     {
-      "id": "b_auto_194",
+      "id": "b_auto_213",
       "kind": "bill",
       "title": "폐기물관리법 일부개정법률안",
       "category": "노동",
@@ -5396,7 +5893,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2CE1D6BED1FC48AF8E69CB92893E04"
     },
     {
-      "id": "b_auto_195",
+      "id": "b_auto_214",
       "kind": "bill",
       "title": "전자장치 부착 등에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -5424,7 +5921,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_58231AEB6004402C98D6D0DE06994F"
     },
     {
-      "id": "b_auto_196",
+      "id": "b_auto_215",
       "kind": "bill",
       "title": "가정폭력범죄의 처벌 등에 관한 특례법 일부개정법률안",
       "category": "사법",
@@ -5452,7 +5949,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_739C48D54E2742EB82B054F1D4FB34"
     },
     {
-      "id": "b_auto_197",
+      "id": "b_auto_216",
       "kind": "bill",
       "title": "국민연금법 일부개정법률안",
       "category": "복지",
@@ -5480,7 +5977,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2B6Z0A7V2U0V1T7U5S7S5B8Z7Z8Y8"
     },
     {
-      "id": "b_auto_198",
+      "id": "b_auto_217",
       "kind": "bill",
       "title": "공인회계사법 일부개정법률안",
       "category": "경제",
@@ -5508,7 +6005,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_7A8842FE30874C59946AA570BA8E24"
     },
     {
-      "id": "b_auto_199",
+      "id": "b_auto_218",
       "kind": "bill",
       "title": "지방교육재정교부금법 일부개정법률안",
       "category": "교육",
@@ -5536,7 +6033,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_928AAF980047449FA44C4E51D2788A"
     },
     {
-      "id": "b_auto_200",
+      "id": "b_auto_219",
       "kind": "bill",
       "title": "지역보건법 일부개정법률안",
       "category": "복지",
@@ -5564,7 +6061,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2O6O0K9L0J1J1I3G0H6O0Q1O1O2M4"
     },
     {
-      "id": "b_auto_201",
+      "id": "b_auto_220",
       "kind": "bill",
       "title": "장애인 건강권 및 의료접근성 보장에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -5592,7 +6089,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2G6G0E9F0D1C1C3Y0Y6X3Y9W6W5V0"
     },
     {
-      "id": "b_auto_202",
+      "id": "b_auto_221",
       "kind": "bill",
       "title": "실종성인의 수색·발견 및 보호에 관한 법률안",
       "category": "행정",
@@ -5620,7 +6117,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2B6Z0Z9X2Z2G1H7F4E5E2C9D6L5M5"
     },
     {
-      "id": "b_auto_203",
+      "id": "b_auto_222",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -5648,7 +6145,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2E6M0M8L2M8K1K8I5R9R1Q7Q2P7N3"
     },
     {
-      "id": "b_auto_204",
+      "id": "b_auto_223",
       "kind": "bill",
       "title": "식품위생법 일부개정법률안",
       "category": "복지",
@@ -5676,7 +6173,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_46BB972AD92A4E3F9184984D7DCD9B"
     },
     {
-      "id": "b_auto_205",
+      "id": "b_auto_224",
       "kind": "bill",
       "title": "해양폐기물 및 해양오염퇴적물 관리법 일부개정법률안",
       "category": "농림수산",
@@ -5704,7 +6201,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2235C368D1B4D21809E322CB45D60"
     },
     {
-      "id": "b_auto_206",
+      "id": "b_auto_225",
       "kind": "bill",
       "title": "국회법 일부개정법률안",
       "category": "기타",
@@ -5732,7 +6229,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D3017932F11048DF9A65FE2F1ADE07"
     },
     {
-      "id": "b_auto_207",
+      "id": "b_auto_226",
       "kind": "bill",
       "title": "세무사법 일부개정법률안",
       "category": "기타",
@@ -5760,7 +6257,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B1AC34D506374C88A5276720E332C2"
     },
     {
-      "id": "b_auto_208",
+      "id": "b_auto_227",
       "kind": "bill",
       "title": "양곡관리법 일부개정법률안",
       "category": "농림수산",
@@ -5788,7 +6285,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_167B8D04B5634E048EF8623EBF0F09"
     },
     {
-      "id": "b_auto_209",
+      "id": "b_auto_228",
       "kind": "bill",
       "title": "독점규제 및 공정거래에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -5816,7 +6313,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6F27301521624A2C9378B1558C5DD2"
     },
     {
-      "id": "b_auto_210",
+      "id": "b_auto_229",
       "kind": "bill",
       "title": "군인복지기금법 일부개정법률안",
       "category": "안보",
@@ -5844,7 +6341,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_51F35AD342964129A0D03139490777"
     },
     {
-      "id": "b_auto_211",
+      "id": "b_auto_230",
       "kind": "bill",
       "title": "부담금관리 기본법 일부개정법률안",
       "category": "기타",
@@ -5872,7 +6369,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1146F5DF304F4E62854976B5A713E4"
     },
     {
-      "id": "b_auto_212",
+      "id": "b_auto_231",
       "kind": "bill",
       "title": "병역법 일부개정법률안",
       "category": "안보",
@@ -5900,7 +6397,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6FB066DC1B4D4BF197D925D675283F"
     },
     {
-      "id": "b_auto_213",
+      "id": "b_auto_232",
       "kind": "bill",
       "title": "5·18민주화운동 관련자 보상 등에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -5928,7 +6425,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_294F2BA10E834F6BBAEDAD43BEF936"
     },
     {
-      "id": "b_auto_214",
+      "id": "b_auto_233",
       "kind": "bill",
       "title": "5·18민주유공자예우 및 단체설립에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -5956,7 +6453,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_097DF4FB4E4542A3B8C824E221626F"
     },
     {
-      "id": "b_auto_215",
+      "id": "b_auto_234",
       "kind": "bill",
       "title": "초·중등교육법 일부개정법률안",
       "category": "교육",
@@ -5984,7 +6481,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0FED0F3B08EC434792E29F6C8E458D"
     },
     {
-      "id": "b_auto_216",
+      "id": "b_auto_235",
       "kind": "bill",
       "title": "윤리특별위원회 구성결의안",
       "category": "기타",
@@ -6012,7 +6509,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_BDE35A14E589476D8B062CACF8F471"
     },
     {
-      "id": "b_auto_217",
+      "id": "b_auto_236",
       "kind": "bill",
       "title": "5·18민주화운동 등에 관한 특별법 일부개정법률안",
       "category": "사법",
@@ -6040,7 +6537,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6A9C7D6AE58A431A9C7C8449110D47"
     },
     {
-      "id": "b_auto_218",
+      "id": "b_auto_237",
       "kind": "bill",
       "title": "가축전염병 예방법 일부개정법률안",
       "category": "농림수산",
@@ -6068,7 +6565,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_3267A02A5BB54789AE02591B7F5794"
     },
     {
-      "id": "b_auto_219",
+      "id": "b_auto_238",
       "kind": "bill",
       "title": "학교보건법 일부개정법률안",
       "category": "교육",
@@ -6096,7 +6593,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2Y6W0X9V2W3R1Q7Q3P2P1O1O1W1X8"
     },
     {
-      "id": "b_auto_220",
+      "id": "b_auto_239",
       "kind": "bill",
       "title": "장애인연금법 일부개정법률안",
       "category": "복지",
@@ -6124,7 +6621,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2C6A0Z7Z1V3W1U4V5T4T4S7A5B6Z9"
     },
     {
-      "id": "b_auto_221",
+      "id": "b_auto_240",
       "kind": "bill",
       "title": "국회의원(김태규) 제명 촉구 결의안",
       "category": "기타",
@@ -6157,7 +6654,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_ED5D2DED036748B7833F1B1378560A"
     },
     {
-      "id": "b_auto_222",
+      "id": "b_auto_241",
       "kind": "bill",
       "title": "국회의원(김태규) 징계안",
       "category": "기타",
@@ -6180,7 +6677,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E0F83BEB9E7E4B62AAF95DA43AF567"
     },
     {
-      "id": "b_auto_223",
+      "id": "b_auto_242",
       "kind": "bill",
       "title": "전기사업법 일부개정법률안",
       "category": "노동",
@@ -6208,7 +6705,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2W6U0V7D1E3C1C4A5Z3A5H8I3G9H2"
     },
     {
-      "id": "b_auto_224",
+      "id": "b_auto_243",
       "kind": "bill",
       "title": "사회기반시설에 대한 민간투자법 일부개정법률안",
       "category": "기타",
@@ -6236,7 +6733,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4F54AAD4E4F64FFD82AA3EB6F68C48"
     },
     {
-      "id": "b_auto_225",
+      "id": "b_auto_244",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -6264,7 +6761,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2B6C0A9B2Z3A1I7G4H0F5F7E4F1A8"
     },
     {
-      "id": "b_auto_226",
+      "id": "b_auto_245",
       "kind": "bill",
       "title": "농어업인 삶의 질 향상 및 농어촌지역 개발촉진에 관한 특별법 일부개정법률안",
       "category": "농림수산",
@@ -6292,7 +6789,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2B6I0J7I1G3G1E4F5N5O3M6K7L2J4"
     },
     {
-      "id": "b_auto_227",
+      "id": "b_auto_246",
       "kind": "bill",
       "title": "학교폭력예방 및 대책에 관한 법률 일부개정법률안",
       "category": "교육",
@@ -6320,7 +6817,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_329C6915644046438A33F967BBEDB9"
     },
     {
-      "id": "b_auto_228",
+      "id": "b_auto_247",
       "kind": "bill",
       "title": "세무사법 일부개정법률안",
       "category": "기타",
@@ -6348,7 +6845,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_0506C48B90EE4DB284492F02B8D0CA"
     },
     {
-      "id": "b_auto_229",
+      "id": "b_auto_248",
       "kind": "bill",
       "title": "여신전문금융업법 일부개정법률안",
       "category": "경제",
@@ -6376,7 +6873,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_77C3153D95FE40F5A4050F6C0A58F7"
     },
     {
-      "id": "b_auto_230",
+      "id": "b_auto_249",
       "kind": "bill",
       "title": "고위공직자범죄수사처 설치 및 운영에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -6404,7 +6901,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6I0H9H1F0G1E6F1N8L2M3K6L2J6"
     },
     {
-      "id": "b_auto_231",
+      "id": "b_auto_250",
       "kind": "bill",
       "title": "전자상거래 등에서의 소비자보호에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -6432,7 +6929,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_931530ED8E4043978F70EFB59DBFF3"
     },
     {
-      "id": "b_auto_232",
+      "id": "b_auto_251",
       "kind": "bill",
       "title": "의료법 일부개정법률안",
       "category": "복지",
@@ -6460,7 +6957,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2L6L0K9K2I2J1H0I4Q3O3P1N6O8M8"
     },
     {
-      "id": "b_auto_233",
+      "id": "b_auto_252",
       "kind": "bill",
       "title": "법인세법 일부개정법률안",
       "category": "기타",
@@ -6488,7 +6985,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2G6F0D9D2Z3A1Y7Z4X2X2V5E0E5C5"
     },
     {
-      "id": "b_auto_234",
+      "id": "b_auto_253",
       "kind": "bill",
       "title": "사료관리법 일부개정법률안",
       "category": "농림수산",
@@ -6516,7 +7013,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2G6H0F8D2E0M1L4L2J0K4I2J8F1D9"
     },
     {
-      "id": "b_auto_235",
+      "id": "b_auto_254",
       "kind": "bill",
       "title": "첨단재생의료 및 첨단바이오의약품 안전 및 지원에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -6544,7 +7041,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6Y0W9W1V6D1D4C5C3B5B5A1I7I5"
     },
     {
-      "id": "b_auto_236",
+      "id": "b_auto_255",
       "kind": "bill",
       "title": "생활물류서비스산업발전법 일부개정법률안",
       "category": "주거",
@@ -6572,7 +7069,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2Q6P0Q8O2P4X1X6V0U6U2T9U7P1Q6"
     },
     {
-      "id": "b_auto_237",
+      "id": "b_auto_256",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -6600,7 +7097,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2P6O0M9N1L4M1U1U3S7R5S9Q3Q2M2"
     },
     {
-      "id": "b_auto_238",
+      "id": "b_auto_257",
       "kind": "bill",
       "title": "대기환경보전법 일부개정법률안",
       "category": "노동",
@@ -6628,7 +7125,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2V6U0U7S0B7B1Z0A4Y5Z5Y4F7G0E3"
     },
     {
-      "id": "b_auto_239",
+      "id": "b_auto_258",
       "kind": "bill",
       "title": "형사소송법 일부개정법률안",
       "category": "사법",
@@ -6656,7 +7153,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B0E599801AC04FCC9865C3C218CD32"
     },
     {
-      "id": "b_auto_240",
+      "id": "b_auto_259",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -6684,7 +7181,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2T6U0P9Q1P8N1N5L2M7U3V0T6R9S6"
     },
     {
-      "id": "b_auto_241",
+      "id": "b_auto_260",
       "kind": "bill",
       "title": "채용절차의 공정화에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -6712,7 +7209,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_69436B9CBE3D4582B6CAD55D11BB11"
     },
     {
-      "id": "b_auto_242",
+      "id": "b_auto_261",
       "kind": "bill",
       "title": "교정시설 조성과 주변지역 지원에 관한 특별법안",
       "category": "사법",
@@ -6740,7 +7237,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CC85314927594118A894B18364D050"
     },
     {
-      "id": "b_auto_243",
+      "id": "b_auto_262",
       "kind": "bill",
       "title": "고등교육법 일부개정법률안",
       "category": "교육",
@@ -6768,7 +7265,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6R0R9Q0O7P1N8O3W5W5V6T4U6S5"
     },
     {
-      "id": "b_auto_244",
+      "id": "b_auto_263",
       "kind": "bill",
       "title": "교원의 지위 향상 및 교육활동 보호를 위한 특별법 일부개정법률안",
       "category": "교육",
@@ -6796,7 +7293,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2L6U0U9T0R7R1Q8R3Y7Z2X1W7X5V9"
     },
     {
-      "id": "b_auto_245",
+      "id": "b_auto_264",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -6824,7 +7321,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2O6M0K9L0J3J1S7S1Q0P2Q7O5P5K7"
     },
     {
-      "id": "b_auto_246",
+      "id": "b_auto_265",
       "kind": "bill",
       "title": "전통주 등의 산업진흥에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -6852,7 +7349,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2A6B0A9A1Y6Z0Y9T3U8S5S0R6S6Q4"
     },
     {
-      "id": "b_auto_247",
+      "id": "b_auto_266",
       "kind": "bill",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -6880,7 +7377,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2C6D0B9C2A3B1Z7H3I3G4G5F6G7E5"
     },
     {
-      "id": "b_auto_248",
+      "id": "b_auto_267",
       "kind": "bill",
       "title": "농지법 일부개정법률안",
       "category": "농림수산",
@@ -6908,7 +7405,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2O6M0M9L2M2H2I0G4E0F3E1E4M9M4"
     },
     {
-      "id": "b_auto_249",
+      "id": "b_auto_268",
       "kind": "bill",
       "title": "지방세기본법 일부개정법률안",
       "category": "행정",
@@ -6936,7 +7433,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_5D5E52CFE6E34A0E8950A742630EE7"
     },
     {
-      "id": "b_auto_250",
+      "id": "b_auto_269",
       "kind": "bill",
       "title": "지방세법 일부개정법률안",
       "category": "행정",
@@ -6964,7 +7461,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_95467F1F6A3148158071435E18B552"
     },
     {
-      "id": "b_auto_251",
+      "id": "b_auto_270",
       "kind": "bill",
       "title": "법인세법 일부개정법률안",
       "category": "기타",
@@ -6992,7 +7489,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_130710C3D9FF4120B00A67368A956A"
     },
     {
-      "id": "b_auto_252",
+      "id": "b_auto_271",
       "kind": "bill",
       "title": "한국투자공사법 일부개정법률안",
       "category": "기타",
@@ -7020,7 +7517,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F3EFEE8E6EAD4D878AFCE74D2A64BE"
     },
     {
-      "id": "b_auto_253",
+      "id": "b_auto_272",
       "kind": "bill",
       "title": "이재명 정부의 DMZ 북한 추정 지뢰 참사 축소·은폐 의혹 진상규명 및 부상 장병 예우·지원 촉구 결의안",
       "category": "안보",
@@ -7053,7 +7550,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_27A2EDD176774415A3622A7B0A0C32"
     },
     {
-      "id": "b_auto_254",
+      "id": "b_auto_273",
       "kind": "bill",
       "title": "물가안정에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -7081,7 +7578,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_28F628BDCFF042A58B54F2CB50B26D"
     },
     {
-      "id": "b_auto_255",
+      "id": "b_auto_274",
       "kind": "bill",
       "title": "부가가치세법 일부개정법률안",
       "category": "기타",
@@ -7109,7 +7606,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A189D123AE964FBF9D37D97529A6AF"
     },
     {
-      "id": "b_auto_256",
+      "id": "b_auto_275",
       "kind": "bill",
       "title": "지방세법 일부개정법률안",
       "category": "행정",
@@ -7137,7 +7634,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A115378CEE8441E69CD7A9E6A17B89"
     },
     {
-      "id": "b_auto_257",
+      "id": "b_auto_276",
       "kind": "bill",
       "title": "중견기업 성장촉진 및 경쟁력 강화에 관한 특별법 일부개정법률안",
       "category": "경제",
@@ -7165,7 +7662,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F90555F8B77847148E405209EC2978"
     },
     {
-      "id": "b_auto_258",
+      "id": "b_auto_277",
       "kind": "bill",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -7193,7 +7690,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2P6P0O7O0N8N1L7M1U3S4T9S3S3Q2"
     },
     {
-      "id": "b_auto_259",
+      "id": "b_auto_278",
       "kind": "bill",
       "title": "우편법 일부개정법률안",
       "category": "과학기술",
@@ -7221,7 +7718,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2U6U0C7D2B8B0A9Y2Z7H5H1G0E2F8"
     },
     {
-      "id": "b_auto_260",
+      "id": "b_auto_279",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -7249,7 +7746,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6P0N9O1A8B1Z5X2Y6W4X1F5F2E3"
     },
     {
-      "id": "b_auto_261",
+      "id": "b_auto_280",
       "kind": "bill",
       "title": "국가철도공단법 일부개정법률안",
       "category": "주거",
@@ -7277,7 +7774,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_8AA075F951E34DCF980C67E4B331F5"
     },
     {
-      "id": "b_auto_262",
+      "id": "b_auto_281",
       "kind": "bill",
       "title": "지방세법 일부개정법률안",
       "category": "행정",
@@ -7305,7 +7802,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2Q6Y0Z9X1Y7X1V4V0D8D0C6D7B5B7"
     },
     {
-      "id": "b_auto_263",
+      "id": "b_auto_282",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -7333,7 +7830,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2A6Y0Z9Y1F7G1E4F0D6E5C4C2L5J9"
     },
     {
-      "id": "b_auto_264",
+      "id": "b_auto_283",
       "kind": "bill",
       "title": "국가를 당사자로 하는 계약에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -7361,7 +7858,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_6DF1DFCBFC234FAABE1C4EB9A0A889"
     },
     {
-      "id": "b_auto_265",
+      "id": "b_auto_284",
       "kind": "bill",
       "title": "고위공직자범죄수사처 설치 및 운영에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -7389,7 +7886,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2G6H0O9P2N1M1M8L1L5H3I3G4G6F2"
     },
     {
-      "id": "b_auto_266",
+      "id": "b_auto_285",
       "kind": "bill",
       "title": "농어업재해보험법 일부개정법률안",
       "category": "농림수산",
@@ -7417,7 +7914,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2N6O0J9L1J8J0H9G1H8O5P9N5O5N2"
     },
     {
-      "id": "b_auto_267",
+      "id": "b_auto_286",
       "kind": "bill",
       "title": "폐교재산의 활용촉진을 위한 특별법 일부개정법률안",
       "category": "교육",
@@ -7445,7 +7942,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2Q6P0P9O0O8M1V4V4T9U3T5T4R9S1"
     },
     {
-      "id": "b_auto_268",
+      "id": "b_auto_287",
       "kind": "bill",
       "title": "국군부대의 「국제연합 레바논 평화유지군(UNIFIL)」 파견연장 동의안",
       "category": "외교",
@@ -7473,7 +7970,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_19C33F4D93244C16BE0539F6161CEC"
     },
     {
-      "id": "b_auto_269",
+      "id": "b_auto_288",
       "kind": "bill",
       "title": "국군부대의 「국제연합 남수단 임무단(UNMISS)」 파견연장 동의안",
       "category": "외교",
@@ -7501,7 +7998,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_1BF6C1819BC74B06A65C3E465BA5C5"
     },
     {
-      "id": "b_auto_270",
+      "id": "b_auto_289",
       "kind": "bill",
       "title": "국가를 당사자로 하는 계약에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -7529,7 +8026,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2S6T0R9S2Q2Q1Z8X2X8W0X6V7D1D7"
     },
     {
-      "id": "b_auto_271",
+      "id": "b_auto_290",
       "kind": "bill",
       "title": "해외건설 촉진법 일부개정법률안",
       "category": "주거",
@@ -7557,7 +8054,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2L6J0K9I2I1G1P6P2N0O3N7N6L8U1"
     },
     {
-      "id": "b_auto_272",
+      "id": "b_auto_291",
       "kind": "bill",
       "title": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 일부개정법률안",
       "category": "주거",
@@ -7585,7 +8082,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2C6A0B9Z1Z8Y1G3G4F5G2E4E9C7D5"
     },
     {
-      "id": "b_auto_273",
+      "id": "b_auto_292",
       "kind": "bill",
       "title": "수원 군 공항 이전주변지역 및 종전부지 개발 등에 관한 특별법안",
       "category": "안보",
@@ -7613,7 +8110,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2Q6P0X9X1V4W1V1V4T4P1Q6O5P0N2"
     },
     {
-      "id": "b_auto_274",
+      "id": "b_auto_293",
       "kind": "bill",
       "title": "사회기반시설에 대한 민간투자법 일부개정법률안",
       "category": "기타",
@@ -7641,7 +8138,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2Z6Z0V9V0U4V1T0T3R3A5A4Y5Z4X8"
     },
     {
-      "id": "b_auto_275",
+      "id": "b_auto_294",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -7669,7 +8166,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2E6E0D9B0C3A1B7I1J2I4I5G8F1G2"
     },
     {
-      "id": "b_auto_276",
+      "id": "b_auto_295",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -7697,7 +8194,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6R0S9R0P4P1X0Y3W2X5V1U7U8Q4"
     },
     {
-      "id": "b_auto_277",
+      "id": "b_auto_296",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -7725,7 +8222,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C018FBCFBE694D85BF0DB2DC5DDCFA"
     },
     {
-      "id": "b_auto_278",
+      "id": "b_auto_297",
       "kind": "bill",
       "title": "공익신고장려 및 불법행위 피해자 권익증진 기금법안",
       "category": "기타",
@@ -7753,7 +8250,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4A37664416DC4BC4A55954220ECDD4"
     },
     {
-      "id": "b_auto_279",
+      "id": "b_auto_298",
       "kind": "bill",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -7781,7 +8278,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_823587DEDBE94870B9A76B7C24DBD2"
     },
     {
-      "id": "b_auto_280",
+      "id": "b_auto_299",
       "kind": "bill",
       "title": "주택법 일부개정법률안",
       "category": "주거",
@@ -7809,7 +8306,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_92481958D8994606B5AE8B0D85E18C"
     },
     {
-      "id": "b_auto_281",
+      "id": "b_auto_300",
       "kind": "bill",
       "title": "핵추진잠수함 등의 획득·운영 및 안전관리 등 핵추진잠수함 사업에 관한 특별법안",
       "category": "안보",
@@ -7837,7 +8334,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_68E69E7198204F2A959AA7580FDC10"
     },
     {
-      "id": "b_auto_282",
+      "id": "b_auto_301",
       "kind": "bill",
       "title": "도시 및 주거환경정비법 일부개정법률안",
       "category": "주거",
@@ -7865,7 +8362,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C93AC02E4D1F47EABA8DD8FC3A36EC"
     },
     {
-      "id": "b_auto_283",
+      "id": "b_auto_302",
       "kind": "bill",
       "title": "기상법 일부개정법률안",
       "category": "노동",
@@ -7893,7 +8390,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E0D43DE6EC4244438903F5923454A3"
     },
     {
-      "id": "b_auto_284",
+      "id": "b_auto_303",
       "kind": "bill",
       "title": "지방자치단체를 당사자로 하는 계약에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -7921,7 +8418,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2K6I0J9H1P4Q1O1P4N5O0M6C4D5B7"
     },
     {
-      "id": "b_auto_285",
+      "id": "b_auto_304",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -7949,7 +8446,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2W6X0V9V2U2V1T6T1C9A5A2Z7Z8Y5"
     },
     {
-      "id": "b_auto_286",
+      "id": "b_auto_305",
       "kind": "bill",
       "title": "한국광해광업공단법 일부개정법률안",
       "category": "경제",
@@ -7977,7 +8474,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2P6N0J9K2I2I1H6H1G9G2O7N3N0L0"
     },
     {
-      "id": "b_auto_287",
+      "id": "b_auto_306",
       "kind": "bill",
       "title": "고위공직자범죄수사처 설치 및 운영에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -8005,7 +8502,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6N0U9V1T5S1S1Q2R6Z3A1Y9Y5W4"
     },
     {
-      "id": "b_auto_288",
+      "id": "b_auto_307",
       "kind": "bill",
       "title": "여신전문금융업법 일부개정법률안",
       "category": "경제",
@@ -8033,7 +8530,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2Y6Z0X9Y1W5X1F1D1E1C2D2B2C1K8"
     },
     {
-      "id": "b_auto_289",
+      "id": "b_auto_308",
       "kind": "bill",
       "title": "여객자동차 운수사업법 일부개정법률안",
       "category": "주거",
@@ -8061,7 +8558,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_DDE1229FFF9A4589AAF8561030677E"
     },
     {
-      "id": "b_auto_290",
+      "id": "b_auto_309",
       "kind": "bill",
       "title": "한국발전공사법안",
       "category": "노동",
@@ -8089,7 +8586,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6I0G9H2F2G0N9O2M5L1L7K7K6S4"
     },
     {
-      "id": "b_auto_291",
+      "id": "b_auto_310",
       "kind": "bill",
       "title": "해상교통안전법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8132,7 +8629,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2F6M0Q9B1N6M1N3S3I8M2Y5V2S0L7"
     },
     {
-      "id": "b_auto_292",
+      "id": "b_auto_311",
       "kind": "bill",
       "title": "항만법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8175,7 +8672,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2B6G0G9Q1Y6Z1P3G4E3T2M4C0O6B0"
     },
     {
-      "id": "b_auto_293",
+      "id": "b_auto_312",
       "kind": "bill",
       "title": "친환경농어업 육성 및 유기식품 등의 관리·지원에 관한 법률 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8218,7 +8715,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2B6N0X9B1U1R1G0Q3W8U4E4H5D7K9"
     },
     {
-      "id": "b_auto_294",
+      "id": "b_auto_313",
       "kind": "bill",
       "title": "식물방역법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8261,7 +8758,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2Y6W0U9H0P9B1N0G2M9B5G3M9M3X2"
     },
     {
-      "id": "b_auto_295",
+      "id": "b_auto_314",
       "kind": "bill",
       "title": "수상레저안전법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8304,7 +8801,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2N6V0X9G1X6A1Y3P3Q7C3G1V0D4V3"
     },
     {
-      "id": "b_auto_296",
+      "id": "b_auto_315",
       "kind": "bill",
       "title": "수산종자산업육성법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8347,7 +8844,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2A6N0P9C1V6P1U3J4Z4W1U3K4V2Q8"
     },
     {
-      "id": "b_auto_297",
+      "id": "b_auto_316",
       "kind": "bill",
       "title": "수산업협동조합법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8390,7 +8887,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2Q6F0Y9B1U6B1E3M4K0I2N9J6I3U2"
     },
     {
-      "id": "b_auto_298",
+      "id": "b_auto_317",
       "kind": "bill",
       "title": "수산업·어촌 공익기능 증진을 위한 직접지불제도 운영에 관한 법률 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8433,7 +8930,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2M6I0A9G1H6G1I3Q4I2T0L8N3V3D0"
     },
     {
-      "id": "b_auto_299",
+      "id": "b_auto_318",
       "kind": "bill",
       "title": "선원법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8476,7 +8973,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2G6K0Q9A1W6Q1G3R3G9B1S9P4U4V1"
     },
     {
-      "id": "b_auto_300",
+      "id": "b_auto_319",
       "kind": "bill",
       "title": "마리나항만의 조성 및 관리 등에 관한 법률 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8519,7 +9016,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2X6E0M9P1J6Z1N3K4X2Y4K1N1G4G3"
     },
     {
-      "id": "b_auto_301",
+      "id": "b_auto_320",
       "kind": "bill",
       "title": "동물보호법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8562,7 +9059,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2N6S0Q8E2R8I2D3D3K1P4P6U4W0B8"
     },
     {
-      "id": "b_auto_302",
+      "id": "b_auto_321",
       "kind": "bill",
       "title": "도시와 농어촌 간의 교류촉진에 관한 법률 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8605,7 +9102,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2P6P0P9S0J9E1T0Q2N7I5G9P1W6L9"
     },
     {
-      "id": "b_auto_303",
+      "id": "b_auto_322",
       "kind": "bill",
       "title": "농어촌정비법 일부개정법률안(위원회안)",
       "category": "농림수산",
@@ -8648,7 +9145,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2A6Y0I9N0L9F1Z0N2P8J2U4D1L4K8"
     },
     {
-      "id": "b_auto_304",
+      "id": "b_auto_323",
       "kind": "bill",
       "title": "농어업인 삶의 질 향상 및 농어촌지역 개발촉진에 관한 특별법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8691,7 +9188,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2Q6V0G9P0I9I1H0I2S5L1P7H3T7T7"
     },
     {
-      "id": "b_auto_305",
+      "id": "b_auto_324",
       "kind": "bill",
       "title": "농어업경영체 육성 및 지원에 관한 법률 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8734,7 +9231,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2K6K0R9Y0M9X1Q0P2Q3D2J0T2I6S0"
     },
     {
-      "id": "b_auto_306",
+      "id": "b_auto_325",
       "kind": "bill",
       "title": "가축전염병 예방법 일부개정법률안(대안)",
       "category": "농림수산",
@@ -8777,7 +9274,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6D0D8M2L8V2J3A2O3M5I1H5M1Z7"
     },
     {
-      "id": "b_auto_307",
+      "id": "b_auto_326",
       "kind": "bill",
       "title": "수사정보의 보호 및 관리에 관한 법률안",
       "category": "행정",
@@ -8805,7 +9302,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6S0S9R2P1Q0L9M1K8L0J5K6I4Q7"
     },
     {
-      "id": "b_auto_308",
+      "id": "b_auto_327",
       "kind": "bill",
       "title": "약사법 일부개정법률안",
       "category": "복지",
@@ -8833,7 +9330,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F5DE536361044589949FD88D5E8DB9"
     },
     {
-      "id": "b_auto_309",
+      "id": "b_auto_328",
       "kind": "bill",
       "title": "철도산업발전기본법 일부개정법률안",
       "category": "주거",
@@ -8861,7 +9358,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2E6D0D9B1K8K1I0J5H1I5G6O4P9N0"
     },
     {
-      "id": "b_auto_310",
+      "id": "b_auto_329",
       "kind": "bill",
       "title": "지방자치분권 및 균형성장에 관한 특별법 일부개정법률안",
       "category": "주거",
@@ -8889,7 +9386,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B01EF40EB0F843959237CD3888B82A"
     },
     {
-      "id": "b_auto_311",
+      "id": "b_auto_330",
       "kind": "bill",
       "title": "섬진강수계 물관리 및 주민지원 등에 관한 법률안",
       "category": "노동",
@@ -8917,7 +9414,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2U6Q0R9P1Q4O1P3N3N5V5U8U1S3U2"
     },
     {
-      "id": "b_auto_312",
+      "id": "b_auto_331",
       "kind": "bill",
       "title": "영산강수계 물관리 및 주민지원 등에 관한 법률안",
       "category": "노동",
@@ -8945,7 +9442,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2C6C0K9K1J4H1I3G3H6P5P3N5M0N0"
     },
     {
-      "id": "b_auto_313",
+      "id": "b_auto_332",
       "kind": "bill",
       "title": "연안사고 예방에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -8973,7 +9470,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2D6L0L9K2K2J1J4I5I7E4C0D9C0C3"
     },
     {
-      "id": "b_auto_314",
+      "id": "b_auto_333",
       "kind": "bill",
       "title": "지능형 로봇 개발 및 보급 촉진법 일부개정법률안",
       "category": "경제",
@@ -9001,7 +9498,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2J6K0I9J0H3I1G7O0P5N3N3L7N8L5"
     },
     {
-      "id": "b_auto_315",
+      "id": "b_auto_334",
       "kind": "bill",
       "title": "정당법 일부개정법률안",
       "category": "행정",
@@ -9029,7 +9526,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2T6U0S9T0R9S1Q8Y3Z6X5X1W2W5V0"
     },
     {
-      "id": "b_auto_316",
+      "id": "b_auto_335",
       "kind": "bill",
       "title": "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 일부개정법률안",
       "category": "행정",
@@ -9057,7 +9554,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2R6P0Q9O0P9N1O7K3K4I2H9H3G2G7"
     },
     {
-      "id": "b_auto_317",
+      "id": "b_auto_336",
       "kind": "bill",
       "title": "사회·경제적 여건 변화에 따른 과세기준 및 벌금형·행정질서벌 등 제재기준의 현실화 촉구 결의안",
       "category": "기타",
@@ -9085,7 +9582,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2J6J0I9I2E2E1D3B3C6A5B8J6J7H4"
     },
     {
-      "id": "b_auto_318",
+      "id": "b_auto_337",
       "kind": "bill",
       "title": "국유재산특례제한법 일부개정법률안",
       "category": "기타",
@@ -9113,7 +9610,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_67E8E2FACA3247CDA80A77E56A2F75"
     },
     {
-      "id": "b_auto_319",
+      "id": "b_auto_338",
       "kind": "bill",
       "title": "본회의 의결을 요하는 국정감사대상기관 승인의 건(보건복지위원회)",
       "category": "복지",
@@ -9146,7 +9643,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2B4B1D6DB7A4A93A70634DE904EF1"
     },
     {
-      "id": "b_auto_320",
+      "id": "b_auto_339",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -9174,7 +9671,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2X6W0W9V1V7T1C4C0A2B3Z2A5Y6Z4"
     },
     {
-      "id": "b_auto_321",
+      "id": "b_auto_340",
       "kind": "bill",
       "title": "국민체육진흥법 일부개정법률안(대안)",
       "category": "문화",
@@ -9207,7 +9704,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2R6F0P9A0L9I0Z9C5Z1E5J8E4M7Z5"
     },
     {
-      "id": "b_auto_322",
+      "id": "b_auto_341",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -9235,7 +9732,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6F0D9E1C7K1L4J0K8I3J6H6I9Q4"
     },
     {
-      "id": "b_auto_323",
+      "id": "b_auto_342",
       "kind": "bill",
       "title": "농작업재해 예방 및 안전·보건 증진에 관한 법률안",
       "category": "농림수산",
@@ -9263,7 +9760,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A526CDC7C963414AB15C215C87E933"
     },
     {
-      "id": "b_auto_324",
+      "id": "b_auto_343",
       "kind": "bill",
       "title": "약사법 일부개정법률안(대안)",
       "category": "복지",
@@ -9300,13 +9797,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2E6P0D9J1I6S1D8R4M4B1I7E3P3F9"
     },
     {
-      "id": "b_auto_325",
+      "id": "b_auto_344",
       "kind": "bill",
       "title": "아동수당법 일부개정법률안(대안)",
       "category": "복지",
@@ -9343,13 +9845,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2Z6R0K9C1R6R1W8M1Z7Y0G5Q7F9T5"
     },
     {
-      "id": "b_auto_326",
+      "id": "b_auto_345",
       "kind": "bill",
       "title": "본회의 의결을 요하는 국정감사대상기관 승인의 건(교육위원회)",
       "category": "교육",
@@ -9382,7 +9889,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_2D6B0099B505409684FB93F054EDB3"
     },
     {
-      "id": "b_auto_327",
+      "id": "b_auto_346",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -9410,7 +9917,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2J6H0I9G2H2O1P6N1M6M1L9L6T1U5"
     },
     {
-      "id": "b_auto_328",
+      "id": "b_auto_347",
       "kind": "bill",
       "title": "금융위원회의 설치 등에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -9438,7 +9945,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2C6C0K9K1J7K1I5I0H2P5P1N0O0M5"
     },
     {
-      "id": "b_auto_329",
+      "id": "b_auto_348",
       "kind": "bill",
       "title": "사회보장기본법 일부개정법률안(대안)",
       "category": "복지",
@@ -9475,13 +9982,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6J0G9R1T6J1U8O3L0I2H6V4W6J0"
     },
     {
-      "id": "b_auto_330",
+      "id": "b_auto_349",
       "kind": "bill",
       "title": "의료기기법 일부개정법률안(대안)",
       "category": "복지",
@@ -9518,13 +10030,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P6L0U9U1L6V1O8O4U0T5R8L5N7A2"
     },
     {
-      "id": "b_auto_331",
+      "id": "b_auto_350",
       "kind": "bill",
       "title": "정신건강증진 및 정신질환자 복지서비스 지원에 관한 법률 일부개정법률안(대안)",
       "category": "복지",
@@ -9561,13 +10078,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Q6I0C9R1J5U2G0O4L3J1L1M1V0Z2"
     },
     {
-      "id": "b_auto_332",
+      "id": "b_auto_351",
       "kind": "bill",
       "title": "공공단체등 위탁선거에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -9595,7 +10117,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2N6O0M9N1L7M1K7S4T4R4S2Q9Q2P7"
     },
     {
-      "id": "b_auto_333",
+      "id": "b_auto_352",
       "kind": "bill",
       "title": "사회보장급여의 이용·제공 및 수급권자 발굴에 관한 법률 일부개정법률안(대안)",
       "category": "복지",
@@ -9632,13 +10154,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2B6H0S9O1A6F1I8K2Z9S0A8X9Q8D8"
     },
     {
-      "id": "b_auto_334",
+      "id": "b_auto_353",
       "kind": "bill",
       "title": "특정 금융거래정보의 보고 및 이용 등에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -9666,7 +10193,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2L6J0K9F2G1E1F0D1B6C2K6L5J6J1"
     },
     {
-      "id": "b_auto_335",
+      "id": "b_auto_354",
       "kind": "bill",
       "title": "관세법 일부개정법률안",
       "category": "기타",
@@ -9694,7 +10221,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6S0Z9A2Y2Z1X6Y2W0X1E8D5E6C3"
     },
     {
-      "id": "b_auto_336",
+      "id": "b_auto_355",
       "kind": "bill",
       "title": "마약류 관리에 관한 법률 일부개정법률안(대안)",
       "category": "복지",
@@ -9731,13 +10258,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2Y6E0R9U1C6B1S8F4D6R3Z8B4M5G8"
     },
     {
-      "id": "b_auto_337",
+      "id": "b_auto_356",
       "kind": "bill",
       "title": "기초연금법 일부개정법률안(대안)",
       "category": "복지",
@@ -9774,13 +10306,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2G6W0T9E1V5P2Z0L3G4R3R7C7J2B2"
     },
     {
-      "id": "b_auto_338",
+      "id": "b_auto_357",
       "kind": "bill",
       "title": "국민연금법 일부개정법률안(대안)",
       "category": "복지",
@@ -9817,13 +10354,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2G6P0T9G1T5A2Y0N3W8Z2M3K0S7N0"
     },
     {
-      "id": "b_auto_339",
+      "id": "b_auto_358",
       "kind": "bill",
       "title": "국민기초생활 보장법 일부개정법률안(대안)",
       "category": "복지",
@@ -9860,13 +10402,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2W6O0T9S1N6E1T8Y3N6Q4R7J7E0R4"
     },
     {
-      "id": "b_auto_340",
+      "id": "b_auto_359",
       "kind": "bill",
       "title": "음악산업진흥에 관한 법률 일부개정법률안(대안)",
       "category": "문화",
@@ -9903,13 +10450,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2H6P0W9L0D9O0O9Y4F8B2O3B8W0Y9"
     },
     {
-      "id": "b_auto_341",
+      "id": "b_auto_360",
       "kind": "bill",
       "title": "기업구조조정 촉진법 일부개정법률안",
       "category": "경제",
@@ -9937,7 +10489,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2P6N0O9V2W2V1V6T1S6T4O9P6N0O3"
     },
     {
-      "id": "b_auto_342",
+      "id": "b_auto_361",
       "kind": "bill",
       "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안(대안)",
       "category": "문화",
@@ -9974,13 +10526,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2G6O0Z9A0D9T0I9M4N9P4A0O5D8R6"
     },
     {
-      "id": "b_auto_343",
+      "id": "b_auto_362",
       "kind": "bill",
       "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안(대안)",
       "category": "경제",
@@ -10013,7 +10570,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2N6I0U9K1M7C0D8N4W6K5A9G0G2C5"
     },
     {
-      "id": "b_auto_344",
+      "id": "b_auto_363",
       "kind": "bill",
       "title": "게임산업진흥에 관한 법률 일부개정법률안(대안)",
       "category": "문화",
@@ -10050,13 +10607,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2O6D0O9D0V9C0Y9F5B1H0A0E6L7T0"
     },
     {
-      "id": "b_auto_345",
+      "id": "b_auto_364",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -10084,7 +10646,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2R6S0Q9Q2P2N1O6W1W7V1V6T4S3T6"
     },
     {
-      "id": "b_auto_346",
+      "id": "b_auto_365",
       "kind": "bill",
       "title": "지방세법 일부개정법률안",
       "category": "행정",
@@ -10112,7 +10674,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6Q0O9P2N3O1W4U1V9T3U0S4S7B1"
     },
     {
-      "id": "b_auto_347",
+      "id": "b_auto_366",
       "kind": "bill",
       "title": "주거급여법 일부개정법률안(대안)",
       "category": "주거",
@@ -10155,7 +10717,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2Z6J0K3E3P1R1H8L3F7A5L7Y8G9Z8"
     },
     {
-      "id": "b_auto_348",
+      "id": "b_auto_367",
       "kind": "bill",
       "title": "초·중등교육법 일부개정법률안",
       "category": "교육",
@@ -10183,7 +10745,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6F0D7D1L5K1K4I5J6I3I6E3C7D9"
     },
     {
-      "id": "b_auto_349",
+      "id": "b_auto_368",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -10211,7 +10773,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2M6M0K9L0J3K1I7J0R9P4Q4O5P2N3"
     },
     {
-      "id": "b_auto_350",
+      "id": "b_auto_369",
       "kind": "bill",
       "title": "공공주택 특별법 일부개정법률안",
       "category": "주거",
@@ -10239,7 +10801,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2M6N0L9L2K2K1S6T5R0P3Q8O4P8L5"
     },
     {
-      "id": "b_auto_351",
+      "id": "b_auto_370",
       "kind": "bill",
       "title": "예방접종관리법안(대안)",
       "category": "복지",
@@ -10276,13 +10838,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2X6E0A9C1P5Q2P0V4I6Y1V6X7Z6S5"
     },
     {
-      "id": "b_auto_352",
+      "id": "b_auto_371",
       "kind": "bill",
       "title": "자살예방 및 생명존중문화 조성을 위한 법률 일부개정법률안(대안)",
       "category": "복지",
@@ -10319,13 +10886,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2X6C0G9Q1F5R2Q0E4Q4W0K8I8F3K6"
     },
     {
-      "id": "b_auto_353",
+      "id": "b_auto_372",
       "kind": "bill",
       "title": "응급의료에 관한 법률 일부개정법률안(대안)",
       "category": "복지",
@@ -10362,13 +10934,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2H6E0G9I1V5H2J0P4F1L4Z4M8D2M5"
     },
     {
-      "id": "b_auto_354",
+      "id": "b_auto_373",
       "kind": "bill",
       "title": "본회의 의결을 요하는 국정감사대상기관 승인의 건(정무위원회)",
       "category": "경제",
@@ -10401,7 +10978,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_9F2FCC616D08460195C40D400DA523"
     },
     {
-      "id": "b_auto_355",
+      "id": "b_auto_374",
       "kind": "bill",
       "title": "장애인연금법 일부개정법률안(대안)",
       "category": "복지",
@@ -10438,13 +11015,18 @@
           "stage": 5,
           "date": "2026-10-01",
           "label": "원안가결"
+        },
+        {
+          "stage": 6,
+          "date": "2026-10-20",
+          "label": ""
         }
       ],
-      "billStage": 5,
+      "billStage": 6,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2Z6D0R9B1T5C2K0P3H9K2Z7M7C7W3"
     },
     {
-      "id": "b_auto_356",
+      "id": "b_auto_375",
       "kind": "bill",
       "title": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 일부개정법률안",
       "category": "교육",
@@ -10472,7 +11054,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2A5I0J4H0I1G1H6F5B2B2Z5A8Z2Z3"
     },
     {
-      "id": "b_auto_357",
+      "id": "b_auto_376",
       "kind": "bill",
       "title": "표시·광고의 공정화에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -10500,7 +11082,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C1054F64ACFD46E9B1C9983DAAA6C3"
     },
     {
-      "id": "b_auto_358",
+      "id": "b_auto_377",
       "kind": "bill",
       "title": "국회에서의 증언·감정 등에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -10528,7 +11110,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2C6C0A7B3J1K1I5H0H9F4G5O4O5N4"
     },
     {
-      "id": "b_auto_359",
+      "id": "b_auto_378",
       "kind": "bill",
       "title": "교육세법 일부개정법률안",
       "category": "기타",
@@ -10556,7 +11138,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2S6T0R9S2Q2Q1F4G0F0D5D4B8C1K0"
     },
     {
-      "id": "b_auto_360",
+      "id": "b_auto_379",
       "kind": "bill",
       "title": "소비자기본법 일부개정법률안",
       "category": "경제",
@@ -10584,7 +11166,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_83D6A8B87F8D4845948D1B1C7BA3AC"
     },
     {
-      "id": "b_auto_361",
+      "id": "b_auto_380",
       "kind": "bill",
       "title": "행정조사기본법 일부개정법률안",
       "category": "경제",
@@ -10612,7 +11194,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_CFF30128DD9B46FD929A38636EFEB2"
     },
     {
-      "id": "b_auto_362",
+      "id": "b_auto_381",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -10640,7 +11222,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2G6H0F9F1E7C1D4Z0Z5Y5Y8X4V6W9"
     },
     {
-      "id": "b_auto_363",
+      "id": "b_auto_382",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -10668,7 +11250,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2P6Q0O9P1N7M1M4U1V0T1U3S2Q2R7"
     },
     {
-      "id": "b_auto_364",
+      "id": "b_auto_383",
       "kind": "bill",
       "title": "농수산물 유통 및 가격안정에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -10696,7 +11278,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_ED9FB9789E354F9ABD16C4F0D3920B"
     },
     {
-      "id": "b_auto_365",
+      "id": "b_auto_384",
       "kind": "bill",
       "title": "대중교통의 육성 및 이용촉진에 관한 법률 일부개정법률안",
       "category": "주거",
@@ -10724,7 +11306,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_4A72D75BFAF643A8B2C7E4AE373924"
     },
     {
-      "id": "b_auto_366",
+      "id": "b_auto_385",
       "kind": "bill",
       "title": "군용비행장·군사격장 소음 방지 및 피해 보상에 관한 법률 일부개정법률안",
       "category": "안보",
@@ -10752,7 +11334,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2Z6A0H9I0G9H1F4G2E6E3N1L2L0K5"
     },
     {
-      "id": "b_auto_367",
+      "id": "b_auto_386",
       "kind": "bill",
       "title": "한반도 평화체제 구축 및 북미정상회담 개최 촉구 결의안",
       "category": "외교",
@@ -10780,7 +11362,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6E0F9D1E0C1A3B4J7J5H7I8H1H3"
     },
     {
-      "id": "b_auto_368",
+      "id": "b_auto_387",
       "kind": "bill",
       "title": "여신전문금융업법 일부개정법률안",
       "category": "경제",
@@ -10808,7 +11390,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2M6N0M9K2L1S1T6R1Q8Q3O3P3X6Y0"
     },
     {
-      "id": "b_auto_369",
+      "id": "b_auto_388",
       "kind": "bill",
       "title": "노인장기요양보험법 일부개정법률안",
       "category": "복지",
@@ -10836,7 +11418,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2C6A0B9A1A4Y0G8H5F4G5E3F8E0L8"
     },
     {
-      "id": "b_auto_370",
+      "id": "b_auto_389",
       "kind": "bill",
       "title": "국민건강보험법 일부개정법률안",
       "category": "복지",
@@ -10864,7 +11446,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2J6I0I9G1H4G0G8C5C5B3Z6Z8Y8Z0"
     },
     {
-      "id": "b_auto_371",
+      "id": "b_auto_390",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -10892,7 +11474,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2U6T0R9R1P8Q1Y2Z1X9X2W4U7V6R1"
     },
     {
-      "id": "b_auto_372",
+      "id": "b_auto_391",
       "kind": "bill",
       "title": "관광진흥법 일부개정법률안",
       "category": "문화",
@@ -10920,7 +11502,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2B6B0J9J1I6J0H9H3G4O0O2M0N1M4"
     },
     {
-      "id": "b_auto_373",
+      "id": "b_auto_392",
       "kind": "bill",
       "title": "국민연금법 일부개정법률안",
       "category": "복지",
@@ -10948,7 +11530,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6F0D9E1A4Y0Y8X5Y5W1E3E1D8D5"
     },
     {
-      "id": "b_auto_374",
+      "id": "b_auto_393",
       "kind": "bill",
       "title": "국가사이버안보기본법안",
       "category": "안보",
@@ -10976,7 +11558,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2X6X0V9W2E1E1D7E2C5C0A2J8J4H7"
     },
     {
-      "id": "b_auto_375",
+      "id": "b_auto_394",
       "kind": "bill",
       "title": "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 일부개정법률안",
       "category": "행정",
@@ -11004,7 +11586,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6G0E9F1D6E1M9K4K2J4K3I5I3R0"
     },
     {
-      "id": "b_auto_376",
+      "id": "b_auto_395",
       "kind": "bill",
       "title": "공직선거법 일부개정법률안",
       "category": "행정",
@@ -11032,7 +11614,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6L0M9K1J4J1R0S2Q6R0P2N4O6W8"
     },
     {
-      "id": "b_auto_377",
+      "id": "b_auto_396",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -11060,7 +11642,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6Y0G9E1F7D1E4C0D9K1J7K7I8I5"
     },
     {
-      "id": "b_auto_378",
+      "id": "b_auto_397",
       "kind": "bill",
       "title": "개발이익 환수에 관한 법률 일부개정법률안",
       "category": "주거",
@@ -11088,7 +11670,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2K6I0J9H1G8G1C7D4B3Z5A0Z2H5I6"
     },
     {
-      "id": "b_auto_379",
+      "id": "b_auto_398",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -11116,7 +11698,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Z6X0Y9W1V8V1R7S4Q3R1P2N0O3W9"
     },
     {
-      "id": "b_auto_380",
+      "id": "b_auto_399",
       "kind": "bill",
       "title": "접경지역 지원 특별법 일부개정법률안",
       "category": "행정",
@@ -11144,7 +11726,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Y6X0V9W1R8S1Q7R4P2Q2O8W3X3V0"
     },
     {
-      "id": "b_auto_381",
+      "id": "b_auto_400",
       "kind": "bill",
       "title": "민사소송법 일부개정법률안",
       "category": "사법",
@@ -11172,7 +11754,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Z6X0X9W2U1V1C0E0C0C2A3B5A6H9"
     },
     {
-      "id": "b_auto_382",
+      "id": "b_auto_401",
       "kind": "bill",
       "title": "금융소비자 보호에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -11200,7 +11782,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2K6J0J9R2S1Q0R9P3P7O4W6W4V6W7"
     },
     {
-      "id": "b_auto_383",
+      "id": "b_auto_402",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -11228,7 +11810,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V6W0U9U1T7U1B3C4A4Z4Z2X7Y8U9"
     },
     {
-      "id": "b_auto_384",
+      "id": "b_auto_403",
       "kind": "bill",
       "title": "사법경찰관리의 직무를 수행할 자와 그 직무범위에 관한 법률 일부개정법률안",
       "category": "사법",
@@ -11256,7 +11838,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2M6K0J9J1R7S1Q7R4P2N3O1W6X4V5"
     },
     {
-      "id": "b_auto_385",
+      "id": "b_auto_404",
       "kind": "bill",
       "title": "부동산감독원 설치 및 운영에 관한 법률안",
       "category": "경제",
@@ -11284,7 +11866,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6R0S9Q1Y7Z1X7Y4W3X3V8V6E4C4"
     },
     {
-      "id": "b_auto_386",
+      "id": "b_auto_405",
       "kind": "bill",
       "title": "실종자의 수색 및 보호에 관한 법률안",
       "category": "행정",
@@ -11312,7 +11894,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2F6N0N8M3M1L0J9J5Y1Z5X8Y2X7V1"
     },
     {
-      "id": "b_auto_387",
+      "id": "b_auto_406",
       "kind": "bill",
       "title": "학교안전사고 예방 및 보상에 관한 법률 일부개정법률안",
       "category": "교육",
@@ -11340,7 +11922,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2W6W0U9V2R1P1Q3O3P5N5O4V6U0U4"
     },
     {
-      "id": "b_auto_388",
+      "id": "b_auto_407",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -11368,7 +11950,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6H0I9H2H1P1P6O0M1N1L9M8U1U3"
     },
     {
-      "id": "b_auto_389",
+      "id": "b_auto_408",
       "kind": "bill",
       "title": "민사소송법 일부개정법률안",
       "category": "사법",
@@ -11396,7 +11978,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2W6W0S9R1R0P1Q1P3P8U2V9T0U1C8"
     },
     {
-      "id": "b_auto_390",
+      "id": "b_auto_409",
       "kind": "bill",
       "title": "국가유공자 등 예우 및 지원에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -11424,7 +12006,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2F6D0L6M2L9K1I1Q4P2Q2O2N0V2W6"
     },
     {
-      "id": "b_auto_391",
+      "id": "b_auto_410",
       "kind": "bill",
       "title": "국민기초생활 보장법 일부개정법률안",
       "category": "복지",
@@ -11452,7 +12034,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6L0K4K2S2T1R2Q0Q5O0P6L4L7K1"
     },
     {
-      "id": "b_auto_392",
+      "id": "b_auto_411",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -11480,7 +12062,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2O6O0N9N1J5H1I9G3H4F2G2O6O9M7"
     },
     {
-      "id": "b_auto_393",
+      "id": "b_auto_412",
       "kind": "bill",
       "title": "농림축산부산물 재활용 촉진에 관한 법률안",
       "category": "농림수산",
@@ -11508,7 +12090,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2H6H0F9E2F0M1N8L2M6K2L9J7R8S4"
     },
     {
-      "id": "b_auto_394",
+      "id": "b_auto_413",
       "kind": "bill",
       "title": "농어촌 빈집 정비 및 관리에 관한 특별법 일부개정법률안",
       "category": "농림수산",
@@ -11536,7 +12118,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6E0E9C2D0C1C5A2B5J5H8I1G2G1"
     },
     {
-      "id": "b_auto_395",
+      "id": "b_auto_414",
       "kind": "bill",
       "title": "연구실 안전환경 조성에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -11564,7 +12146,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2S6Q0R9P0Q3X1Y0X3X7V2W2V0C1D4"
     },
     {
-      "id": "b_auto_396",
+      "id": "b_auto_415",
       "kind": "bill",
       "title": "초·중등교육법 일부개정법률안",
       "category": "교육",
@@ -11592,7 +12174,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6R0S9Q1M4M2K1M5K1K2I3R2R0P6"
     },
     {
-      "id": "b_auto_397",
+      "id": "b_auto_416",
       "kind": "bill",
       "title": "지방자치법 일부개정법률안",
       "category": "행정",
@@ -11620,7 +12202,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2O6O0N4N2M2T1U2T1T3R3Q5Q2M0N2"
     },
     {
-      "id": "b_auto_398",
+      "id": "b_auto_417",
       "kind": "bill",
       "title": "미디어교육 촉진에 관한 법률안",
       "category": "문화",
@@ -11648,7 +12230,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V6W0U7V2D1D0C9A3B5Z3A2V1U9U1"
     },
     {
-      "id": "b_auto_399",
+      "id": "b_auto_418",
       "kind": "bill",
       "title": "아동·청소년의 성보호에 관한 법률 일부개정법률안",
       "category": "기타",
@@ -11676,7 +12258,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2R6R0P9Q1O6P2X2V5W5U3V9T9U4P1"
     },
     {
-      "id": "b_auto_400",
+      "id": "b_auto_419",
       "kind": "bill",
       "title": "기술보증기금법 일부개정법률안",
       "category": "경제",
@@ -11704,7 +12286,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2A6B0J9H1I7H1H6F2G6O3M9N6L6M9"
     },
     {
-      "id": "b_auto_401",
+      "id": "b_auto_420",
       "kind": "bill",
       "title": "에너지이용 합리화법 일부개정법률안",
       "category": "노동",
@@ -11732,7 +12314,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6E0D9E2C1C1R6S4R7P2P2N2O6W5"
     },
     {
-      "id": "b_auto_402",
+      "id": "b_auto_421",
       "kind": "bill",
       "title": "국가연구개발혁신법 일부개정법률안",
       "category": "과학기술",
@@ -11760,7 +12342,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2C6D0B9A0A2Y1Z6H4I3G3E0F8D1D0"
     },
     {
-      "id": "b_auto_403",
+      "id": "b_auto_422",
       "kind": "bill",
       "title": "장애아동 복지지원법 일부개정법률안",
       "category": "복지",
@@ -11788,7 +12370,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2R6Q0Q9Y1X6X2V2W5V4V5D5C5C6A5"
     },
     {
-      "id": "b_auto_404",
+      "id": "b_auto_423",
       "kind": "bill",
       "title": "장애인 등에 대한 특수교육법 일부개정법률안",
       "category": "교육",
@@ -11816,7 +12398,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2N6N0L9M1L6L2J2K5S4Q0R9P1P9O8"
     },
     {
-      "id": "b_auto_405",
+      "id": "b_auto_424",
       "kind": "bill",
       "title": "아동복지법 일부개정법률안",
       "category": "복지",
@@ -11844,7 +12426,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2F6G0E9E1D4B2C1J5K0J5J3H5G3G0"
     },
     {
-      "id": "b_auto_406",
+      "id": "b_auto_425",
       "kind": "bill",
       "title": "유아교육법 일부개정법률안",
       "category": "교육",
@@ -11872,7 +12454,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6W0W9V1T6U2S2T5B6Z1Y7Z3X3F5"
     },
     {
-      "id": "b_auto_407",
+      "id": "b_auto_426",
       "kind": "bill",
       "title": "인감증명법 일부개정법률안",
       "category": "행정",
@@ -11900,7 +12482,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2F6G0F8F2D5E1C6K3L5J2K4I2J4H8"
     },
     {
-      "id": "b_auto_408",
+      "id": "b_auto_427",
       "kind": "bill",
       "title": "중소기업제품 구매촉진 및 판로지원에 관한 법률 전부개정법률안",
       "category": "경제",
@@ -11928,7 +12510,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V6X0E9F1D7C1C6A3B2J3J1I5G6H1"
     },
     {
-      "id": "b_auto_409",
+      "id": "b_auto_428",
       "kind": "bill",
       "title": "청년고용촉진 특별법 일부개정법률안",
       "category": "노동",
@@ -11956,7 +12538,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2N6M0K9L2S1T1S6S4Q6R3P5L9M3K1"
     },
     {
-      "id": "b_auto_410",
+      "id": "b_auto_429",
       "kind": "bill",
       "title": "도시와 농어촌 간의 교류촉진에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -11984,7 +12566,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0"
     },
     {
-      "id": "b_auto_411",
+      "id": "b_auto_430",
       "kind": "bill",
       "title": "교육환경 보호에 관한 법률 일부개정법률안",
       "category": "교육",
@@ -12012,7 +12594,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6J0Q7R2P1Q0P9N3N3V0W8U9V4T7"
     },
     {
-      "id": "b_auto_412",
+      "id": "b_auto_431",
       "kind": "bill",
       "title": "정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률안",
       "category": "과학기술",
@@ -12040,7 +12622,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2B6C0K9K0J3J1I5I5G6P3P2N5O4M4"
     },
     {
-      "id": "b_auto_413",
+      "id": "b_auto_432",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -12068,7 +12650,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2L6M0K9J1J7I1I1Q1R8P0Q3O2M1N8"
     },
     {
-      "id": "b_auto_414",
+      "id": "b_auto_433",
       "kind": "bill",
       "title": "선거관리위원회법 일부개정법률안",
       "category": "행정",
@@ -12096,7 +12678,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6H0I9H1H7F1O6O3M3N1M3M2K1S2"
     },
     {
-      "id": "b_auto_415",
+      "id": "b_auto_434",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -12124,7 +12706,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2D6E0C9C1B7C1A1A1I8J2H9F7G2E2"
     },
     {
-      "id": "b_auto_416",
+      "id": "b_auto_435",
       "kind": "bill",
       "title": "전남광주통합특별시 설치를 위한 특별법 일부개정법률안",
       "category": "행정",
@@ -12152,7 +12734,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2Q6O0K9K1J7J1I6I3G3H5P1N2O1M4"
     },
     {
-      "id": "b_auto_417",
+      "id": "b_auto_436",
       "kind": "bill",
       "title": "지방자치법 일부개정법률안",
       "category": "행정",
@@ -12180,7 +12762,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2H6H0F4E2F2A1B2Z1A2Y4X1X4F0G0"
     },
     {
-      "id": "b_auto_418",
+      "id": "b_auto_437",
       "kind": "bill",
       "title": "물류시설의 개발 및 운영에 관한 법률 일부개정법률안",
       "category": "주거",
@@ -12208,7 +12790,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Z6Y0W8W0S7T1R3R2Q8O0P7W3Y6W3"
     },
     {
-      "id": "b_auto_419",
+      "id": "b_auto_438",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -12236,7 +12818,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2T6S0T9A0B5A1A6Y4Z0Y5F2G7E8F9"
     },
     {
-      "id": "b_auto_420",
+      "id": "b_auto_439",
       "kind": "bill",
       "title": "북한이탈주민의 보호 및 정착지원에 관한 법률 일부개정법률안",
       "category": "외교",
@@ -12264,7 +12846,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6X0W9U0V4D1E3C5C8B3Z8A3I7I3"
     },
     {
-      "id": "b_auto_421",
+      "id": "b_auto_440",
       "kind": "bill",
       "title": "학교용지 확보 등에 관한 특례법 일부개정법률안",
       "category": "교육",
@@ -12292,7 +12874,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2S6T0R9P0Q4P0P8X4V8W2U5V7T1U3"
     },
     {
-      "id": "b_auto_422",
+      "id": "b_auto_441",
       "kind": "bill",
       "title": "식품위생법 일부개정법률안",
       "category": "복지",
@@ -12320,7 +12902,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2B6Z0Z9X2Y1X1X0F4F9E1C1D7B4C7"
     },
     {
-      "id": "b_auto_423",
+      "id": "b_auto_442",
       "kind": "bill",
       "title": "영화 및 비디오물의 진흥에 관한 법률 일부개정법률안",
       "category": "문화",
@@ -12348,7 +12930,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2J6H0Q9Q1O7P1N7O3M4N2V8T2T9S5"
     },
     {
-      "id": "b_auto_424",
+      "id": "b_auto_443",
       "kind": "bill",
       "title": "독점규제 및 공정거래에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -12376,7 +12958,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2D6E0C9B0B4J1J4I5J9H2H1G9O0O6"
     },
     {
-      "id": "b_auto_425",
+      "id": "b_auto_444",
       "kind": "bill",
       "title": "빈집 및 소규모주택 정비에 관한 특례법 일부개정법률안",
       "category": "주거",
@@ -12404,7 +12986,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2U6B0C9A1B8Z1A7Y2Y9H2F1F3E2F6"
     },
     {
-      "id": "b_auto_426",
+      "id": "b_auto_445",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -12432,7 +13014,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2G6F0G9E1E7M1L4L0J3K4I4J9R6P9"
     },
     {
-      "id": "b_auto_427",
+      "id": "b_auto_446",
       "kind": "bill",
       "title": "재외국민보호를 위한 영사조력법 일부개정법률안",
       "category": "외교",
@@ -12460,7 +13042,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2X6Y0T9U0T4T1R3S5R9Y5Z8X8Y6W2"
     },
     {
-      "id": "b_auto_428",
+      "id": "b_auto_447",
       "kind": "bill",
       "title": "교육발전특구의 지정 및 운영에 관한 특별법안",
       "category": "교육",
@@ -12488,7 +13070,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2X6W0U9V1T4U2C1A4B9Z0A1Y7G6H6"
     },
     {
-      "id": "b_auto_429",
+      "id": "b_auto_448",
       "kind": "bill",
       "title": "소득세법 일부개정법률안",
       "category": "기타",
@@ -12516,7 +13098,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2W6U0U9C1D7B1C4A0Z4Z3H2H2G7H8"
     },
     {
-      "id": "b_auto_430",
+      "id": "b_auto_449",
       "kind": "bill",
       "title": "도로교통법 일부개정법률안",
       "category": "행정",
@@ -12544,7 +13126,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2N6N0L9M0U4V1T4R0S0R2R2Z8Z8Y9"
     },
     {
-      "id": "b_auto_431",
+      "id": "b_auto_450",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -12572,7 +13154,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2L6L0T9S1S5Q1R9Q3Q1M1K2L8J4K4"
     },
     {
-      "id": "b_auto_432",
+      "id": "b_auto_451",
       "kind": "bill",
       "title": "국회의원 한동훈의 김승원 법무부장관 후보자 관련 검찰 수사정보 유출·취득 및 이용 의혹 진상규명을 위한 특별검사의 임명 등에 관한 법률안",
       "category": "사법",
@@ -12600,7 +13182,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Y2Z6H0I9G2G1F1D1E0M8M5L8L1K3I7"
     },
     {
-      "id": "b_auto_433",
+      "id": "b_auto_452",
       "kind": "bill",
       "title": "가사소송법 일부개정법률안",
       "category": "사법",
@@ -12628,7 +13210,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2I6J0H9I1G8E1F0N5O3M3M3L4L2K1"
     },
     {
-      "id": "b_auto_434",
+      "id": "b_auto_453",
       "kind": "bill",
       "title": "장애인활동 지원에 관한 법률 일부개정법률안",
       "category": "복지",
@@ -12656,7 +13238,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2F6E0F8D1D9M1K2K0I8J0I3I6Q7O5"
     },
     {
-      "id": "b_auto_435",
+      "id": "b_auto_454",
       "kind": "bill",
       "title": "경제안보를 위한 공급망 안정화 지원 기본법 일부개정법률안",
       "category": "기타",
@@ -12684,7 +13266,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6R0S9R0R4Z1Y4Y5W8X3V4W1E4E2"
     },
     {
-      "id": "b_auto_436",
+      "id": "b_auto_455",
       "kind": "bill",
       "title": "산업집적활성화 및 공장설립에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -12712,7 +13294,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2T6S0S9Q1Z7Z1X5Y1W0X3V7R1S8Q4"
     },
     {
-      "id": "b_auto_437",
+      "id": "b_auto_456",
       "kind": "bill",
       "title": "유아교육법 일부개정법률안",
       "category": "교육",
@@ -12740,7 +13322,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2E6E0C9D0C9C1Y9Y1X8V5W5U0V6D7"
     },
     {
-      "id": "b_auto_438",
+      "id": "b_auto_457",
       "kind": "bill",
       "title": "산림조합법 일부개정법률안",
       "category": "농림수산",
@@ -12768,7 +13350,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_C2D6B0B9X1V6W1U5V1T3U4C5A2B3Z9"
     },
     {
-      "id": "b_auto_439",
+      "id": "b_auto_458",
       "kind": "bill",
       "title": "모자보건법 일부개정법률안",
       "category": "복지",
@@ -12796,7 +13378,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6P0Q9O1P1N1O0M3M3V1T3T1S9T0"
     },
     {
-      "id": "b_auto_440",
+      "id": "b_auto_459",
       "kind": "bill",
       "title": "지방세특례제한법 일부개정법률안",
       "category": "행정",
@@ -12824,7 +13406,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2E6F0D9E1C6D1K5L1J2I1I6G1H1P8"
     },
     {
-      "id": "b_auto_441",
+      "id": "b_auto_460",
       "kind": "bill",
       "title": "수산업협동조합법 일부개정법률안",
       "category": "농림수산",
@@ -12852,7 +13434,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2D6C0C9K1L6J1K5I1H3H0P7P2O0P4"
     },
     {
-      "id": "b_auto_442",
+      "id": "b_auto_461",
       "kind": "bill",
       "title": "약사법 일부개정법률안",
       "category": "복지",
@@ -12880,7 +13462,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2B6B0Z9B1Z0Z1H3F5G9F1F7D1M6M6"
     },
     {
-      "id": "b_auto_443",
+      "id": "b_auto_462",
       "kind": "bill",
       "title": "고용상 연령차별금지 및 고령자고용촉진에 관한 법률 일부개정법률안",
       "category": "노동",
@@ -12908,7 +13490,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_E2C6D0Y9Z1X6W0W9U3V2D5E7C4C2B1"
     },
     {
-      "id": "b_auto_444",
+      "id": "b_auto_463",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -12936,7 +13518,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6G0F9F1N7N1M4K0L5J1K0S5S5Q5"
     },
     {
-      "id": "b_auto_445",
+      "id": "b_auto_464",
       "kind": "bill",
       "title": "여성기업지원에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -12964,7 +13546,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6U0V9T1U7S0A9A2Z7A1Y7Y0X3F2"
     },
     {
-      "id": "b_auto_446",
+      "id": "b_auto_465",
       "kind": "bill",
       "title": "주식·사채 등의 전자등록에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -12992,7 +13574,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2K6R0S9Q1R0P1Q6O4P3X2V4V2U0V9"
     },
     {
-      "id": "b_auto_447",
+      "id": "b_auto_466",
       "kind": "bill",
       "title": "소음·진동관리법 일부개정법률안",
       "category": "노동",
@@ -13020,7 +13602,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2G6G0F9M1N7L1M8K1L0J1R7S9Q4R0"
     },
     {
-      "id": "b_auto_448",
+      "id": "b_auto_467",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -13048,7 +13630,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2H6H0G9E0F9M1N0M4M4K5L8K9R3S3"
     },
     {
-      "id": "b_auto_449",
+      "id": "b_auto_468",
       "kind": "bill",
       "title": "주택도시기금법 일부개정법률안",
       "category": "주거",
@@ -13076,7 +13658,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2U6S0R9R1P5Q1Y4Y1X3V3W9U5V2D2"
     },
     {
-      "id": "b_auto_450",
+      "id": "b_auto_469",
       "kind": "bill",
       "title": "상법 일부개정법률안",
       "category": "사법",
@@ -13104,7 +13686,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V6W0U9V1R0P1P6O4O2N5N4V7T5U2"
     },
     {
-      "id": "b_auto_451",
+      "id": "b_auto_470",
       "kind": "bill",
       "title": "자본시장과 금융투자업에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -13132,7 +13714,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6R0S8Q1R2P1P4O1W9W0V1W7U1U2"
     },
     {
-      "id": "b_auto_452",
+      "id": "b_auto_471",
       "kind": "bill",
       "title": "공직선거법 일부개정법률안",
       "category": "행정",
@@ -13160,7 +13742,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2"
     },
     {
-      "id": "b_auto_453",
+      "id": "b_auto_472",
       "kind": "bill",
       "title": "민사소송법 일부개정법률안",
       "category": "사법",
@@ -13188,7 +13770,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6M0U9U1T0R1S6Q4R2Z2Z3Y5W7W2"
     },
     {
-      "id": "b_auto_454",
+      "id": "b_auto_473",
       "kind": "bill",
       "title": "여객자동차 운수사업법 일부개정법률안",
       "category": "주거",
@@ -13216,7 +13798,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8"
     },
     {
-      "id": "b_auto_455",
+      "id": "b_auto_474",
       "kind": "bill",
       "title": "디자인보호법 일부개정법률안",
       "category": "경제",
@@ -13244,7 +13826,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2V6U0U9C1D7B0C9A2A6Z4H4H0F4G9"
     },
     {
-      "id": "b_auto_456",
+      "id": "b_auto_475",
       "kind": "bill",
       "title": "소상공인 복지법안",
       "category": "경제",
@@ -13272,7 +13854,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2U6C0C9B1Z7A0Y9Z2H6H0G0E6F6D9"
     },
     {
-      "id": "b_auto_457",
+      "id": "b_auto_476",
       "kind": "bill",
       "title": "광주 군 공항 이전 및 종전부지 개발 등에 관한 특별법 일부개정법률안",
       "category": "안보",
@@ -13300,7 +13882,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2O6X0V9V1T0V1T1T4B6C4A8Y9Z1X2"
     },
     {
-      "id": "b_auto_458",
+      "id": "b_auto_477",
       "kind": "bill",
       "title": "산림자원의 조성 및 관리에 관한 법률 일부개정법률안",
       "category": "농림수산",
@@ -13328,7 +13910,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2S6R0P9Q1X8Y1X0X5V3W2U4Q9R2P4"
     },
     {
-      "id": "b_auto_459",
+      "id": "b_auto_478",
       "kind": "bill",
       "title": "한국투자공사법 일부개정법률안",
       "category": "기타",
@@ -13356,7 +13938,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6O0P9W1X7W1W0U4V4T0B7C1A6A3"
     },
     {
-      "id": "b_auto_460",
+      "id": "b_auto_479",
       "kind": "bill",
       "title": "예금자보호법 일부개정법률안",
       "category": "경제",
@@ -13384,7 +13966,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_A2C6A0A9Y1X7Y1F0G4E4F5D0E5C9K6"
     },
     {
-      "id": "b_auto_461",
+      "id": "b_auto_480",
       "kind": "bill",
       "title": "벤처투자 촉진에 관한 법률 일부개정법률안",
       "category": "경제",
@@ -13412,7 +13994,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5"
     },
     {
-      "id": "b_auto_462",
+      "id": "b_auto_481",
       "kind": "bill",
       "title": "한국은행법 일부개정법률안",
       "category": "기타",
@@ -13440,7 +14022,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2S6R0R9P1Q7O1P0E4C3D1B5C1A5B9"
     },
     {
-      "id": "b_auto_463",
+      "id": "b_auto_482",
       "kind": "bill",
       "title": "국가재정법 일부개정법률안",
       "category": "기타",
@@ -13468,7 +14050,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_L2J6F0G9E0E3D1D6C1C0K2J3J0H2I4"
     },
     {
-      "id": "b_auto_464",
+      "id": "b_auto_483",
       "kind": "bill",
       "title": "새마을금고법 일부개정법률안",
       "category": "행정",
@@ -13496,7 +14078,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2W6U0V9D1B7C1A0B4Z5A2H1G3H3F3"
     },
     {
-      "id": "b_auto_465",
+      "id": "b_auto_484",
       "kind": "bill",
       "title": "건설산업기본법 일부개정법률안",
       "category": "주거",
@@ -13524,7 +14106,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2"
     },
     {
-      "id": "b_auto_466",
+      "id": "b_auto_485",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -13552,7 +14134,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_U2V6T0T9S1A4B1Z1A1Y8Y5X5X6F2D4"
     },
     {
-      "id": "b_auto_467",
+      "id": "b_auto_486",
       "kind": "bill",
       "title": "경제안보를 위한 공급망 안정화 지원 기본법 일부개정법률안",
       "category": "기타",
@@ -13580,7 +14162,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2I6X0Y9W1X4V1W1U2C0D2B7B8A6B6"
     },
     {
-      "id": "b_auto_468",
+      "id": "b_auto_487",
       "kind": "bill",
       "title": "건강가정기본법 일부개정법률안",
       "category": "기타",
@@ -13608,7 +14190,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1"
     },
     {
-      "id": "b_auto_469",
+      "id": "b_auto_488",
       "kind": "bill",
       "title": "다문화가족지원법 일부개정법률안",
       "category": "기타",
@@ -13636,7 +14218,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7"
     },
     {
-      "id": "b_auto_470",
+      "id": "b_auto_489",
       "kind": "bill",
       "title": "실종아동등의 보호 및 지원에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -13664,7 +14246,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6P0Q9O1P1N1L0M3U4U1S9T0R5S8"
     },
     {
-      "id": "b_auto_471",
+      "id": "b_auto_490",
       "kind": "bill",
       "title": "국가자원안보 특별법 일부개정법률안",
       "category": "경제",
@@ -13692,7 +14274,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2N6M0T9U1S4T1R1S2Q1Y5Z6X8Y9W8"
     },
     {
-      "id": "b_auto_472",
+      "id": "b_auto_491",
       "kind": "bill",
       "title": "한국발전공사법안",
       "category": "노동",
@@ -13720,7 +14302,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_I2H6H0D9E1C4D1B1Z1A2I1I3H4H1G7"
     },
     {
-      "id": "b_auto_473",
+      "id": "b_auto_492",
       "kind": "bill",
       "title": "관세법 일부개정법률안",
       "category": "기타",
@@ -13748,7 +14330,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2Q6Q0P9Q1L4K1K1I2J3I1I7Q1O0U0"
     },
     {
-      "id": "b_auto_474",
+      "id": "b_auto_493",
       "kind": "bill",
       "title": "초·중등교육법 일부개정법률안",
       "category": "교육",
@@ -13776,7 +14358,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2F6B0B9Z1A6Y1Z6X0Y6G1G8F2D4E6"
     },
     {
-      "id": "b_auto_475",
+      "id": "b_auto_494",
       "kind": "bill",
       "title": "국유재산법 일부개정법률안",
       "category": "기타",
@@ -13804,7 +14386,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_O2O6N0N9D1D4C1A1B0Z0A1I6I5H9F9"
     },
     {
-      "id": "b_auto_476",
+      "id": "b_auto_495",
       "kind": "bill",
       "title": "형사소송법 일부개정법률안",
       "category": "사법",
@@ -13832,7 +14414,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6N0O7W3X0V1U1U2S8T4B4B9A8Y9"
     },
     {
-      "id": "b_auto_477",
+      "id": "b_auto_496",
       "kind": "bill",
       "title": "개인정보 보호법 일부개정법률안",
       "category": "경제",
@@ -13860,7 +14442,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2Y6Y0G9G0F4D1E0C5D3L3L5J6I0I8"
     },
     {
-      "id": "b_auto_478",
+      "id": "b_auto_497",
       "kind": "bill",
       "title": "112신고의 운영 및 처리에 관한 법률 일부개정법률안",
       "category": "행정",
@@ -13888,7 +14470,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_J2K6I0J9H1I6P0O9P3N1O5M6N7U7V4"
     },
     {
-      "id": "b_auto_479",
+      "id": "b_auto_498",
       "kind": "bill",
       "title": "조세특례제한법 일부개정법률안",
       "category": "기타",
@@ -13916,7 +14498,7 @@
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2D6E0D9D0L3K1K7I1J3H1I2Q2Q2P5"
     },
     {
-      "id": "b_auto_480",
+      "id": "b_auto_499",
       "kind": "bill",
       "title": "전남광주통합특별시 설치를 위한 특별법 일부개정법률안",
       "category": "행정",
@@ -13942,538 +14524,6 @@
       ],
       "billStage": 1,
       "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_H2P6N0O9M1M5L0L9T0U4S0R0R6P9Q5"
-    },
-    {
-      "id": "b_auto_481",
-      "kind": "bill",
-      "title": "국경일에 관한 법률 일부개정법률안",
-      "category": "행정",
-      "status": "progress",
-      "billNo": "2221477",
-      "proposer": "양부남의원 등 11인(의원)",
-      "proposeDate": "2026-09-21",
-      "committee": "행정안전위원회",
-      "summary": "제안자: 양부남의원 등 11인 · 소관위원회: 행정안전위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-21",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-22",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2F6D0E9C1C5B0C9J0K5J0H8H8F6G5"
-    },
-    {
-      "id": "b_auto_482",
-      "kind": "bill",
-      "title": "지방세특례제한법 일부개정법률안",
-      "category": "행정",
-      "status": "progress",
-      "billNo": "2221476",
-      "proposer": "양부남의원 등 10인(의원)",
-      "proposeDate": "2026-09-21",
-      "committee": "행정안전위원회",
-      "summary": "제안자: 양부남의원 등 10인 · 소관위원회: 행정안전위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-21",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-22",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_K2I6J0F9D1E5C0D9B0C0J5I0J6H3H0"
-    },
-    {
-      "id": "b_auto_483",
-      "kind": "bill",
-      "title": "해양레저관광진흥법 일부개정법률안",
-      "category": "농림수산",
-      "status": "progress",
-      "billNo": "2221475",
-      "proposer": "주철현의원 등 10인(의원)",
-      "proposeDate": "2026-09-21",
-      "committee": "농림축산식품해양수산위원회",
-      "summary": "제안자: 주철현의원 등 10인 · 소관위원회: 농림축산식품해양수산위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-21",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-22",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2X6F0F9E1C7D1B1C4X5Y3W1X5V0U5"
-    },
-    {
-      "id": "b_auto_484",
-      "kind": "bill",
-      "title": "선거관리위원회법 일부개정법률안",
-      "category": "행정",
-      "status": "progress",
-      "billNo": "2221474",
-      "proposer": "한동훈의원 등 20인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "행정안전위원회",
-      "summary": "제안자: 한동훈의원 등 20인 · 소관위원회: 행정안전위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_V2T6U0J7J2H3I1H7F3F4N3O1M3N2L2"
-    },
-    {
-      "id": "b_auto_485",
-      "kind": "bill",
-      "title": "콘텐츠산업의 국가전략산업 육성에 관한 특별법안",
-      "category": "문화",
-      "status": "progress",
-      "billNo": "2221473",
-      "proposer": "이헌승의원 등 14인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "문화체육관광위원회",
-      "summary": "제안자: 이헌승의원 등 14인 · 소관위원회: 문화체육관광위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-22",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_T2T6P0Q8O2O5N1L4M1T2V4T5T3S1Q5"
-    },
-    {
-      "id": "b_auto_486",
-      "kind": "bill",
-      "title": "국가재정법 일부개정법률안",
-      "category": "기타",
-      "status": "progress",
-      "billNo": "2221472",
-      "proposer": "이헌승의원 등 11인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "재정경제기획위원회",
-      "summary": "제안자: 이헌승의원 등 11인 · 소관위원회: 재정경제기획위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2E6E0C9D1L8M1K3K2J3J4I3Q2Q6P7"
-    },
-    {
-      "id": "b_auto_487",
-      "kind": "bill",
-      "title": "2026년도 무역보험계약 체결 한도 조정에 대한 동의안",
-      "category": "경제",
-      "status": "progress",
-      "billNo": "2221471",
-      "proposer": "정부(정부)",
-      "proposeDate": "2026-09-18",
-      "committee": "산업통상자원중소벤처기업위원회",
-      "summary": "제안자: 정부 · 소관위원회: 산업통상자원중소벤처기업위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2V6X0S9S1N8Q1H8G0Q1W0L6S6C8I8"
-    },
-    {
-      "id": "b_auto_488",
-      "kind": "bill",
-      "title": "2027년도 무역보험계약 체결 한도에 대한 동의안",
-      "category": "경제",
-      "status": "progress",
-      "billNo": "2221470",
-      "proposer": "정부(정부)",
-      "proposeDate": "2026-09-18",
-      "committee": "산업통상자원중소벤처기업위원회",
-      "summary": "제안자: 정부 · 소관위원회: 산업통상자원중소벤처기업위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_X2O6Z0Q9H1B8J1R8Z0R0S0U8T9I6I4"
-    },
-    {
-      "id": "b_auto_489",
-      "kind": "bill",
-      "title": "출입국관리법 일부개정법률안",
-      "category": "사법",
-      "status": "progress",
-      "billNo": "2221469",
-      "proposer": "송석준의원 등 11인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "법제사법위원회",
-      "summary": "제안자: 송석준의원 등 11인 · 소관위원회: 법제사법위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6O0P9N1N8J0K9I3J8H2F4G2O4P2"
-    },
-    {
-      "id": "b_auto_490",
-      "kind": "bill",
-      "title": "도시 및 주거환경정비법 일부개정법률안",
-      "category": "주거",
-      "status": "progress",
-      "billNo": "2221468",
-      "proposer": "김남근의원 등 14인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "국토교통위원회",
-      "summary": "제안자: 김남근의원 등 14인 · 소관위원회: 국토교통위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2M6K0S9T1R0S1Q9R3P6P4Y5W3W5V8"
-    },
-    {
-      "id": "b_auto_491",
-      "kind": "bill",
-      "title": "해사안전기본법 일부개정법률안",
-      "category": "농림수산",
-      "status": "progress",
-      "billNo": "2221467",
-      "proposer": "송옥주의원 등 12인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "농림축산식품해양수산위원회",
-      "summary": "제안자: 송옥주의원 등 12인 · 소관위원회: 농림축산식품해양수산위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_G2F6G0E8E2A2Z1Z3X3Y1W0X3F0D5E5"
-    },
-    {
-      "id": "b_auto_492",
-      "kind": "bill",
-      "title": "건설산업기본법 일부개정법률안",
-      "category": "주거",
-      "status": "progress",
-      "billNo": "2221466",
-      "proposer": "김남근의원 등 12인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "국토교통위원회",
-      "summary": "제안자: 김남근의원 등 12인 · 소관위원회: 국토교통위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_F2A6B0Z9X1Y5W1X9F2F9E1C7D6B8C4"
-    },
-    {
-      "id": "b_auto_493",
-      "kind": "bill",
-      "title": "공직선거법 일부개정법률안",
-      "category": "행정",
-      "status": "progress",
-      "billNo": "2221465",
-      "proposer": "윤상현의원 등 12인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "행정안전위원회",
-      "summary": "제안자: 윤상현의원 등 12인 · 소관위원회: 행정안전위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2M6V0T9T1R1T1R3R3Z9Y3Y3W4X8W1"
-    },
-    {
-      "id": "b_auto_494",
-      "kind": "bill",
-      "title": "조세특례제한법 일부개정법률안",
-      "category": "기타",
-      "status": "progress",
-      "billNo": "2221464",
-      "proposer": "윤영석의원 등 10인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "재정경제기획위원회",
-      "summary": "제안자: 윤영석의원 등 10인 · 소관위원회: 재정경제기획위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_N2L6M0U7U2S2T1S1Q2Q4Y1Z6X3Y7W3"
-    },
-    {
-      "id": "b_auto_495",
-      "kind": "bill",
-      "title": "국가연구시설·장비의 관리 및 활용 등에 관한 법률안",
-      "category": "과학기술",
-      "status": "progress",
-      "billNo": "2221463",
-      "proposer": "송기헌의원 등 10인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "과학기술정보방송통신위원회",
-      "summary": "제안자: 송기헌의원 등 10인 · 소관위원회: 과학기술정보방송통신위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2P6Q0O9P1L7J1J0H0J0H4H2P7O8O0"
-    },
-    {
-      "id": "b_auto_496",
-      "kind": "bill",
-      "title": "농어촌 등 보건의료를 위한 특별조치법 일부개정법률안",
-      "category": "복지",
-      "status": "progress",
-      "billNo": "2221462",
-      "proposer": "이상휘의원 등 13인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "보건복지위원회",
-      "summary": "제안자: 이상휘의원 등 13인 · 소관위원회: 보건복지위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_R2S6Q0R9Z0Z9Y1W4W2V7W5E8E0C1D1"
-    },
-    {
-      "id": "b_auto_497",
-      "kind": "bill",
-      "title": "마약류 관리에 관한 법률 일부개정법률안",
-      "category": "복지",
-      "status": "progress",
-      "billNo": "2221461",
-      "proposer": "박지원의원 등 10인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "보건복지위원회",
-      "summary": "제안자: 박지원의원 등 10인 · 소관위원회: 보건복지위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2B6A0B9Z1Z0Y1G1G3E7F4D9E4C9D6"
-    },
-    {
-      "id": "b_auto_498",
-      "kind": "bill",
-      "title": "협동조합 기본법 일부개정법률안",
-      "category": "기타",
-      "status": "progress",
-      "billNo": "2221460",
-      "proposer": "윤상현의원 등 10인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "재정경제기획위원회",
-      "summary": "제안자: 윤상현의원 등 10인 · 소관위원회: 재정경제기획위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_S2R6S0Q9O1P7X1Y9W5W2V3T3U9Q7Q9"
-    },
-    {
-      "id": "b_auto_499",
-      "kind": "bill",
-      "title": "발달장애인 권리보장 및 지원에 관한 법률 일부개정법률안",
-      "category": "복지",
-      "status": "progress",
-      "billNo": "2221459",
-      "proposer": "김동아의원 등 10인(의원)",
-      "proposeDate": "2026-09-18",
-      "committee": "보건복지위원회",
-      "summary": "제안자: 김동아의원 등 10인 · 소관위원회: 보건복지위원회",
-      "reason": "",
-      "keyPoints": [],
-      "history": [
-        {
-          "stage": 0,
-          "date": "2026-09-18",
-          "label": ""
-        },
-        {
-          "stage": 1,
-          "date": "2026-09-21",
-          "label": ""
-        }
-      ],
-      "billStage": 1,
-      "sourceUrl": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_B2Z6A0Z9Z0X1G1G6E5F1D1E2C8D1K6"
     }
   ],
   "policies": [
@@ -14691,7 +14741,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-10-20T00:08:39.350876+00:00",
+  "generatedAt": "2026-10-20T23:40:19.672143+00:00",
   "isSampleData": false,
   "laws": [
     {
@@ -18511,5 +18561,5 @@
       "sourceUrl": "https://www.law.go.kr/법령/백두대간%20보호에%20관한%20법률%20시행령"
     }
   ],
-  "lawsUpdatedAt": "2026-10-20T00:09:44.639537+00:00"
+  "lawsUpdatedAt": "2026-10-20T23:42:02.901967+00:00"
 }
